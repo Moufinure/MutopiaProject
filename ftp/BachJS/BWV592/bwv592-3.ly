@@ -6,6 +6,14 @@
     title = "Organ Concerto in G major BWV 592"
     dedication = "To the Prince Johann Ersnt of Saxe-Weimar"
     enteredby = "Pierre Gnaedig <pierre.gnaedig@mailoo.org"
+    mutopiacomposer = "BachJS"
+    mutopiatitle = "Organ Concerto in G major"
+    mutopiaopus = "BWV 592"
+    mutopiainstrument = "organ"
+    maintainer = "Pierre Gnaedig"
+    maintainerEmail = "pierre.gnaedig@mailoo.org"
+    style = "Baroque"
+    source = "GeruBach"
 }
 
 \markup { \vspace #1 }
