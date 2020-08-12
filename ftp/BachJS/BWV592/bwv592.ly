@@ -1,0 +1,5 @@
+\include "italiano.ly"
+
+\score
+{
+}
