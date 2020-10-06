@@ -1575,6 +1575,25 @@ contrabass_mvtIV = \relative do
     si sol1\sf |
     mi' mi2 |
     re1. |
-    r2 sol,4-.\f sol8( la si4-.) si8( do |
-    re4-.)
+    r2 sol,4-.-\f-\markup { "Contra fag. col Bassi" } sol8( la si4-.) si8( do |
+    re4-.) re8( mi re4-.) re8( re,) ~ re4 re8( mi |
+    re4-.) re8( mi do4-.) do'8( si do4-.) re8 do ~ |
+    do4 si8( la sol4-.) sol8( la sol4-.) sol,8( sol' |
+    la4-.) la8( si la4-.) la,8( si la4-.) si'8( la |
+    si4-.) do8( si do4-.) do,8( si do4-.) do'8( si |
+    do4-.) do,8( si do4-.) do'8( si do4-.) do,8( do') |
+    re1. |
+    \clef tenor
+    do2 re2. do4 |
+    r2 fa2. fa4 |
+    fa1 fa2 |
+    fad1 re2-\sf ~ |
+    re1 do2 |
+    do( la) sol |
+    fa'1-\sf mi2 |
+    \bar "||"
+    \key re \minor
+    mi re r |
+    \clef bass
+    fa,4( sol8 fa)
 }

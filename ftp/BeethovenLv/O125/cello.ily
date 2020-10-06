@@ -565,4 +565,257 @@ cello_mvtIV = \relative do'
     r2 la4\f r |
     \bar"||"
     \time 3/4
+    \tempo "Tempo primo Allegro"
+    mi'4-\f r re8 mi |
+    re dod r4 r8 mi |
+    mi4 sol,4. la8 |
+    sol4 fad la8.( re16) |
+    re4. mi8( fad mi) |
+    mi( re re dod re la |
+    sol fad) fad( mi re do) |
+    do( si) sol'2-\sf ~ |
+    sol4. mi8 dod re |
+    re4 la r |
+    R2. |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    fad'2-\p sol4( la) | 
+    la( sol fad mi) |
+    re2 mi4( fad) |
+    fad4.( mi8) mi2 |
+    fad2( sol4 la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8) re2 |
+    mi2( fad4 re) |
+    mi4( fad8 sol fad4 re) |
+    mi4( fad8 sol fad4 mi) |
+    re-\cresc( mi la,) fad' ~ |
+    fad-\p fad( sol la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8 re2) |
+    mi2( fad4 re) |
+    mi4( fad8 sol fad4 re) |
+    mi4( fad8 sol fad4 mi) |
+    re-\cresc( mi la,) fad' ~ |
+    fad-\p fad( sol la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8) re4 la' |
+    fad'2-\p( sol4 la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    fad( mi) mi2 |
+    fad-\markup { \italic "sempre" \dynamic p }( sol4 la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8) re2 |
+    mi( fad4 re) |
+    mi( fad8 sol fad4 re) |
+    mi( fad8 sol fad4 mi) |
+    re-\cresc( mi la,) fad' ~ |
+    fad-\p fad( sol la) |
+    la( sol fad mi)( |
+    re2)( mi4 fad) |
+    mi4.( re8) re2 |
+    mi( fad4 re) |
+    mi( fad8 sol fad4 re) |
+    re-\cresc( mi la,) fad' ~ |
+    fad-\p fad( sol la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8) re2 |
+    la'( re,) |
+    si4.( dod8 re4) sol ~ |
+    sol( fad mi re) ~ |
+    re( dod si la) |
+    la'2( re,) |
+    si4.( dod8 re4) sol ~ |
+    sol fad8( mi re dod si la) |
+    sol4( la fad) fad'( |
+    mi2 la4) si,( |
+    dod2) si4( mi8 fad) |
+    sol2( la8 la, lad4) |
+    si-\cresc( dod2 re4) |
+    la'2-\p( do,) |
+    si4.( dod8 re4) sol ~ |
+    sol fad8( mi re dod si la) |
+    sol4( la fad) fad'( |
+    sol2-\cresc la4 si,)( |
+    dod2)( re4 mi8 fad) |
+    sol2 la8( la, lad4) |
+    si4( dod2 re4) |
+    la'2( do,) |
+    si4.( dod8 re4) sol ~ |
+    sol fad8( mi re dod si la) |
+    sol4( la fad8 sol fad mi) |
+    re'4-\f r8 re, re'4 r8 re, |
+    la'4 r8 la, la'4 r8 la, |
+    re4 r r re |
+    la' r la, r |
+    re'4 r8 re, re'4 r8 re, |
+    la'4 r8 la, la'4 re8 la, |
+    re4 r r re |
+    la r re r |
+    la r8 la la'4 re, |
+    la r8 la la'4 re, |
+    la r8 la' lad r fad r |
+    si r mi, r la r la, r |
+    re'4 r8 re, re'4 r8 re, |
+    la'4 r8 la, la'4 r8 la, |
+    re4 r r re |
+    la r re r |
+    la r8 la la'4 re, |
+    la r8 la la'4 re, |
+    la r8 la' lad r fad r |
+    si r mi, r la r la, r |
+    re'4 r8 re, re'4 r8 re, |
+    la'4 r8 la, la'4 r8 la, |
+    re4 r r re |
+    la r re r8 re |
+    re'4 r8re, re'4 r8 re, |
+    sol4 r8 sol, sol'4 r8 sol |
+    sol'4 r8 sol, la'4 r8 la, |
+    re4 r8 re, fad'4 r8 fad, |
+    sol'4 r8 sol, la'4 r8 la, |
+    lad4 r8 lad, si'4 r8 si, |
+    sid'4 r8 sid, dod'4 r8 dod, |
+    dod'4 r8 dod, re'4 r8 red |
+    mi4 r8 mid fad4 r8 fad |
+    sold4 r8 sold, sold'4 r8 sold, |
+    sold'4 r8 sold, sold'4 r8 sold, |
+    la4 ~ la8( si16 dod) re4 ~ re8( dod16 si) |
+    dod8( si16 la) sol8-. fad-. fad-. fa-. mi-. mi-. |
+    la2-\sf mi4-. mi -. |
+    la,8-. la16( si) dod8-. dod16( re) mi8-. mi16( fad) sold8-. \tuplet 3/2 { mi16( fad sold) } |
+    R1 |
+    r2 r4 solb4-\p-\markup { \italic "poco adagio. "} ~ |
+    solb4. lab8 sib4 sold8 sold-\f |
+    la( dod) fad red mi4 mi, |
+    r mi r la |
+    \bar "||"
+    \time 3/4
+    \key re \minor
+    \tempo "Presto"
+    r2 fa,4-\ff-\markup { \italic "recitativo" } ~ |
+    fa4. la'8-. la-. mi'-. |
+    re fa, fa la la re, |
+    re fa' fa la, la re |
+    re fa, fa la la re, |
+    re re' re do do si |
+    si sib sib sib, sib sib |
+    sib4 la r |
+    R2. * 5 |
+    r4 re'4-\p( do ~ |
+    do si fa) ~ |
+    fa( mi2) ~ |
+    mi2.-\markup { \italic "colavote" } ~ |
+    mi ~ |
+    mi ~ |
+    mi ~ |
+    mi |
+    r2 sol4-\f-. |
+    \bar "||"
+    \key re \major
+    fad8 fad fad'4 r |
+    R2. * 3 |
+    r4 sol,8-\p-. r sol'-\f r |
+    R2. |
+    r2 la,4-\f |
+    \bar "||"
+    \time 4/4
+    R1 |
+    r2 la,4-\markup { "pizz." } la |
+    R1 |
+    r2 la4-\markup { "pizz." } la |
+    fad'-\p fad sol la |
+    la sol fad mi |
+    re re mi fad |
+    fad r mi r |
+    fad fad sol la |
+    la sol fad mi |
+    re re mi fad |
+    mi r re r |
+    mi mi fad re |
+    mi fad8 sol fad4 re |
+    mi fad8 sol fad4 mi |
+    re-\cresc mi la, fad' |
+    fad fad sol la |
+    la sol fad mi |
+    re-\p re mi fad |
+    mi r re r |
+    mi-\f-\markup { "arco" } mi fad re |
+    mi fad8( sol) fad4 re |
+    mi fad8( sol) fad4 mi |
+    re mi la, fad' ~ |
+    fad fad sol la |
+    la sol fad( sol8 mi) |
+    re4 re mi fad |
+    mi4.( re8) re4 la' |
+    sol4.( fad8) fad4 re' |
+    do4.( si8) si4 sol'8( mi) |
+    re( dod mi dod) si( la si dod) |
+    re( fad mi dod) re4 r |
+    re,2.-\p dod8 si |
+    la( si dod re mi fad sol mi) |
+    la4 r r2 |
+    r2 r8 la,( si dod) |
+    re2.( dod8 si) |
+    la( si dod re mi fad sol mi) |
+    la4 r r2 |
+    R1 |
+    la,8 la( mi') dod( la') r r4 |
+    la,8 la( la') la,( la') r r4 |
+    la,8 la( la') r r lad( fad4) |
+    r8 si8-\cresc( mi,4) r8 la8( la,) la( |
+    re2.)( dod8 si) |
+    la-\dim( si dod re mi fad sol mi) |
+    fad4 r r2 |
+    r r4 la4-\f ~ |
+    la8 la,( mi') dod( la') r r4 |
+    la,8 la( la') la,( la') r r4 |
+    la,8 la( la') r r lad( fad4) |
+    r8 si( mi,4) r8 la( la,) la( |
+    re2.-\cresc)( dod8 si) |
+    la( si dod re-\dim mi fad sol mi) |
+    fad4 r8 fad( re4) r8 re( |
+    la'4) r8 la,( re4) r8 re'( |
+    re,4 r8 re'-\p re,4) r8 re( |
+    sol,4) r8 sol'( sol,4) r8 sol'( |
+    la4) r8 la,( la'4) r8 la( |
+    re) r la r re, r r4 |
+    r fad8.-\p mi32 fad r4 re'8. dod32 re |
+    r4 si8. la32 si r4 sol'8. fad32 sol |
+    R1 * 6 |
+    r4 la,,8.-\p sold32 la r2 |
+    R1 |
+    r4 la8. sold32 la r2 |
+    R1 |
+    la8.-\cresc sold32 la r4 la8. sold32 la r4 |
+    si8. la32 si r4 mi'8. re32 mi r4 |
+    re8. dod32 re r4 re4-\f r8 re |
+    re4 r8 re re4 re8. dod32 re |
+    \repeat unfold 3 { dod8. si32 dod r4 re8. dod32 re r4 } |
+    si8. la32 si r4 dod8. si32 dod r4 |
+    fad,8. mi32 fad r4 re'8. dod32 re r4 |
+    si8. la32 si r4 sol8. fad32 sol r4 |
+    fad8. mi32 fad r4 re'-\ff r |
+    re r8 re re4 r |
+    re2-.-\markup { "ben marcato" } re-. |
+    sol,-. sol-. |
+    la-. la-. |
+    re1-\ff |
+    mi,2-. mi-. |
+    la16-\ff si la sold fad sold fad mi re mi re dod si dod si la |
+    mi'2 mi |
+    la16-\ff si la sold fad sold fad mi re mi re dod si dod si la |
+    la2-. la'-. |
+    fa,1-\ff-\fermata |
+    \bar "||"
+    \tempo "Allegro assai vivace" 4. = 84
+    \time 6/8
+    \key sib \major
+    R2. * 8 |
 }

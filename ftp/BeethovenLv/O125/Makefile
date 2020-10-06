@@ -1,6 +1,6 @@
 PREFIX?=/opt/bin
 # Le préfixe au nom des fichiers résultants
-piece = lvb_symphonie3
+piece = lvb_symphonie9
 # Détermination du nombre de processeurs
 # CPU_CORES=`cat /proc/cpuinfo | grep -m1 "cpu cores" | sed s/".*: "//`
 # La commande d'appel à lilypond
