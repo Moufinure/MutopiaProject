@@ -9,7 +9,7 @@ baritone = \relative do'
     R2. * 8 |
     r4^"Voce" r la |
     \acciaccatura la8 <dod mi>2. ~ |
-    <dod mi>4 si8( dod re mi) |
+    <dod mi>4 re8( dod re mi) |
     mi4 sol, r8 sol |
     sib2 la8 mi |
     fa4 fa r |
@@ -51,6 +51,9 @@ baritone_lyrics = \lyricmode {
     Son -- dern laßt uns an __ _ ge __ ne __ me __ re
     an __ stim -- men,
     und Freu __ _ _ _ _ _ _ _ den -- vol -- le -- re.
-    Freu -- de, Freu __ _ de __ , Freu -- de, schö -- ner Göt -- ter -- funken,
-    Tochter aus E __ ly __ si __um! Wir be __ treten Feuer __ trunken,
+    Freu -- de, Freu __ _ de __ , Freu -- de, schö -- ner Göt -- ter -- fun -- ken,
+    Toch -- ter aus E -- ly -- si -- um! Wir be __ tre -- ten Feu -- er __ trun -- ken,
+    himm -- li -- sche dein Hei -- lig -- tum!
+    Dei -- ne Zau -- ber bin -- den wie -- der
+    was die Mo __ de streng ge -- teilt.
 }
