@@ -11,6 +11,7 @@
 \include "viola.ily"
 \include "cello.ily"
 \include "bass.ily"
+\include "voices.ily"
 
 \book
 {
@@ -134,12 +135,65 @@
 
         \midi
         {
-            \tempo 2 = 160
+            \tempo 1 = 120
         }
         
         \layout 
         {
         }
+    }
+    
+    \score
+    {
+        \header 
+        {
+            piece = "Act I. Scene I"
+        }
+        
+        \new StaffGroup
+        <<
+            \new PianoStaff
+            <<
+                \new Staff
+                {
+                    \set Staff.instrumentName = "Violino I"
+                    \set Staff.shortInstrumentName = "Vl1"
+                    \violinI_actI
+                }
+                \new Staff
+                {
+                    \set Staff.instrumentName = "Violino II"
+                    \set Staff.shortInstrumentName = "Vl2"
+                    \violinII_actI
+                }
+            >>
+            \new Staff
+            {
+                \set Staff.instrumentName = "Viola"
+                \set Staff.shortInstrumentName = "Vla"
+                \viola_actI
+            }
+            \new Staff
+            {
+                \set Staff.instrumentName = "Susanna"
+                \set Staff.shortInstrumentName = "Sus."
+                \susanna_actI
+            }
+            \new Staff
+            {
+                \set Staff.instrumentName = "Figaro"
+                \set Staff.shortInstrumentName = "Fig."
+                \figaro_actI
+            }
+            \new Staff
+            {
+                \set Staff.instrumentName = "Violoncello e Basso"
+                \set Staff.shortInstrumentName = "CBa+Vlc"
+                \partcombine
+                \cello_actI
+                \bass_actI
+            }
+        >>
     }
 
     \paper

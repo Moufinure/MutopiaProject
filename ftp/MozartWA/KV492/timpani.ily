@@ -63,4 +63,84 @@ timpani_ouverture = \relative do
     re4-\ff r r2 |
     re4 r r2 |
     re4 r re r |
+    re r re re |
+    re r re r |
+    la r la r |
+    re r r2 |
+    R1 * 7 |
+    la4-\f r r2 |
+    \repeat unfold 3 { la4 r r2 } |
+    la4 r la r |
+    la r la r |
+    la la la la |
+    la r r2 |
+    R1 * 16 |
+    r2 re4-\f r |
+    R1 | 
+    r2 la4-\f r |
+    R1 |
+    r2 re4-\f r |
+    R1 |
+    la4-\f r r2 |
+    la4 r r2 |
+    la la4. la8 |
+    la4 r la r |
+    re r r2 |
+    R1 |
+    re4 r r2 |
+    R1 |
+    re4 r r2 |
+    R1 |
+    re4 r r2 |
+    re4 r la r |
+    re r re r |
+    la r la r |
+    re r r2 |
+    R1 * 41 |
+    re2-\f re4. re8 |
+    re4 r re r |
+    re r r re |
+    re re r re |
+    re re r re |
+    re re re re |
+    re r r la |
+    re re r la |
+    re re r la |
+    re la re la |
+    re r r2 |
+    R1 |
+    re4 r r2 |
+    la4 r r2 |
+    re4 r re r |
+    re r la r |
+    re r r re |
+    re re r re |
+    re re r re |
+    re re re re |
+    re r r la |
+    re re r la |
+    re re r la |
+    re la re la |
+    re r r2 |
+    R1 |
+    re4 r r2 |
+    la4 r r2 |
+    re4 r re r |
+    re r la r |
+    re r r2 |
+    la4 r r2 |
+    re4 r re r |
+    re r la r |
+    re2 re4. re8 |
+    re4 r r2 |
+    re re4. re8 |
+    re4 r r2 |
+    re r4. re8 |
+    re4 r r2 |
+    re4 r re r |
+    re r re r |
+    re r r2 |
+    re4 r r2 |
+    re r |
+    \bar "|."
 }
