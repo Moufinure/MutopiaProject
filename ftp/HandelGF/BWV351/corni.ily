@@ -32,6 +32,16 @@ ouverture_cornoII = \relative do'
   r mi4. mi8 |
   la4 mi r2 |
   r mi4. mi8 |
+  la4 la2 sold4 |
+  la2 r |
+  R1 * 5 |
+  r2 la4. la8 |
+  sol4. sol8 mi4. mi8 |
+  re2 r |
+  r fad4. fad8 |
+  fad8. mi16 re4 r2 |
+  r fad4. fad8 |
+  fad8. mi16 re4 re mi8. fad16 |
 }
 
 ouverture_cornoIII = \relative do'
@@ -55,4 +65,14 @@ ouverture_cornoIII = \relative do'
   r la4. la8 |
   mi'4 la, r2 |
   r la4. la8 |
+  fad4 mi fad mi |
+  mi2 r |
+  R1 * 5 |
+  r2 mi'4. fad8 |
+  re4 re mi la, |
+  la2 r |
+  r re4. re8 |
+  re4 la r2 |
+  r2 re4. re8 |
+  re4 la la re |
 }

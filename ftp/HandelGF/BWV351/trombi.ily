@@ -21,6 +21,16 @@ ouverture_trombaI = \relative do''
   r mi4. mi8 |
   la4 mi r2 |
   r mi4. mi8 |
+  la4 la2 sold4 |
+  la2 r |
+  R1 * 5 |
+  r2 mi4. fad8 |
+  sol4 la8. si16 la4 sol8. fad16 |
+  fad2 la4. la8 |
+  la8. sol16 fad4 r2 |
+  r la4. la8 |
+  la8. sol16 fad4 r2 |
+  r fad4 sol8. la16 |
 }
 
 ouverture_trombaII = \relative do'
@@ -44,6 +54,16 @@ ouverture_trombaII = \relative do'
   r mi'4. mi8 |
   mi4 la, r2 |
   r mi'4. mi8 |
+  fad4 mi fad mi |
+  mi2 r |
+  R1 * 5 |
+  r2 la,4. la8 |
+  sol'4 re mi4. mi8 |
+  re2 fad4. fad8 |
+  fad8. mi16 re4 r2 |
+  r fad4. fad8 |
+  fad8. mi16 re4 r2 |
+  r re4 mi8. fad16 |
 }
 
 ouverture_trombaIII = \relative do'
@@ -67,4 +87,18 @@ ouverture_trombaIII = \relative do'
   r la4. la8 |
   la4 la r2 |
   r la4. la8 |
+  la4 la re re, |
+  la'2 r |
+  R1 * 5 |
+  r2 la,4. re8 |
+  re'4 re, la'4. la8 |
+  la2 re4. re8 |
+  re4 la r2 |
+  r re4. re8 |
+  re4 la r2 |
+  r la4 re |
+  re re2 re,4 |
+  la'2 la4 la |
+  re la fad la8 fad |
+  re2
 }

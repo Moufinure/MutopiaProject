@@ -39,7 +39,7 @@
     \new Staff
     {
       \set Staff.instrumentName = "Corni III"
-      \set Staff.shortInstrumentName = "CrII"
+      \set Staff.shortInstrumentName = "CrIII"
       \set Staff.midiInstrument = "french horn"
       \ouverture_cornoIII
     }
