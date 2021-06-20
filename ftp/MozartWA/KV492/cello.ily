@@ -226,13 +226,62 @@ cello_ouverture = \relative do
     \bar "|."
 }
 
-cello_actI = \relative do
+cello_actI_nI = \relative do
 {
     \clef bass
     \key sol \major
+    \tempo "Allegro"
     
     sol2-\p r |
     r sol' ~ |
     sol4( fad8. mi16) fad4-. re-. |
-    r2 la' |
+    r2 la' ~ |
+    la4( sol8. fad16) sol8-. re-. si'4 ~ |
+    si( la8. sol16) la8-. re,-.-\cresc do'4 ~ |
+    do( si8. la16) si8-. sol-. mi'4 |
+    do8-\f do do do dod dod dod dod |
+    re4 r r2 |
 }
+
+% cello_actII_nXI = \relative do'
+% {
+%     \clef bass
+%     \key sib \major
+%     \time 2/4
+%     \tempo "Andante con moto"
+%     
+%     sib8-\p^\markup { "pizz." } r sib r |
+%     la r la r |
+%     sib r sol mib |
+%     fa r fa, r |
+%     sib r sib r |
+%     mib r mib r |
+%     fa r fa, r |
+%     sib sib sib r |
+%     sib' r sib r |
+%     la r la r |
+%     sib r sol mib |
+%     fa r fa, r |
+%     sib r sib r |
+%     sib r sib r |
+%     fa' r fa r |
+%     fa r fa r |
+%     sib, r sib r |
+%     mib r mib r |
+%     fa r fa, r |
+%     sib r sib' r |
+%     fa r fa r |
+%     fa r fa r |
+%     do r do r |
+%     fa r fa r |
+%     re r la r |
+%     re r re r |
+%     fa r sol r |
+%     do, r sib' r |
+%     la r fa r |
+%     sol r mi r |
+%     fa r re sib |
+%     do r sib' r |
+%     la r fa r |
+%     sol r mi r |
+% }

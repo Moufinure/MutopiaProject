@@ -66,13 +66,22 @@ viola_mvtI = \relative do'
     <la la'> la( sib) la( sib) la( sol) la( |
     la'8_\markup { \italic "ben marcato" }) sib-. dod-. re-. |
     mi-. re-. dod-. re-. |
+    <la, sol' mi'>8.-\sf r16 <la fa' re'>8.-\sf r16 |
+    la2-\sf |
+    sol8-. fa-. mi-. re-. |
+    dod-. re-. mi-. fa-. |
+    sol8.-\sf r16 <sol sol'>8.-\sf r16 |
+    <sol sol'>8.-\sf r16 <sol sol'>8.-\sf r16 |
+    <sol sol'>8.-\sf r16 do'8.-\sf r16 |
+    do16-\> la( do) la( do) la( do) la |
+    la8-\p <fa, la>16 <fa la> <fa la>8 r |
     R2 |
-    r8 fa,,16 fa fa8 r |
+    r8 fa16 fa fa8 r |
     R2 |
     r8 <fa la>16 <fa la> <fa la>8 r |
     r4 r8 la ~ |
     \bar "||"
-    \key sol \minor
+    \key sib \major
     la16_\semprep sib-. dod-. re-. fa8 r |
     dod,16-. re-. fa-. la-. sib8 r |
     do,16-. fa-. la-. si-. do8 r |
@@ -495,4 +504,15 @@ viola_mvtI = \relative do'
     la'8-. sol-. mi-. la-. |
     <re,, re'>8 r r4\fermata |
     \bar "|."
+}
+
+viola_mvtIV = \relative do'
+{
+    \clef alto
+    \key re \minor
+    \time 3/4
+    
+    \tempo "Presto" 2. = 96
+    \partial 4 r4 |
+    R2. * 26 |
 }

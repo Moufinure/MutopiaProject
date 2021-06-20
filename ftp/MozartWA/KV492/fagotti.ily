@@ -6,7 +6,7 @@ fagottiI_ouverture = \relative do
     \key re \major
     \tempo "Presto"
 
-re8-\pp( dod re dod re4) r |
+    re8-\pp( dod re dod re4) r |
     re8( dod re mi fad mi fad sol) |
     la( sold la sold la4) r |
     la8( sold la lad si la sol fad) |
@@ -427,5 +427,176 @@ fagottiII_ouverture = \relative do
     re r r2 |
     re4 r r2 |
     re r |
+    \bar "|."
+}
+
+fagottiI_actI_nI = \relative do
+{
+    \clef bass
+    \key sol \major
+    \tempo "Allegro"
+    
+    sol2-\p r |
+    r sol' ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol8-. re-.-\cresc si'4 ~ |
+    si-\f( la8. sol16) la8-. re,-. do'4 ~ |
+    do( si8. la16) si8-. sol-. mi'4 |
+    do8-\f do do do dod dod dod dod |
+    re re, re re fad-\p re fad re |
+    sol re sol re la' re, la' re, |
+    si'-\sf re, sol re fad-\p re fad re |
+    sol re sol re la' re, la' re, |
+    si'-\sf re, sol re fad-\p re fad re |
+    sol re sol re la' re, la' re, |
+    si'4 r r2 |
+    mi,4-\f r do8 do do do |
+    re re re re re re re re |
+    sol,4 sol'-\p re si |
+    sol r sol'2-\p ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol4-. re-. |
+    r2 si' ~ |
+    si4( la8. sol16) la4-. re,-. |
+    r2 do' ~ |
+    do4( si8. la16) si4-. sol-. |
+    do, r dod r |
+    re r r2 |
+    la1( |
+    re8-\mf) re re re fad-\p re fad re |
+    sol re sol re la' re, la' re, |
+    si'-\mf re, sol re fad-\p re fad re |
+    sol re sol re la' re, la' re, |
+    si'4 r r2 |
+    r re8 r re, r |
+    sol4 r r2 |
+    r sol ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol8-. re-. si'4 |
+}
+
+fagottiII_actI_nI = \relative do
+{
+    \clef bass
+    \key sol \major
+    \tempo "Allegro"
+    
+    sol2-\p r |
+    r sol' ~ |
+    sol4( fa8. mi16) fa4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol8-. re-.-\cresc si'4 ~ |
+    si-\f( la8. sol16) la8-. re,-. do'4 ~ |
+    do( si8. la16) si8-. sol-. mi'4 |
+    do8-\f do do do dod dod dod dod |
+    re re, re re fad-\p re fad re |
+    sol re sol re la' re, la' re, |
+    si'-\sf re, sol re fad-\p re fad re |
+    sol re sol re la' re, la' re, |
+    si'-\sf re, sol re fad-\p re fad re |
+    sol re sol re la' re, la' re, |
+    si'4 r r2 |
+    mi,4-\f r do8 do do do |
+    re re re re re re re re |
+    sol,4 sol'-\p re si |
+    sol r sol'2-\p ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol4-. re-. |
+    r2 si' ~ |
+    si4( la8. sol16) la4-. re,-. |
+    r2 do' ~ |
+    do4( si8. la16) si4-. sol-. |
+    do, r dod r |
+    re r r2 |
+    la1( |
+    re8-\mf) re re re fad-\p re fad re |
+    sol re sol re la' re, la' re, |
+    si'-\mf re, sol re fad-\p re fad re |
+    sol re sol re la' re, la' re, |
+    si'4 r r2 |
+    r re8 r re, r |
+    sol4 r r2 |
+    r sol ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol8-. re-. si'4 |
+}
+
+fagottoI_actII_nXI = \relative do'
+{
+    \clef bass
+    \key sib \major
+    \time 2/4
+    \tempo "Andante con moto"
+    
+    re2-\markup { \italic "dolce" }( |
+    mib4.)( do8) |
+    sib4 ~ sib16.( la32) sib16.( do32) |
+    la4 r |
+    re8( sib16-.) r re8( sib16-.) r |
+    sol8( do16) r mib8( sol16) r |
+    re4 do16.( re32) mib16.( fa32) |
+    re8-. sib-. sib,-. r |
+    R2 * 4 |
+    sib'4( do8 dod |
+    re) r r4 |
+    la4( sib8 si |
+    do) r r4 |
+    fa2( |
+    mib) |
+    re4 do16.( re32) mib16.( fa32) |
+    re8-. fa-. re-. r |
+    R2 * 3 |
+    r8 fa,( la do) |
+    fa4( dod) |
+    re8.( la16) fa8 r |
+    r fa'( mi re) |
+    do2 ~ |
+    do8 r r4 |
+    R2 * 2 |
+    r8 mi4( sol8) |
+    fa r r4 |
+    R2 * 5 |
+    sol,2( |
+    lab) |
+    mib'( |
+    reb) |
+    do4 sib16.( do32) reb16.( mib32) |
+    do8-. mib-. do-. r |
+    R2 * 3 |
+    sol2 |
+    mib'4( re8 dod) |
+    re4( sol,) |
+    mib'( re8 do) |
+    sib r r4 |
+    fa2( |
+    mib8) r r4 |
+    sol2( |
+    fa8) r r4 |
+    la2( |
+    sol8) r r4 |
+    R2 |
+    reb'4( do8 sib) |
+    fa2 ~ |
+    fa8 r r4 |
+    R2 * 2 |
+    r8 la-.( la-. la-.) |
+    sib4( do8 dod |
+    re8) r r4 |
+    la4( sib8 si |
+    do) r r4 |
+    fa2( |
+    mib) |
+    re4( do) |
+    sib2 |
+    R2 * 2 |
+    re4( mib) |
+    re8 r mib8.-\trill( re32 mib) |
+    re8 r fa, fa, |
+    sib r r4 |
     \bar "|."
 }

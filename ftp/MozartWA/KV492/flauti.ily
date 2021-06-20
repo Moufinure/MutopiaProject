@@ -1,4 +1,5 @@
 \include "italiano.ly"
+\include "common.ily"
 
 flautoI_ouverture = \relative do''
 {
@@ -403,5 +404,126 @@ flautoII_ouverture = \relative do'
     la r r2 |
     la4 r r2 |
     la r |
+    \bar "|."
+}
+
+flautoI_aI_sI_nI = \relative do'''
+{
+    \key sol \major
+    \tempo "Allegro"
+    
+    R1 * 5 |
+    do2.( la4) |
+    re2.( si4) |
+    la8-. \appoggiatura si16 la( sold la8) si-. sol-. \appoggiatura la16 sol( fad sol8) la-. |
+    fad4 r r2 |
+    R1 * 3 |
+    r2 re'4.-\p( do8) |
+    do( si la si) re( do si do) |
+    re4 r r2 |
+    r mi-\f |
+    re4 si8. si16 si4 la |
+    sol sol8.-\p sol16 sol4 sol |
+    sol r r2 |
+    R1 * 15 |
+    r2 si8 r la r |
+    sol4 r r2 |
+    R1 |
+    r4 re-.( re-. re-.) |
+    R1 |
+    r4 re re'2 |
+}
+
+flautoII_aI_sI_nI = \relative do''
+{
+    \key sol \major
+    \tempo "Allegro"
+    
+    R1 * 5 |
+    fad1-\f |
+    sol |
+    la8-. \appoggiatura si16 la( sold la8) si-. sol-. \appoggiatura la16 sol( fad sol8) la-. |
+    fad4 r r2 |
+    R1 * 3 |
+    r2 la8-\p( fad la fad) |
+    la( sol fad sol)  fad4.( la8) |
+    sol4 r r2 |
+    r do-\f |
+    si4 sol8. sol16 sol4 fad |
+    sol re8.-\p re16 re4 re |
+    re r r2 |
+    R1 * 15 |
+    r2 sol8 r fad r |
+    sol4 r r2 |
+    R1 |
+    r4 re-.( re-. re-.) |
+    R1 |
+    r4 re re2 |
+}
+
+flauto_actII_nXI = \relative do'''
+{
+    \key sib \major
+    \time 2/4
+    \tempo "Andante con moto"
+    
+    R2 * 6 |
+    sib4-\markup { \italic "dolce" } la16.( sib32) do16.( re32) |
+    sib8-. re-. sib-. r |
+    R2 * 5 |
+    r16 \tuplet 3/2 { fa32( sol fa } sib16) la-. sol-. fa-. mib-. re-. |
+    do8 r r4 |
+    r16 \tuplet 3/2 { mib32( fa mib } do'16) sib-. la-. sol-. fa-. mib-. |
+    re8 r r4 |
+    R2 |
+    sib'4 la16.( sib32) do16.( re32) |
+    sib8-. re-. sib-. r |
+    R2 * 5 |
+    r8 la,( re fa) |
+    la( re do si) |
+    do2 ~ |
+    do8 r r4 |
+    R2 * 2 |
+    r8 do4 do8 ~ |
+    do r r4 |
+    R2 |
+    lab4( sol8 fa) 
+    do'2 ~ |
+    do |
+    reb ~ |
+    reb |
+    do8( lab mib do) |
+    R2 * 2 |
+    lab'4 sol16.( lab32) sib16.( do32) |
+    lab8-. do-. lab-. r  |
+    R2 * 3 |
+    sol2 |
+    mib'4( re8 dod) |
+    re4( sib) |
+    la2 |
+    sol4 sib ~ |
+    sib2 ~ |
+    sib8 si-\mfp( do4) ~ |
+    do2 ~ |
+    do8 dod-\mfp( re4) ~ |
+    re2 ~ |
+    re4 mib |
+    mib( re) |
+    reb( do8 sib) |
+    fa2 ~ |
+    fa8 r r4 |
+    R2 * 4 |
+    r16 \tuplet 3/2 { fa32( sol fa } sib16) la-. sol-. fa-. mib-. re-. |
+    do8 r r4 |
+    r16 \tuplet 3/2 { mib32( fa mib } do'16) sib-. la-. sol-. fa-. mib-. |
+    re8 r r4 |
+    R2 * 2 |
+    r8 re( sol sib) |
+    re2( |
+    do) |
+    sib4 la16.( sib32) do16.( re32) |
+    sib8 r r4 |
+    r do8.-\trill( sib32 do) |
+    sib8 r r4 |
     \bar "|."
 }

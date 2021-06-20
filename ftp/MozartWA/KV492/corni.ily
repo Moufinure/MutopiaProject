@@ -205,10 +205,6 @@ corniI_ouverture = \relative do''
     \bar "|."
 }
 
-corniI_actI = \relative do'
-{
-}
-
 corniII_ouverture = \relative do''
 {
     \transposition re
@@ -414,6 +410,170 @@ corniII_ouverture = \relative do''
     \bar "|."
 }
 
-corniII_actI = \relative do
+corniI_actI_nI = \relative do''
 {
+    \transposition sol
+    \tempo "Allegro"
+    
+    R1 * 5 |
+    re1-\f |
+    do2. mi4 |
+    re2 re |
+    re8 sol, sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol8-\sf sol sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol8-\sf sol sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol4 r r2 |
+    do8-\f do16 do do8 do do2 |
+    do4 mi8. mi16 mi4 re |
+    do do-\p sol mi |
+    do r r2 |
+    R1 * 10 |
+    r8 sol'-\mf sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol8-\mf sol sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol4 r r2 |
+    r mi'8 r re r |
+    do4 r r2 |
+    R1 |
+    sol ~ |
+    sol ~ |
+    sol |
+}
+
+corniII_actI_nI = \relative do''
+{
+    \transposition sol
+    \tempo "Allegro"
+    
+    R1 * 5 |
+    sol1-\f |
+    do,2. do'4 |
+    re2 re |
+    sol,8 sol, sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol8-\sf sol sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol8-\sf sol sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol4 r r2 |
+    do8-\f do16 do do8 do do2 |
+    do4 do'8. do16 do4 sol |
+    mi do'-\p sol mi |
+    do r r2 |
+    R1 * 10 |
+    r8 sol-\mf sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol8-\mf sol sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol4 r r2 |
+    r do'8 r sol r |
+    mi4 r r2 |
+    R1 |
+    sol, ~ |
+    sol ~ |
+    sol |
+}
+
+corniI_actII_nXI = \relative do''
+{
+    \transposition mib
+    \time 2/4
+    \tempo "Andante con moto"
+    
+    R2 * 3 |
+    r8 re-\p re re |
+    sol,4 r |
+    R2 * 2 |
+    r8 sol sol sol |
+    sol r r4 |
+    R2 * 3 |
+    sol2 ~ |
+    sol8 r r4 |
+    re'2 ~ |
+    re8 r r4 |
+    R2 * 2 |
+    re2 |
+    sol,8 sol sol r |
+    R2 * 16 |
+    do2 ~ |
+    do ~ |
+    do ~ |
+    do |
+    R2 * 2 |
+    \repeat unfold 4 do2 ~ |
+    do |
+    mi |
+    R2 * 10 |
+    re4. mib8 |
+    sol,2 |
+    re'2 ~ |
+    re8 r r4 |
+    R2 * 3 |
+    sol,2 ~ |
+    sol8 r r4 |
+    re'2 ~ |
+    re8 r r4 |
+    R2 * 3 |
+    sol,2 ~ |
+    sol ~ |
+    sol |
+    re' ~ |
+    re ~ |
+    re ~ |
+    re8 r r4 |
+    \bar "|."
+}
+
+corniII_actII_nXI = \relative do''
+{
+    \transposition mib
+    \time 2/4
+    \tempo "Andante con moto"
+    
+    R2 * 3 |
+    r8 re-\p re re |
+    sol,4 r |
+    R2 * 2 |
+    r8 sol, sol sol |
+    sol r r4 |
+    R2 * 3 |
+    sol'2 ~ 
+    sol8 r r4 |
+    re'2 ~ |
+    re8 r r4 |
+    R2 * 2 |
+    re2 |
+    sol,8 sol, sol r |
+    R2 * 16 |
+    do2 ~ |
+    do ~ |
+    do ~ |
+    do |
+    R2 * 2 |
+    \repeat unfold 4 do2 ~ |
+    do |
+    mi |
+    R2 * 10 |
+    re'4 sol, |
+    sol,2 |
+    re'' |
+    sol,8 r r4 |
+    R2 * 3 |
+    sol,2 ~ |
+    sol8 r r4 |
+    re''2 ~ |
+    re8 r r4 |
+    R2 * 3 |
+    sol,,2 ~ |
+    sol ~ |
+    sol |
+    re'' ~ |
+    re ~ |
+    re |
+    sol,8 r r4 |
+    \bar "|."
 }

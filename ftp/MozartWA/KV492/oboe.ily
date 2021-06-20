@@ -1,4 +1,5 @@
 \include "italiano.ly"
+\include "common.ily"
 
 oboeI_ouverture = \relative do''
 {
@@ -439,5 +440,141 @@ oboeII_ouverture = \relative do''
     re r r2 |
     re4 r r2 |
     re r |
+    \bar "|."
+}
+
+oboeI_aI_sI_nI = \relative do''
+{
+    \key sol \major
+    \tempo "Allegro"
+    
+    R1 * 5 |
+    fad1-\f |
+    sol |
+    la8-. \appoggiatura si16 la( sold la8) si-. sol-. \appoggiatura la16 sol( fad sol8) la-. |
+    fad4 r re4.( do8) |
+    do8( si la si) re( do si do) |
+    mi-\sf( re) re4 re4.-\p( do8) |
+    do( si la si) re( do si do) |
+    mi-\sf( re) re4 re4.-\p( do8) |
+    do( si la si) re( do si do) |
+    re4 r r2 |
+    r mi-\f |
+    re4 re8. re16 re4 fad |
+    sol si,8.-\p si16 si4 si |
+    si r r2 |
+    R1 * 10 |
+    r2 re4.-\p( do8) |
+    do( si la si) re( do si do) |
+    mi( re) re4 re4.-\p( do8) |
+    do( si la si) re( do si do) |
+    re4 r r2 |
+    r re8 r fad r |
+    sol4 r r2 |
+    R1 |
+    r4 do,-.( do-. do-.) |
+    R1 |
+    r4 re2 sol4 |
+}
+
+oboeII_aI_sI_nI = \relative do''
+{
+    \key sol \major
+    \tempo "Allegro"
+    
+    R1 * 5 |
+    do1-\f |
+    re2.( si4) |
+    mi1 |
+    re4 r la8-\p( fad la fad) |
+    la( sol fad sol) fad2 |
+    sol4-\sf( si) la8-\p( fad la fad) |
+    la( sol fad sol) fad2 |
+    sol4-\sf( si) la8-\p( fad la fad) |
+    la( sol fad sol) fad4.( la8) |
+    sol4 r r2 |
+    r do-\f |
+    si4 si8. si16 si4 do |
+    si sol8.-\p sol16 sol4 sol |
+    sol r r2 |
+    R1 * 10 |
+    r2 la8-\p( fad la fad) |
+    la( sol fad sol) fad2 |
+    sol4-\mf( si) la8-\p( fad la fad) |
+    la( sol fad sol)  fad4.( la8) |
+    sol4 r r2 |
+    r si8 r do r |
+    si4 r r2 |
+    R1 |
+    r4 la-.( la-. la-.) |
+    R1 |
+    r4 re,( si' sol) |
+}
+
+oboeI_actII_nXI = \relative do''
+{
+    \key sib \major
+    \time 2/4
+    \tempo "Andante con moto"
+    
+    R2 * 4 |
+    fa8-\markup { \italic "dolce" }( re16) r fa8( re16) r |
+    do8( mib16) r do8( mib16) r |
+    sib4 la16.( sib32) do16.( re32) |
+    sib8-. re-. sib-. r |
+    R2 * 5 |
+    r16 re8( fa16) mib-. re-. do-. sib-. |
+    la8 r r4 |
+    r16 \tuplet 3/2 { do32( re do } mib16) re-. do-. sib-. la-. do-. |
+    sib8 r r4 |
+    R2 * 6 |
+    r8 la( do fa) |
+    la2 ~ |
+    la |
+    R2 |
+    r8 sol( sib mi,) |
+    fa r r4 |
+    R2 * 2 |
+    r8 sol( sib mi,) |
+    fa r r4 |
+    R2 * 2 |
+    mi2 |
+    mib ~ |
+    mib ~ |
+    mib ~ |
+    mib4( do8 lab) |
+    R2 * 2 |
+    mib'4.( sol,8) |
+    lab-. mib'-. do-. r |
+    R2 * 3 |
+    sol'8( fa mib re) |
+    R2 |
+    fad4( sol) ~ |
+    sol( fad) |
+    sol8 r sib,4 ~ |
+    sib2 ~ |
+    sib8 si-\mfp( do4) ~ |
+    do2 ~ |
+    do8 dod-\mfp( re4) ~ |
+    re2 ~ |
+    re8 sol4( solb8 |
+    fa la sib) r |
+    sol,2 |
+    la4( sib8 mib) |
+    re r r4 |
+    R2 * 4 |
+    r16 re8( fa16) mib-. re-. do-. sib-. |
+    la8 r r4 |
+    r16 \tuplet 3/2 { do32( re do } mib16) re-. do-. sib-. la-. do-. |
+    sib8 r r4 |
+    R2 |
+    sib4( la) |
+    sib4( re8 sol) |
+    fa2( |
+    mib) |
+    re4( do8 la) |
+    sib r la'8.-\trill( sol32 la) |
+    sib8 r la8.-\trill( sol32 la) |
+    sib8 r r4 |
     \bar "|."
 }

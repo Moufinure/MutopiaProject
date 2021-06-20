@@ -6,7 +6,7 @@ viola_ouverture = \relative do'
     \key re \major
     \time 4/4
     \tempo "Presto"
-    
+
     re8-\pp( dod re dod re4) r |
     re8( dod re mi fad mi fad sol) |
     la( sold la sold la4) r |
@@ -113,7 +113,7 @@ viola_ouverture = \relative do'
     sold( |
     la2 si) |
     la1 |
-    dod,( 
+    dod,(
     re |
     mi) |
     mi2:8-\fp mi:8 |
@@ -280,13 +280,138 @@ viola_ouverture = \relative do'
     \bar "|."
 }
 
-viola_actI = \relative do'
+viola_actI_nI = \relative do'
 {
     \clef alto
     \key sol \major
-    
+    \tempo "Allegro"
+
     sol2-\p r |
     r sol ~ |
     sol4( fad8. mi16) fad4-. re-. |
-    r2 la' |
+    r2 la' ~ |
+    la4( sol8. fad16) sol8-. re-.-\cresc si'4 ~ |
+    si( la8. sol16) la8-. re,-. do'4 ~ |
+    do( si8. la16) si8-. sol-. mi'4 ~ |
+    mi8-\f mi4 mi8 la la4 la8 |
+    la4 r r2 |
+    R1 |
+    si,4-\sfp( sol fad) r |
+    R1 |
+    si4-\sfp( sol fad) r |
+    R1 |
+    sol'16-\f( fad) sol-. si-. la sol fad mi re do si la sol fad mi re |
+    do4 r do'8 do do do |
+    re re re re re re re re |
+    re4 r r2 |
+    r sol,2-\p ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol4-. re-. |
+    r2 si'2 ~ |
+    si4( la8. sol16) la4-. re,-. |
+    r2 do'2 ~ |
+    do4( si8. la16) si4-. sol-. |
+    do r la' r |
+    la r r2 |
+    la,1 ~ |
+    la4 r r2 |
+    R1 |
+    si4-\mfp( sol fad) r |
+    R1 * 2 |
+    r2 sol8 r do r |
+    si4 r r2 |
+    r sol ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol8-. re-. si'4 |
+}
+
+viola_actII_nXI = \relative do'
+{
+    \clef alto
+    \key sib \major
+    \time 2/4
+    \tempo "Andante con moto"
+
+    sib8-\p^\markup { "pizz." } r sib r |
+    la r la r |
+    sib r sol mib |
+    fa r fa r |
+    sib r sib r |
+    mib, r mib r |
+    fa r fa r |
+    sib sib sib r |
+    sib r sib r |
+    la r la r |
+    sib r sol mib |
+    fa r fa r |
+    sib r sib r |
+    sib r sib r |
+    fa r fa r |
+    fa r fa r |
+    sib r sib r |
+    mib, r mib r |
+    fa r fa r |
+    sib r sib r |
+    fa r fa r |
+    fa r fa r |
+    do r do r |
+    fa r fa r |
+    re r la' r |
+    re, r re r |
+    fa r sol r |
+    do, r sib' r |
+    la r fa r |
+    sol r mi r |
+    fa r re sib' |
+    do, r sib' r |
+    la r fa r |
+    sol r mi r |
+    fa r reb r |
+    do r do r |
+    lab' r lab r |
+    sol r sol r |
+    mib r mib r |
+    lab r lab r |
+    do, r do r |
+    reb r reb r |
+    mib r mib r |
+    lab r lab r |
+    lab r lab r |
+    sol r sol r |
+    fad r fad r |
+    sol r sol r |
+    do, r re mib |
+    re r mib r |
+    do r re r |
+    sol r sol r |
+    re r re r |
+    mib r mib r |
+    mi r mi r |
+    fa r fa r |
+    fad r fad r |
+    sol r do sib |
+    la fa sib sol |
+    mi r mi r |
+    fa mib re do |
+    sib' r sib r |
+    la r la r |
+    sib r sol mib |
+    fa r fa r |
+    sib r sib r |
+    sib r sib r |
+    fa r fa r |
+    fa r fa r |
+    sib r sib r |
+    mib, r mib r |
+    fa r fa r |
+    sol r sol r |
+    re r re r |
+    mib r mib r |
+    fa r fa r |
+    sib r fa r |
+    sib r fa r |
+    sib r r4 |
+    \bar "|."
 }

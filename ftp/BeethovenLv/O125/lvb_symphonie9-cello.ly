@@ -1,3 +1,6 @@
+\version "2.20.0"
+
+\include "common.ily"
 \include "cello.ily"
 
 \paper {

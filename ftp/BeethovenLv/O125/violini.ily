@@ -37,6 +37,83 @@ violinoI_mvtI = \relative do''
     dod,8-\p r r4 |
     <re la' fa'>8-\f r r4 |
     fa8-\p r r4 |
+    <mi dod' sol'>8-\f r sib''4-\sf ~ |
+    sib re-\sf ~ |
+    re <re,, la' fa'>8-\sf r |
+    la''4 ~ la16( sib32 la sol fa mi re |
+    dod-\dim re do sib la sol fa mi) re8-\p r |
+    r4 r8 r16. re'32-\markup { \italic "soto voce" } |
+    la4 r8 r16. la32 |
+    re,4 r |
+    R2 |
+    r4 r8 r16. la''32 |
+    re,4 r8 r16. re32 |
+    la4 r |
+    R2 * 2 |
+    r8 r16. la'32-\cresc re,8 r16. re32 |
+    la8 r16. la32 re,8 r |
+    r16 la''-. la( re,) r re-. re( la) |
+    r16 la-. la( re,) r4 |
+    r16 re''-. re( re,) re( re,) re( re') |
+    re( re,) re( re') re,([ re') re,-.] r32 sib''-\ff |
+    fa4 ~ fa8.. re32 |
+    sib8.. fa32 re8. fa32( re) |
+    sib4 ~ sib16 re'-. do-. sib-. |
+    fa'8-. mib-. do-. fa-. |
+    <re, re'>-\sf r r16 fa'-. mib-. re-. |
+    sib'8-\sf r r4 |
+    <mi,, mi'>8-\sf r r16 sol'-. fa-. mi-. |
+    dod'8-\sf r r4 |
+    fa,8-\sf r r16 la-. sol-. fa-. |
+    re'8-\sf r r16 la-. sol-. fad-. |
+    re'8-\sf r r16 sib-. la-. sol-. |
+    re'-\sf sib,, la sol fa''-\sf fa mi re |
+    la'2-\sf |
+    sol8-.-\markup { \italic "ben marcato" } fa-. mi-. re-. |
+    dod-. re-. mi-. fa-. |
+    <la, sol'>8.-\sf r16 <la fa'>8.-\sf r16 |
+    <la mi'>8.-\sf r16 r4 |
+    la16 la'( sib) la( sib) la( sib) la( |
+    sol) la( fa) la( mi) la re, la'( |
+    dod,) \repeat unfold 7 { sib'( sib,) }
+    sib'( mi,) sol( mi) sol( sib,) sib'( sib,) sib'( |
+    la,) do'( la,) do'( la,) do'( la,) do' |
+    do8-\p mib,16 mib mib8 r |
+    R2 |
+    r8 re,16 re r8 r |
+    R2 |
+    r8 mib16 mib mib8 r |
+    r4 r8 la, ~ |
+    \bar "||"
+    \key sib \major
+    la16-\semprepp sib-. dod-. re-. fa8 r |
+    dod16-. re-. fa-. la-. sib8 r |
+    do,16-. fa-. la-. si-. do8 r |
+    mib,16-. fa-. la-. do-. mib8 r |
+    mib,16-.-\< re-. fa-. la-. sib8 r |
+    re,16-. fa-. la-. sib-. re8-\! r |
+    do,16-.-\> mib-. fa-. la-. do8 r |
+    mib,16-. fa-. la-. sib-. do-. do,-. do-. do-. |
+    re8-\p r r4 |
+    r16 fa'16-\p( do' fa, do'8) r |
+    R2 |
+    r16 re,16( la' re, la'8) r |
+    sib4.-\cresc( la8 |
+    lab16) sol( fa) mib( re) do( sib) lab( |
+    sol-\f) fa( mib) re( do) sib( la) sol( |
+    fa'8) <fa re' sib'>-.-\f r <fa do' la'>-.-\f |
+    R2 |
+    r16 sib-\p( do) re( mib) fa( sol) lab( |
+    sol8) r r4 |
+    r16 sol-\cresc( la) si( do) re( mib) fa( |
+    mib4.) re8( |
+    do16) sib( la) sol( fa) mib( re) do-. |
+    fa8-.-\ff mi16.-. mi32-. fa8 r |
+    sol8-. fad16.-. fad32-. sol8 r |
+    R2 |
+    r4 do,8-\p( re16 mib) |
+    fa8-.-\ff mi16.-. mi32-. fa8 r |
+    solb8-. fa16.-. fa32-. solb8 r |
 }
 
 violinoII_mvtI = \relative do'
@@ -232,4 +309,24 @@ violinoII_mvtI = \relative do'
     sol'( fad) fad-. la-. do, la' sol fa |
     la( sol) sol-. fad-. fad( sol) do,-. re-. |
     
+}
+
+violinoI_mvtIV = \relative do''
+{
+    \key re \minor
+    \time 3/4
+    \tempo "Presto" 2. = 96
+    
+    \partial 4 r4 |
+    R2. * 26 |
+}
+
+violinoII_mvtIV = \relative do''
+{
+    \key re \minor
+    \time 3/4
+    \tempo "Presto" 2. = 96
+    
+    \partial 4 r4 |
+    R2. * 26 |
 }

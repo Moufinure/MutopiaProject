@@ -275,16 +275,6 @@ violinI_ouverture = \relative do'
     \bar "|."
 }
 
-violinI_actI = \relative do''
-{
-    \key sol \major
-    
-    r2 r4 re8.-\p re16 |
-    re4 re re re |
-    la'( re,) r re8. re16 |
-    re4 re re re |
-}
-
 violinII_ouverture = \relative do'
 {
     \key re \major
@@ -569,12 +559,269 @@ violinII_ouverture = \relative do'
     \bar "|."
 }
 
-violinII_actI = \relative do'
+violinI_actI_nI = \relative do''
 {
     \key sol \major
+    \tempo "Allegro"
+    
+    r2 r4 re8.-\p re16 |
+    re4 re re re |
+    la'( re,) r re8. re16 |
+    re4 re re re |
+    si'( re,) r re8.-\cresc re16 |
+    do'4( fa,) r fa8. fa16 |
+    re'4( sol,) r sol8.-\f si16 |
+    la8-. \appoggiatura si16 la16( sold la8) si-. sol-. \appoggiatura la16 sol( fad sol8) la-. |
+    fad4 r r2 |
+    R1 |
+    sol16-\sfp( fad sol si la sol fad mi) re4 r |
+    R1 |
+    sol16-\sfp( fad sol si la sol fad mi) re4 r |
+    R1 |
+    sol16-\f( fad) sol-. si-. la sol fad mi re do si la sol fad mi re |
+    do4 r sol''4.( mi8) |
+    re( sol) si,4. mi16 re \appoggiatura re do8 si16 la |
+    sol4 r r re'8.-\p re16 |
+    re4 re re re |
+    la'( re,) r re8. re16 |
+    re4 re re re |
+    si'( re,) r re8. re16 |
+    re4 re re re |
+    do'( fad,) r fad8. fad16 |
+    fad4 fad fad fad |
+    re'( sol,) r re'8.( si16) |
+    la8-. \appoggiatura si16 la( sold la8) si-. sol-. \appoggiatura la16 sol( fad sol8) la-. |
+    fad r la r fad r re r |
+    sol sol mi mi dod dod sol sol |
+    fad4 r r2 |
+    R1 |
+    sol'16-\mfp( fad sol si la sol fad mi) re4 r |
+    R1 |
+    r2 \tuplet 3/2 4 { sol8-.-\p re-. sol-. si-. sol-. re-. |
+                       si-. sol-. si-. re-. si-. sol-. } re r fad r |
+    sol4 r r re'8. re16 |
+    re4 re re re |
+    la'( re,) r re8. re16 |
+    re4 re re re |
+    si'( re,) r re8. re16 |
+}
+
+violinII_actI_nI = \relative do'
+{
+    \key sol \major
+    \tempo "Allegro"
     
     sol16-\p( si re si sol si re si sol si re si sol si re si) |
     sol( si re si sol si re si sol si re si sol si re si) |
     la( do re do la do re do la do re do la do re do) |
     do( re fad re do re fad re do re fad re do re fad re) |
+    si( re sol re si re sol re si re sol-\cresc re si re sol re) |
+    re( fad la fad re fad la fad re fad la fad re fad la fad) |
+    re( sol si sol re sol si sol re sol si sol mi sol si sol) |
+    mi'8-\f mi4 mi mi mi8 |
+    re4 r r2 |
+    R1 |
+    sol,16-\sfp( fad sol si la sol fad mi) re4 r |
+    R1 |
+    sol16-\sfp( fad sol si la sol fad mi) re4 r |
+    R1 |
+    sol'16-\f( fad) sol-. si-. la sol fad mi re do si la sol fad mi re |
+    do4 r mi'4.( do8) |
+    si( re) sol,4. do16 si \appoggiatura si16 la8 sol16 fad |
+    sol4 sol,16-\p( si re si sol si re si sol si re si) |
+    sol( si re si sol si re si sol si re si sol si re si) |
+    la( do re do la do re do la do re do la do re do) |
+    do( re fad re do re fad re do re fad re do re fad re) |
+    \repeat unfold 2 { si( re sol re si re sol re si re sol re si re sol re) | }
+    \repeat unfold 2 { re( fad la fad re fad la fad re fad la fad re fad la fad) | }
+    re( sol si sol re sol si sol re sol si sol re sol si sol) |
+    mi4 r mi' r |
+    re8 r fad r re r fad, r |
+    mi' mi dod dod sol sol dod, dod |
+    re4 r r2 |
+    R1 |
+    sol16-\mfp( fad sol si la sol fad mi) re4 r |
+    R1 |
+    r2 \tuplet 3/2 4 { sol8-.-\p re-. sol-. si-. sol-. re-. |
+                       si-. sol-. si-. re-. si-. sol-. } si r la r |
+    \repeat unfold 2 { sol16( si re si sol si re si sol si re si sol si re si) | }
+    la( do re do la do re do la do re do la do re do) |
+    do( re fad re do re fad re do re fad re do re fad re) |
+    si( re sol re si re sol re si re sol re si re sol re) |
+}
+
+violinI_actII_nXI = \relative do'
+{
+    \key sib \major
+    \time 2/4
+    \tempo "Andante con moto"
+    
+    r16 sib-\p^\markup { "pizz." } re fa r sib, re fa |
+    r do mib fa r do mib fa |
+    r sib, re fa r sib sol do |
+    r do, fa la r do, fa la |
+    r re, fa sib r re, fa sib |
+    r mib, sol do r mib, sol do |
+    r re, fa sib r do, mib la |
+    sib fa sib re sib8 r |
+    r16 re, fa sib r re, fa sib |
+    r mib, fa do' r mib, fa do' |
+    r re, fa sib r sib sol mib' |
+    r fa, la do r fa, la do |
+    r sib sib' sib, r sib sib' sib, |
+    r sib sib' sib sib sib sib sib |
+    r fa fa fa r fa fa fa |
+    r fa fa fa fa fa fa fa |
+    r re, fa sib r re, fa sib |
+    r mib, sol do r mib, sol do |
+    r re, fa sib r do, mib la |
+    r re, fa sib r re, fa sib |
+    r do, fa la r do, fa la |
+    r re, fa sib r do, fa la |
+    r sib, mi sol r sib, mi sol |
+    r do, fa la r do, fa la |
+    r re, fa la r dod, mi la |
+    r re, fa la r re, fa la |
+    r re, fa la mi sol re fa |
+    r do mi sol r do, mi sol |
+    r fa la do r fa, la do |
+    r mi, sol sib r do, sol' sib |
+    r do, fa la r fa re sib' |
+    r mi, sol sib r do, mi sol |
+    r fa la do r fa, la do |
+    r mi, sol sib r do, sol' sib |
+    r do, fa lab r fa lab si |
+    r mi, sol do r mi, sol do |
+    r mib, lab do r mib, lab do |
+    r mib, sib' reb r mib, sib' reb |
+    r sib, reb sol r sib, reb sol |
+    r do, mib lab r do, mib lab |
+    r do, mib lab r do, mib lab |
+    r reb, fa sib r reb, fa sib |
+    r do, mib lab r sib, reb sol |
+    r do, mib lab r do, mib lab |
+    r mib lab do r mib, lab do |
+    r sol do mib r sol, do mib |
+    r mib, la do r la do mib |
+    r sol, sol' sol sol sol sol sol |
+    r sol, do mib re sib sol sib |
+    r fad la re r sib, sol' sib |
+    r mib, sol la r do, fad la |
+    r sib, re sol r sib, re sol |
+    r re fa lab r re, fa lab |
+    r sol mib' sol r do,, mib sol |
+    r mi sol sib r mi, sol sib |
+    r la fa' la r re,, fa la |
+    r fad la do r fad, la do |
+    r sib re sol r sol, do mib |
+    r fa, la do r fa, sib re |
+    r sol, sib reb r mi, sol sib |
+    r la do la re sib mib la, |
+    r re, fa sib r re, fa sib |
+    r mib, fa do' r mib, fa do' |
+    r re, fa sib r sib sol mib' |
+    r fa, la do fa fa fa fa |
+    r sib, sib' sib, r sib sib' sib, |
+    r sib sib' sib sib sib sib sib |
+    r fa fa fa r fa fa fa |
+    r fa fa fa fa fa fa fa |
+    r re, fa sib r re, fa sib |
+    r mib, sol do r mib, sol do |
+    r re, fa sib r do, mib la |
+    r sib, re sol r sib, re sol |
+    r re fa sib r re, fa sib |
+    r mib, sol do r mib, sol do |
+    r re, fa sib r do, mib la |
+    r re, fa sib r fa do' mib |
+    r fa, sib re r mib, la do |
+    sib8 r r4 |
+    \bar "|."
+}
+
+violinII_actII_nXI = \relative do'
+{
+    \key sib \major
+    \time 2/4
+    \tempo "Andante con moto"
+    
+    r16 sib-\p^\markup { "pizz." } re fa r sib, re fa |
+    r do mib fa r do mib fa |
+    r sib, re fa r re mib sol |
+    r la, do fa r la, do fa |
+    r sib, re fa r sib, re fa |
+    r do mib sol r do, mib sol |
+    r sib, re fa r la, do mib |
+    re sib re fa re8 r |
+    r16 sib re fa r sib, re fa |
+    r do mib fa r do mib fa |
+    r sib, re fa r re mib do' |
+    r la, fa' la r la, fa' la |
+    r sib, sib' sib, r sib sib' sib, |
+    r sib sib' sib sib sib sib sib |
+    r fa fa fa r fa fa fa |
+    r fa fa fa fa fa fa fa |
+    r sib, re fa r sib, re fa |
+    r do mib sol r do, mib sol |
+    r sib, re fa r la, do mib |
+    r sib re fa r sib, re fa |
+    r la, do fa r la, do fa |
+    r sib, re fa r la, do fa |
+    r sol, sib mi r sol, sib mi |
+    r la, do fa r la, do fa |
+    r la, re fa r la, dod mi |
+    r la, re fa r la, re fa |
+    r la, re fa do mi si re |
+    r sol, do mi r sol, do mi |
+    r do fa la r la, fa' la |
+    r sib, mi sol r sol, do sol' |
+    r la, do fa r la, sol sol' |
+    r do, mi sol r sol, do mi |
+    r do fa la r la, fa' la |
+    r sib, mi sol r sol, do sol' |
+    r lab, do fa r si, fa' lab |
+    r do, mi sol r do, mi sol |
+    r do, mib lab r do, mib lab |
+    r sib, mib sib' r sib, mib sib' |
+    r sol, sib reb r sol, sib reb |
+    r lab do mib r lab, do mib |
+    r lab, do mib r lab, do mib |
+    r sib reb fa r sib, reb fa |
+    r lab, do mib r sol, sib reb |
+    r lab do mib r lab, do mib |
+    r do mib lab r do, mib lab |
+    r mib sol do r mib, sol do |
+    r do, mib la r fad la do |
+    r sol, sol' sol sol sol sol sol |
+    r mib sol do sib sol sib, sol' |
+    r la, fad' la r sol, sib sol' |
+    r la, mib' sol r la, do fad |
+    r sol, sib re r sol, sib re |
+    r sib re fa r sib, re fa |
+    r mib sol mib' r sol,, do mib |
+    r do mi sol r do, mi sol |
+    r fa la fa' r la,, re fa |
+    r re fad la r re, fad la |
+    r sol sib re r mib, solb do |
+    r do, fa la r re, fa sib |
+    r mi, sol sib r do, mi sol |
+    r do, la' fa sib fa la mib |
+    r sib re fa r sib, re fa |
+    r do mib fa r do mib fa |
+    r sib, re fa r re mib do' |
+    r la, fa' la fa fa fa fa |
+    r sib, sib' sib, r sib sib' sib, |
+    r sib sib' sib sib sib sib sib |
+    r fa fa fa r fa fa fa |
+    r fa fa fa fa fa fa fa |
+    r sib, re fa r sib, re fa |
+    r do mib sol r do, mib sol |
+    r sib, re fa r la, do mib |
+    r sol, sib re r sol, sib re |
+    r sib re fa r sib, re fa |
+    r do mib sol r do, mib sol |
+    r sib, re fa r la, do mib |
+    r sib re fa r la, fa' do' |
+    r re, fa sib r do, fa mib |
+    re8 r r4 |
+    \bar "|."
 }

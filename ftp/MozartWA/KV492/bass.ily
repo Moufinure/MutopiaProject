@@ -240,13 +240,131 @@ basso_ouverture = \relative do
     \bar "|."
 }
 
-bass_actI = \relative do
+bass_actI_nI = \relative do
 {
     \clef bass
     \key sol \major
+    \tempo "Allegro"
     
     sol2-\p r |
     r sol' ~ |
     sol4( fad8. mi16) fad4-. re-. |
-    r2 la' |
+    r2 la' ~ |
+    la4( sol8. fad16) sol8-. re-. si'4 ~ |
+    si( la8. sol16) la8-. re,-.-\cresc do'4 ~ |
+    do( si8. la16) si8-. sol-. mi'4 |
+    do8-\f do do do dod dod dod dod |
+    re4 r r2 |
+    R1 * 6 |
+    mi,4-\f r do8 do do do |
+    re re re re re re re re |
+    sol,4 r r2 |
+    r sol'-\p ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol4-. re-. |
+    r2 si' ~ |
+    si4( la8. sol16) la4-. re,-. |
+    r2 do' ~ |
+    do4( si8. la16) si4-. sol-. |
+    do, r dod r |
+    re r r2 |
+    la1( |
+    re4) r r2 |
+    R1 * 4 |
+    r2 re'8 r re, r |
+    sol4 r r2 |
+    r sol ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol8-. re-. si'4 |
+}
+
+bass_actII_nXI = \relative do'
+{
+    \clef bass
+    \key sib \major
+    \time 2/4
+    \tempo "Andante con moto"
+    
+    sib8-\p^\markup { "pizz." } r sib r |
+    la r la r |
+    sib r sol mib |
+    fa r fa, r |
+    sib r sib r |
+    mib r mib r |
+    fa r fa, r |
+    sib sib sib r |
+    sib' r sib r |
+    la r la r |
+    sib r sol mib |
+    fa r fa, r |
+    sib r sib r |
+    sib r sib r |
+    fa' r fa r |
+    fa r fa r |
+    sib, r sib r |
+    mib r mib r |
+    fa r fa, r |
+    sib r sib' r |
+    fa r fa r |
+    fa r fa r |
+    do r do r |
+    fa r fa r |
+    re r la r |
+    re r re r |
+    fa r sol r |
+    do, r sib' r |
+    la r fa r |
+    sol r mi r |
+    fa r re sib |
+    do r sib' r |
+    la r fa r |
+    sol r mi r |
+    fa r reb r |
+    do r do r |
+    lab r lab r |
+    sol r sol r |
+    mib r mib r |
+    lab r lab r |
+    do r do r |
+    reb r reb r |
+    mib r mib r |
+    lab, r lab r |
+    lab' r lab r |
+    sol r sol r |
+    fad r fad r |
+    sol r sol r |
+    do, r re mib |
+    re r mib r |
+    do r re r |
+    sol, r sol' r |
+    re r re r |
+    mib r mib r |
+    mi r mi r |
+    fa r fa r |
+    fad r fad r |
+    sol r do sib |
+    la fa sib sol |
+    mi r mi r |
+    fa mib re do |
+    sib r sib' r |
+    la r la r |
+    sib r sol mib |
+    fa r fa, r |
+    sib r sib r |
+    sib r sib r |
+    fa' r fa r |
+    fa r fa r |
+    sib, r sib r |
+    mib r mib r |
+    fa r fa r |
+    sol r sol r |
+    re r re r |
+    mib r mib r |
+    fa r fa, r |
+    sib r fa' r |
+    sib r fa r |
+    sib, r r4 |
+    \bar "|."
 }

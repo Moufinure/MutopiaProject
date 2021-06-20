@@ -1,7 +1,9 @@
+\version "2.20.0"
+
 \include "contrabass.ily"
+\include "common.ily"
 
 \paper {
-    #(set-paper-size "a4")
     top-margin = 1.5 \cm
     bottom-margin = 1.5 \cm
     left-margin = 1.5 \cm

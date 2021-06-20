@@ -352,3 +352,73 @@ clarinetII_ouverture = \relative do'
     la r |
     \bar "|."
 }
+
+clarinet_actII_nXI = \relative do''
+{
+    \transposition sib
+    \time 2/4
+    \tempo "Andante con moto"
+    
+    do4-\markup { \italic "dolce" }( sol8) sol |
+    re'4( sol,8) sol |
+    mi'4 do16.( re32) mi16.( fa32) |
+    re4 r |
+    R2 * 2 |
+    sol4.( si,8) |
+    do-. sol-. mi-. r |
+    R2 * 4 |
+    mi'4( fa8 fad |
+    sol) r r4 |
+    re4( mib8 mi |
+    fa) r r4 |
+    mi2( |
+    re) |
+    sol4.( si,8) |
+    do-. mi-. do-. r |
+    R2 * 5 |
+    r8 sol( si mi) |
+    sol si,( la sol) |
+    fad4.( la8) |
+    sol r r4 |
+    r2 * 2 |
+    r8 re'4 re8 ~ |
+    re r r4 |
+    R2 * 4 |
+    do2 ~ |
+    do |
+    sib8( re sib fa) |
+    re'2( |
+    do) |
+    sib4 la16.( sib32) do16.( re32) |
+    sib8-. re-. sib-. r |
+    R2 * 3 |
+    dod8( mib re dod) |
+    R2 * 4 |
+    sib2( |
+    la8) r r4 |
+    do2( |
+    si8) r r4 |
+    re2( |
+    do8) r r4 |
+    re4( do) ~ |
+    do( re8 mib) |
+    re4( mi8 si) |
+    do r r4 |
+    R2 * 2 |
+    r8 re4( red8) |
+    mi4( fa8 fad |
+    sol) r r4 |
+    re4( mib8 mi |
+    fa) r r4 |
+    mi2( |
+    re) |
+    sol,4( fa) |
+    mi2 |
+    do' |
+    la |
+    sol ~ |
+    sol8 r re'8.-\trill( do32 re) |
+    do8 r fa8.-\trill( mi32 fa) |
+    mi8 r r4 |
+    \bar "|."
+}
