@@ -7,5 +7,8 @@ tuba_intro = \relative do
     \time 6/8
     \tempo "Andantino"
     
-    R2. * 9 |
+    R2. * 12 |
+    re2.-\f-\> ~ |
+    re4-\! r8 r4. |
+    R2. * 6 |
 }
