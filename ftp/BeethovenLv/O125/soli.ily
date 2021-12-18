@@ -26,7 +26,7 @@ baritone = \relative do'
     re4.( mi8 fad mi) |
     mi( re re dod re la) |
     sol( fa) fa( mi re do) |
-    dod( si) sol'2 ~ |
+    do( si) sol'2 ~ |
     sol4.-\fermata mi8 dod re |
     re la la4 r |
     \time 4/4

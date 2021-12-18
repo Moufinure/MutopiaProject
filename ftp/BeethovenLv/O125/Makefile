@@ -89,7 +89,8 @@ parties: $(piece)-contrabass.pdf \
 	 $(piece)-trombeI.pdf \
 	 $(piece)-trombeII.pdf \
 	 $(piece)-flautiI.pdf \
-	 $(piece)-flautiII.pdf
+	 $(piece)-flautiII.pdf \
+	$(piece)_voices.ly
 
 # Lancer `make mouvements' pour générer un fichier séparé pour chacun
 # des mouvements.

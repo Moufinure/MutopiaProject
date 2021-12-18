@@ -17,6 +17,8 @@
   <<
     \new Staff
     <<
+      \set Staff.instrumentName = "Baritone"
+      \set Staff.shortInstrumentName = "Ba."
       \new Voice = "SoloBaritone"
       {
         \baritone
@@ -29,6 +31,8 @@
     >>
     \new Staff
     <<
+      \set Staff.instrumentName = "Tenor"
+      \set Staff.shortInstrumentName = "Tn."
       \new Voice = "ChoirBass"
       {
         \choirB

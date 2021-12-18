@@ -26,7 +26,7 @@
     }
     \new Staff
     {
-        \compressFullBarRests
+        \compressEmptyMeasures
         \contrabass_mvtI
     }
     \layout { }
@@ -41,7 +41,7 @@
     
     \new Staff
     {
-        \compressFullBarRests
+        \compressEmptyMeasures
         \set Staff.midiInstrument = "contrabass"
         \contrabass_mvtII
     }
@@ -58,7 +58,7 @@
     
     \new Staff
     {
-        \compressFullBarRests
+        \compressEmptyMeasures
         \set Staff.midiInstrument = "contrabass"
         
         \contrabass_mvtIII
@@ -75,7 +75,7 @@
     
     \new Staff
     {
-        \compressFullBarRests
+        \compressEmptyMeasures
         \set Staff.midiInstrument = "contrabass"
         
         \contrabass_mvtIV

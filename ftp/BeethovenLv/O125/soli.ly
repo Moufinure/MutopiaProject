@@ -8,19 +8,23 @@
 }
 
 \score {
-    \new Staff
-    {
-        \compressFullBarRests
-        <<
-            \new Voice = "SoloBaritone"
-            {
-                \baritone
-            }
-            \new Lyrics
-            {
-                \lyricsto "SoloBaritone"
-                \baritone_lyrics
-            }
-        >>
-    }
+  \header
+  {
+    instrument = "Baritone"
+  }
+  \new Staff
+  {
+    \compressEmptyMeasures
+    <<
+      \new Voice = "SoloBaritone"
+      {
+	\baritone
+      }
+      \new Lyrics
+      {
+	\lyricsto "SoloBaritone"
+	\baritone_lyrics
+      }
+    >>
+  }
 }
