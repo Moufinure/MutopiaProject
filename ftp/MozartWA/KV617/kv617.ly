@@ -6,6 +6,14 @@
 \include "cello.ily"
 \include "harmonika.ily"
 
+\paper
+{
+  top-margin = 10
+  bottom-margin = 10
+  left-margin = 10
+  right-margin = 10
+}
+
 \header
 {
     title = "Adagio und Rondo"
@@ -16,11 +24,6 @@
 
 \score
 {
-    \header
-    {
-        piece = "I. Adagio"
-    }
-
     <<
         \new StaffGroup
         <<
@@ -39,7 +42,7 @@
             \new Staff
             {
                 \set Staff.instrumentName = "Viola"
-                \set Staff.shortInstrumentName = "VL"
+                \set Staff.shortInstrumentName = "Vla"
                 \viola_adagio
             }
             \new Staff
@@ -51,14 +54,15 @@
         >>
         \new PianoStaff
         <<
-            \new Staff
-            {
-                \harmonika_right_adagio
-            }
-            \new Staff
-            {
-                \harmonika_left_adagio
-            }
+	  \set PianoStaff.instrumentName = "Harm."
+	  \new Staff \with { \consists "Merge_rests_engraver" }
+	  {
+	    \harmonika_right_adagio
+	  }
+	  \new Staff \with { \consists "Merge_rests_engraver" }
+	  {
+	    \harmonika_left_adagio
+	  }
         >>
     >>
 }
