@@ -87,9 +87,31 @@ flautiI_mvtI = \relative do'''
     sol-\f) fa( mib) re( do) sib( la) sol( |
     fa8) fa'-.-\f r fa-. \ottava #1 |
     R2 |
-    r4 r16 re-\p-\cresc( mib) fa( |
+    r4 r16 re-\p([ mib) fa(] |
     sol2) ~ |
-    sol16 sol ~ sol sol ~ sol sol ~ sol fa \ottava #0 |
+    sol16 sol ~ sol sol ~ sol sol ~ sol fa( \ottava #0 |
+    mib) fa,,( sol) lab( sib) do( re) mib( |
+    fa) sol( lab) sib( do) re( mib) fa-. |
+    fa8-\ff-. mi16.-. mi32-. fa8 r |
+    sol-. fad16.-. fad32-. sol8 r |
+    R2 |
+    re4-\pdolce( do8 re16 mib) |
+    fa8-.-\ff mi16.-. mi32-. fa8 r |
+    solb-. fa16.-. fa32-. solb8 r |
+    r4 si,-\p ~ |
+    si( dod8 red16 mi |
+    fad8-\pp) r r4 |
+    R2 |
+    dod2-\pp( |
+    fad) ~ |
+    fad8 r si,-\semprepp r |
+    si r sib r |
+    la r r4 |
+    R2 |
+    r4 re8-\pp( do) |
+    r4 fa8( mib) |
+    r r16 do-\semprepp( mib) r r8 |
+    R2 |
 }
 
 flautiII_mvtI = \relative do'''
@@ -162,8 +184,17 @@ flautiII_mvtI = \relative do'''
     sol-\f) fa( mib) re( do) sib( la) sol( |
     fa8) re'-.-\f r do-.-\f |
     R2 * 2 |
-    sol'4.-\p-\cresc( fad8)( |
+    \autoBeamOn
+    sol'4.-\p( fad8)( |
     fa16) mib( re) do( si) lab( sol) fa \ottava #0 |
+    mib) fa,( sol) lab( sib) do( re) mib( |
+    fa) sol( lab) sib( do) re( mib) fa-. |
+    sib,8-\ff-. sib16.-. sib32-. sib8 r |
+    sib-. sib16.-. sib32-. sib8 r |
+    R2 * 2 |
+    sib8-\ff-. sib16.-. sib32-. sib8 r |
+    sib-. sib16.-. sib32-. sib8 r |
+    R2 * 14 |
 }
 
 flautoI_mvtIV = \relative do'''

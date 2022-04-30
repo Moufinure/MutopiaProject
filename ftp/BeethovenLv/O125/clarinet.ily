@@ -80,7 +80,7 @@ clarinetI_mvtI = \relative do''
     re4 r |
     r8 mi,4( la16 sol) |
     r8 sol4( re'16 do) |
-    r8 si4-\>( mi16 re-\!) |
+    r8 si4( mi16 re) |
     R2 |
     r8 fad( sol4) ~ |
     sol8 sol sol sol |
@@ -88,7 +88,7 @@ clarinetI_mvtI = \relative do''
     mi8 mi mi mi |
     mi r r4 |
     r r16 mi-\cresc( fa) sol( |
-    la) do ~ do do ~ do do ~ do do ~ |
+    la-\f) do ~ do do ~ do do ~ do do ~ |
     do8 mi,-. r re-.-\f |
     do'4.-\p( si8 |
     sib16) la( sol) fa( mi) re( do) sib( |
@@ -101,6 +101,13 @@ clarinetI_mvtI = \relative do''
     la4.( si16 do) |
     mi,4( re) |
     sol8-\ff fad16.-. fad32-. sol8 r |
+    lab-. sol16.-. sol32-. lab8 r |
+    R2 * 7 |
+    r4 do,8-\pp r |
+    si r lab-\semprepp( sol) |
+    r4 do8( si) |
+    R2 * 3 |
+    lab'4-\pp ~ lab16( sol fa re) |
 }
 
 clarinetII_mvtI = \relative do'
@@ -179,7 +186,7 @@ clarinetII_mvtI = \relative do'
     r4 r8 la( |
     lad si) si si |
     do r r4 |
-    r r16 do-\cresc ~ do mi( |
+    r r16 do-\cresc do mi( |
     la,-\f) do ~ do do ~ do do ~ do  do ~ |
     do8 do-. r si-.-\f |
     do4.-\p( si8 |
@@ -193,6 +200,11 @@ clarinetII_mvtI = \relative do'
     do2-\pdolce ~ |
     do4( si) |
     do8-\ff do16.-. do32-. do8 r |
+    do-. do16.-. do32-. do8 r |
+    R2 * 7 |
+    r4 do,8-\pp r |
+    si r r4 |
+    R2 * 5 |
 }
 
 clarinetI_mvtIV = \relative do''

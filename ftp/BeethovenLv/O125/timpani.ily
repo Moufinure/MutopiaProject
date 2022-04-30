@@ -54,7 +54,9 @@ timpani_mvtI = \relative do
     re8-.-\ff re16.-. re32-. re8 r |
     R2 * 3 |
     re8-.-\ff re16.-. re32-. re8 r |
-    R2 |
+    R2 * 13 |
+    la8-\pp la16. la32 la8 r |
+    la la16. la32 la8 r |
 }
 
 timpani_mvtIV = \relative do

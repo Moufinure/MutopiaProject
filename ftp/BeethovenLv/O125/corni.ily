@@ -83,10 +83,14 @@ corniI_mvtI = \relative do''
     fa16 fa ~ fa fa ~ fa fa ~ fa mib ~ |
     mib mib ~ mib mib ~ mib mib ~ mib mib ~ |
     mib mib ~ mib mib ~ mib mib ~ mib mib |
-    mib8 re16.-. re32-. mib8 r |
+    mib8-\ff re16.-. re32-. mib8 r |
     fa8-. mi16.-. mi32-. fa8 r |
     R2 * 2 |
     mib8-. re16.-. re32-. mib8 r |
+    mi8-. mib16.-. mib32-. mi8 r |
+    R2 * 12 |
+    r4 mib-\pp ~ |
+    mib2 |
 }
 
 corniII_mvtI = \relative do''
@@ -176,6 +180,8 @@ corniII_mvtI = \relative do''
     fa8-. mi16.-. mi32-. fa8 r |
     R2 * 2 |
     mib8-.-\ff re16.-. re32-. mib8 r |
+    mi8-. mib16.-. mib32-. mi8 r |
+    R2 * 14 |
 }
 
 corniB_I_mvtIV = \relative do''

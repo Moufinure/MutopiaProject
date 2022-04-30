@@ -75,10 +75,18 @@ corniBassI_mvtI = \relative do''
     R2 |
     sol16 sol ~ sol sol ~ sol sol ~ sol sol ~ |
     sol sol ~ sol sol ~ sol sol ~ sol sol |
-    do8-\ff do16. do32 do8 r |
-    do do16. do32 do8 r |
+    do8-\ff-. do16.-. do32-. do8 r |
+    do-. do16.-. do32-. do8 r |
     R2 * 2 |
-    do8-\ff do16. do32 do8 r |
+    do8-\ff-. do16.-. do32-. do8 r |
+    do-. do16.-. do32-. do8 r |
+    R2 * 8 |
+    r4 r8 sol'-\semprepp |
+    r do, r sol' |
+    r do, r do |
+    r do r fa |
+    re2 ~ |
+    re
 }
 
 corniBassII_mvtI = \relative do'
@@ -156,8 +164,16 @@ corniBassII_mvtI = \relative do'
     R2 |
     sol16 sol ~ sol sol ~ sol sol ~ sol sol ~ |
     sol sol ~ sol sol ~ sol sol ~ sol sol |
-    do8-\ff do16. do32 do8 r |
-    do do16. do32 do8 r |
+    do8-\ff-. do16.-. do32-. do8 r |
+    do-. do16.-. do32-. do8 r |
     R2 * 2 |
-    do8-\ff do16. do32 do8 r |
+    do8-\ff-. do16.-. do32-. do8 r |
+    do8-. do16.-. do32-. do8 r |
+    R2 * 8 |
+    r4 r8 sol'-\semprepp |
+    r do, r sol' |
+    r do, r do |
+    r do r fa' |
+    r8 sol,4.-\semprepp ~ |
+    sol2 |
 }

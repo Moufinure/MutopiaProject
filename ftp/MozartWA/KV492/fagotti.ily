@@ -486,7 +486,7 @@ fagottiII_actI_nI = \relative do
     
     sol2-\p r |
     r sol' ~ |
-    sol4( fa8. mi16) fa4-. re-. |
+    sol4( fad8. mi16) fad4-. re-. |
     r2 la' ~ |
     la4( sol8. fad16) sol8-. re-.-\cresc si'4 ~ |
     si-\f( la8. sol16) la8-. re,-. do'4 ~ |

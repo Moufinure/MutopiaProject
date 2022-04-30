@@ -20,6 +20,8 @@
 \include "cello.ily"
 \include "contrabass.ily"
 
+#(set-global-staff-size 16)
+
 \book
 {
     \header
@@ -44,7 +46,7 @@
                     \set Staff.instrumentName = "Flauti"
                     \set Staff.shortInstrumentName = "Flt"
 
-                    \partcombine
+                    \partCombine
                     \flautiI_mvtI
                     \flautiII_mvtI
                 }
@@ -53,7 +55,7 @@
                     \set Staff.instrumentName = "Oboi"
                     \set Staff.shortInstrumentName = "Ob"
 
-                    \partcombine
+                    \partCombine
                     \oboiI_mvtI
                     \oboiII_mvtI
                 }
@@ -62,7 +64,7 @@
                     \set Staff.instrumentName = "Clarinet in B"
                     \set Staff.shortInstrumentName = "Clr"
 
-                    \partcombine
+                    \partCombine
                     \clarinetI_mvtI
                     \clarinetII_mvtI
                 }
@@ -71,7 +73,7 @@
                     \set Staff.instrumentName = "Fagotti"
                     \set Staff.shortInstrumentName = "Fg"
 
-                    \partcombine
+                    \partCombine
                     \fagottiI_mvtI
                     \fagottiII_mvtI
                 }
@@ -83,7 +85,7 @@
                     \set Staff.instrumentName = "Corni in D"
                     \set Staff.shortInstrumentName = "CrD"
 
-                    \partcombine
+                    \partCombine
                     \corniI_mvtI
                     \corniII_mvtI
                 }
@@ -92,7 +94,7 @@
                     \set Staff.instrumentName = "Corni in B basso"
                     \set Staff.shortInstrumentName = "CrB"
 
-                    \partcombine
+                    \partCombine
                     \corniBassI_mvtI
                     \corniBassII_mvtI
                 }
@@ -101,7 +103,7 @@
                     \set Staff.instrumentName = "Trombe in D"
                     \set Staff.shortInstrumentName = "Trb"
 
-                    \partcombine
+                    \partCombine
                     \trombeI_mvtI
                     \trombeII_mvtI
                 }
@@ -171,7 +173,7 @@
                 {
                     \set Staff.instrumentName = "Flauti"
                     \set Staff.shortInstrumentName = "Fl"
-                    \partcombine
+                    \partCombine
                     \flautoI_mvtIV
                     \flautoII_mvtIV
                 }
@@ -179,7 +181,7 @@
                 {
                     \set Staff.instrumentName = "Oboi"
                     \set Staff.shortInstrumentName = "Ob"
-                    \partcombine
+                    \partCombine
                     \oboeI_mvtIV
                     \oboeII_mvtIV
                 }
@@ -187,7 +189,7 @@
                 {
                     \set Staff.instrumentName = "Clarinetti in B"
                     \set Staff.shortInstrumentName = "Clr"
-                    \partcombine
+                    \partCombine
                     \clarinetI_mvtIV
                     \clarinetII_mvtIV
                 }
@@ -195,7 +197,7 @@
                 {
                     \set Staff.instrumentName = "Fagotti"
                     \set Staff.shortInstrumentName = "Fg"
-                    \partcombine
+                    \partCombine
                     \fagottoI_mvtIV
                     \fagottoII_mvtIV
                 }
@@ -212,7 +214,7 @@
                 {
                     \set Staff.instrumentName = "Corni in D"
                     \set Staff.shortInstrumentName = "CrD"
-                    \partcombine
+                    \partCombine
                     \corniD_I_mvtIV
                     \corniD_II_mvtIV
                 }
@@ -220,7 +222,7 @@
                 {
                     \set Staff.instrumentName = "Corni in B"
                     \set Staff.shortInstrumentName = "CrB"
-                    \partcombine
+                    \partCombine
                     \corniB_I_mvtIV
                     \corniB_II_mvtIV
                 }
@@ -228,7 +230,7 @@
                 {
                     \set Staff.instrumentName = "Trombe in D"
                     \set Staff.shortInstrumentName = "Trb"
-                    \partcombine
+                    \partCombine
                     \trombeI_mvtIV
                     \trombeII_mvtIV
                 }
@@ -268,7 +270,7 @@
                     \set Staff.shortInstrumentName = "Cba"
                     \set Staff.soloText = "Violoncello"
                     \set Staff.soloIIText = "Basso"
-                    \partcombine
+                    \partCombine
                     \cello_mvtIV
                     \contrabass_mvtIV
                 }

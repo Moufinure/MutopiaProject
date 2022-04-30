@@ -19,6 +19,7 @@
         
         \new Staff
         {
+	  \compressEmptyMeasures
             \basso_ouverture
         }
     }

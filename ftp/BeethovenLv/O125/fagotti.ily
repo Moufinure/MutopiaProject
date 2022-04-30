@@ -94,7 +94,21 @@ fagottiI_mvtI = \relative do
     mib,-. re16.-. re32-. mib8 r |
     mib''2-\pdolce( |
     fa) |
-    re,,8-\ff-. re16.-. re32-. re8 r |
+    re,8-\ff-. re16.-. re32-. re8 r |
+    mib-. re16.-. re32-. mib8 r |
+    R2 * 2 |
+    red'2-\ff( |
+    fad) |
+    mi( |
+    dod) |
+    fad8 r si,-\semprepp r |
+    si r sib r |
+    la-\semprepp( fa') r4 |
+    sib,8( sol') r4 |
+    re,8( sib') r4 |
+    fa8( re') r4 |
+    solb4-\semprepp ~ solb16( fa mib do) |
+    R2 |
 }
 
 fagottiII_mvtI = \relative do
@@ -185,6 +199,15 @@ fagottiII_mvtI = \relative do
     mib'2-\pdolce( |
     fa) |
     re,8-\ff re16.-. re32-. re8 r |
+    mib-. re16.-. re32-. mib8 r |
+    R2 * 6 |
+    fad'8 r si,-\semprepp r |
+    si r sib r |
+    la-\semprepp( fa') r4 |
+    sib,8( sol') r4 |
+    re,8( sib') r4 |
+    fa8( re') r4 |
+    R2 * 2 |
 }
 
 fagottoI_mvtIV = \relative do,

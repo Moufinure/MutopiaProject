@@ -91,8 +91,26 @@ oboiI_mvtI = \relative do''
     sol,-\f) fa( mib) re( do) sib( la) sol( |
     fa8) sib'-\f r la-.-\f |
     R2 * 2 |
+    \autoBeamOn
     sol2-\p-\cresc ~ |
-    sol16 sol ~ sol sol ~ sol sol ~ sol
+    sol16 sol ~ sol sol ~ sol sol ~ sol fa ~ |
+    fa fa,( sol) lab( sib) do( re) mib( |
+    fa) sol( lab) sib( do) re( mib,) fa-. |
+    fa8-.-\ff mi16.-. mi32-. fa8 r |
+    sol8-. fad16.-. fad32-. sol8 r |
+    R2 * 2 |
+    fa8-\ff-. mi16.-. mi32-. fa8 r |
+    solb-. fa16.-. fa32-. solb8 r |
+    R2 * 5 |
+    r4 fad-\pp ~ |
+    fad8 r si,-\semprepp r |
+    si r sib r |
+    la r solb'-\semprepp( fa) |
+    r4 sib8( la) |
+    r4 re,8-\pp( do) |
+    r4 fa8( mib) |
+    R2 |
+    r8 r16 do-\pp( mib) r r8 |
 }
 
 oboiII_mvtI = \relative do''
@@ -165,10 +183,17 @@ oboiII_mvtI = \relative do''
     sol-\f) fa( mib) re( do) sib( la) sol( |
     fa8) re'-\f r do-.-\f |
     R2 * 2 |
+    \autoBeamOn
     sol2-\p-\cresc ~ |
     sol16 sol ~ sol sol ~ sol sol ~ sol fa( |
     mi) fa( sol) la( sib) do( re) mib( |
     fa) sol( la) sib( do) re( mib,) fa |
+    sib,8-.-\ff sib16.-. sib32-. sib8 r |
+    sib8-\ff-. sib16.-. sib32-. sib8 r |
+    R2 * 2 |
+    sib8-. sib16.-. sib32-. sib8 r |
+    sib-. sib16.-. sib32-. sib8 r |
+    R2 * 14 |
 }
 
 oboeI_mvtIV = \relative do'''

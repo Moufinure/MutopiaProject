@@ -1,4 +1,4 @@
-\version "2.20.0"
+\version "2.22.0"
 
 \include "common.ily"
 \include "flauti.ily"
@@ -13,6 +13,8 @@
 \include "cello.ily"
 \include "bass.ily"
 \include "voices.ily"
+
+#(set-global-staff-size 16)
 
 \book
 {
@@ -37,7 +39,7 @@
                 \set Staff.instrumentName = "Flauti"
                 \set Staff.shortInstrumentName = "Fl"
                 \set Staff.midiInstrument = "flute"
-                \partcombine
+                \partCombine
                 \flautoI_ouverture
                 \flautoII_ouverture
             }
@@ -46,7 +48,7 @@
                 \set Staff.instrumentName = "Oboi"
                 \set Staff.shortInstrumentName = "Ob"
                 \set Staff.midiInstrument = "oboe"
-                \partcombine
+                \partCombine
                 \oboeI_ouverture
                 \oboeII_ouverture
             }
@@ -55,7 +57,7 @@
                 \set Staff.instrumentName = "Clarinet in A"
                 \set Staff.shortInstrumentName = "ClA"
                 \set Staff.midiInstrument = "clarinet"
-                \partcombine
+                \partCombine
                 \clarinetI_ouverture
                 \clarinetII_ouverture
             }
@@ -64,7 +66,7 @@
                 \set Staff.instrumentName = "Fagotti"
                 \set Staff.shortInstrumentName = "Fg"
                 \set Staff.midiInstrument = "bassoon"
-                \partcombine
+                \partCombine
                 \fagottiI_ouverture
                 \fagottiII_ouverture
             }
@@ -73,7 +75,7 @@
                 \set Staff.instrumentName = "Corni in D"
                 \set Staff.shortInstrumentName = "Crn"
                 \set Staff.midiInstrument = "french horn"
-                \partcombine
+                \partCombine
                 \corniI_ouverture
                 \corniII_ouverture
             }
@@ -82,7 +84,7 @@
                 \set Staff.instrumentName = "Trombe in D"
                 \set Staff.shortInstrumentName = "Trb"
                 \set Staff.midiInstrument = "trombone"
-                \partcombine
+                \partCombine
                 \trombeI_ouverture
                 \trombeII_ouverture
             }
@@ -157,7 +159,7 @@
             {
                 \set Staff.instrumentName = "Flauti"
                 \set Staff.shortInstrumentName = "Fl"
-                \partcombine
+                \partCombine
                 \flautoI_aI_sI_nI
                 \flautoII_aI_sI_nI
             }
@@ -165,7 +167,7 @@
             {
                 \set Staff.instrumentName = "Oboi"
                 \set Staff.shortInstrumentName = "Ob"
-                \partcombine
+                \partCombine
                 \oboeI_aI_sI_nI
                 \oboeII_aI_sI_nI
             }
@@ -173,7 +175,7 @@
             {
                 \set Staff.instrumentName = "Fagotti"
                 \set Staff.shortInstrumentName = "Fg"
-                \partcombine
+                \partCombine
                 \fagottiI_actI_nI
                 \fagottiII_actI_nI
             }
@@ -181,7 +183,7 @@
             {
                 \set Staff.instrumentName = "Corni in G"
                 \set Staff.shortInstrumentName = "CrG"
-                \partcombine
+                \partCombine
                 \corniI_actI_nI
                 \corniII_actI_nI
             }
@@ -224,7 +226,7 @@
             {
                 \set Staff.instrumentName = "Violoncello e Basso"
                 \set Staff.shortInstrumentName = "CBa+Vlc"
-                %\partcombine
+                %\partCombine
                 %\cello_actI_nI
                 \bass_actI_nI
             }
@@ -267,7 +269,7 @@
             {
                 \set Staff.instrumentName = "Corni in Es"
                 \set Staff.shortInstrumentName = "CrnEs"
-                \partcombine
+                \partCombine
                 \corniI_actII_nXI
                 \corniII_actII_nXI
             }
@@ -303,7 +305,7 @@
             {
                 \set Staff.instrumentName = "Basso e Vcello"
                 \set Staff.shortInstrumentName = "Ba+Vlc"
-                %\partcombine
+                %\partCombine
                 %\cello_actII_nXI
                 \bass_actII_nXI
             }

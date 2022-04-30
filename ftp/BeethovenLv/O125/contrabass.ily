@@ -1044,7 +1044,7 @@ contrabass_mvtII = \relative do
     lad,4.-\ff lad'8 lad4 |
     R2. |
     si,4.-\ff si'8 si4 |
-    R2.-\fermataMarkup |
+    R2.-\fermata |
     \bar "||"
     \key sol \major
     R2. |

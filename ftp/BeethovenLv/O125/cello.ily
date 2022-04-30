@@ -412,8 +412,10 @@ cello_mvtI = \relative do
     sold8 la4 la16. la32 |
     la8 sib16. sib32 sib8 si16. si32 |
     si8 do16. do32 dod8 la16. la32 |
-    la2\p ~ |
-    \repeat unfold 4 { la ~ | }
+					  la2\p ~ |
+					  \repeat unfold 6 { la ~ | }
+					  la |
+					  re,4-\semprep ~ re16 fa-\p-. mi-. re-. |
     la8 sol-. mi-. la ~ |
     la fa-. re-. la' ~ |
     la fa-. re-. sib' ~ |

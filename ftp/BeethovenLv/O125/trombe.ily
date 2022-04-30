@@ -56,7 +56,7 @@ trombeI_mvtI = \relative do''
     do8-.-\ff do16.-. do32-. do8 r |
     R2 * 3 |
     do8-.-\ff do16.-. do32-. do8 r |
-    R2 |
+    R2 * 15 |
 }
 
 trombeII_mvtI = \relative do'
@@ -115,7 +115,7 @@ trombeII_mvtI = \relative do'
     do8-.-\ff do16.-. do32-. do8 r |
     R2 * 3 |
     do8-.-\ff do16.-. do32-. do8 r |
-    R2 |
+    R2 * 15 |
 }
 
 trombeI_mvtIV = \relative do''
