@@ -235,7 +235,128 @@ fagottoI_mvtIV = \relative do,
     la sol sol fad fad fad |
     fad4 r r8 fa |
     fa4 r r |
-    R2. |
+    R2. * 3 |
+    r4 sib8-\f r sib r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    dod,2-\pp ~ |
+    dod ~ |
+    dod ~ |
+    dod4 ~ dod8.. mi32 |
+    la,8( dod4.)  ~ |
+    dod2 ~ |
+    dod ~ |
+    dod4 ~ dod8.. la'32 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    fad4-\f r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 3 |
+    \bar "||"
+    \tempo "Vivace"
+    si4-\p do-. re-. |
+    mi-. re-. do-. |
+    re-. do-. si-. |
+    do r r |
+    do4. do,8 do4 |
+    fa-. sol-. la-. |
+    sol la sib |
+    la sol fa |
+    R2. * 7 |
+    \bar "||"
+    \time 4/4
+    \key sib \major
+    \tempo "Adagio cantabile"
+    re'2-\markup { \italic "dolce" }( do |
+    sib fa4. mib8) |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    re4 r r |
+    R2. * 9 |
+    r4 r sold-\p( |
+    si2.) |
+    \bar "||"
+    \time 4/4
+    \key re \major
+    \tempo "Allegro assai"
+    dod4-\markup { \italic "dolce" } dod( re mi) |
+    mi( re dod si) |
+    mi, mi( fad sol) |
+    sol( fad mi' re) |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    dod-\f mi-. r |
+    r dod-. r |
+    r sol-. r |
+    r fad-. r |
+    R2. * 3 |
+    r4 sol-\f sol'8 r |
+    R2. * 2 |
+    la,4-\ff r re, |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 24 |
+    r2. \clef tenor fad'4-\p( |
+    re4. mi8 fad4) \clef bass si, ~ |
+    si( la sol fad) ~ |
+    fad( la re dod) |
+    r \clef tenor re2( mi8 fad) |
+    re4.( mi8 fad4 si,) ~ |
+    si( la8 sol fad mi' re dod |
+    si4 dod re) r |
+    R1 |
+    \clef tenor
+    dod2.-\p( si8 dod) |
+    re2( mi) |
+    re4-\cresc( mi ~ mi re) ~ |
+    re8-\p la re4 ~ re8 mi fad4 ~ |
+    fad8 re mi4( fad si,) ~ |
+    si la8( sol fad mi' re dod |
+    si4 dod re) r |
+    R1 |
+    la2( ~ la8 fad sol la) |
+    si2( dod |
+    re4-\cresc mi2 re4) ~ |
+    re8-\p la re4. mi8 fad4 ~ |
+    fad8 re mi4( fad8 la, si dod) |
+    re( si la sol fad mi re dod) |
+    si4 si'8( dod) re-! la( si dod) |
+    re4 r r2 |
+    R1 |
+    re2( mi4 fad) |
+    fad4.( mi8 mi2) |
+    R1 * 2 |
+    re2( mi4 fad) |
+    mi4.( re8) re2 |
+    R1 * 2 |
+    mi4( fad8 sol fad4 mi) |
+    re-\cresc( mi la, fad'-\!) |
+    R1 * 2 |
+    re2( mi4 fad) |
+    mi4.( re8) re2 |
+    R1 * 2 |
+    mi4( fad8 sol fad4 mi) |
+    re( mi la, fad') |
+    R1 * 2 |
+    re2-\cresc( mi4 fad |
+    mi4. re8) re2 |
+    fad,-\f( sol4 la) |
+    la( sol) fad-.( mi-.) |
+    fad fad( mi fad) |
+    fad4.( mi8) mi2 |
+    fad2-\f( sol4 la) |
+    la( sol) fad-.( mi-.) |
+    fad-.( fad-. mi-. fad-.)
+    mi4.( fad8) fad2 |
+    mi( fad4 re) |
+    mi( fad8 sol) fad4( re) |
+    mi( fad8 sol) fad'4( mi) |
 }
 
 fagottoII_mvtIV = \relative do,
@@ -263,7 +384,80 @@ fagottoII_mvtIV = \relative do,
     la sol sol fad fad fad |
     fad4 r r8 fa |
     fa4 r r |
-    R2. |
+    R2. * 3 |
+    r4 sib8-\f r sib r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    dod2-\pp ~ |
+    \repeat unfold 6 { dod ~ } |
+    dod4 ~ dod8.. la32 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    fad4-\f r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 3 |
+    \bar "||"
+    \tempo "Vivace"
+    sold'4-\p-. la-. si-. |
+    do-. si-. la-. |
+    si-. la-. sold-. |
+    la r r |
+    do,4. do,8 do4 |
+    fa-. sol-. la-. |
+    sol la sib |
+    la sol fa |
+    R2. * 7 |
+    \bar "||"
+    \time 4/4
+    \key sib \major
+    \tempo "Adagio cantabile"
+    sib2-\markup { \italic "dolce" }( mib |
+    re la) |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    sib 4 r r |
+    R2. * 9 |
+    r4 r sold'-\p ~ |
+    sold2. |
+    \bar "||"
+    \time 4/4
+    \key re \major
+    \tempo "Allegro assai"
+    la4-\markup { \italic "dolce" } mi( fad sol) |
+    sol( fad mi re) |
+    dod dod( re mi) |
+    mi( re sol fad) |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    mi-\f mi-. r |
+    r dod-. r |
+    r sol-. r |
+    r fad-. r |
+    R2. * 3 |
+    r4 sol-\f sol'8 r |
+    R2. * 2 |
+    la,4-\ff r re, |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 72 |
+    \clef bass
+    re'2-\f( mi4 fad) |
+    fad( mi) re-.( la-.) |
+    re re( dod re) |
+    re4.( la8) la2 |
+    re2-\f( mi4 fad) |
+    fad( mi) re-.( la-.) |
+    re-.( re-. dod-. re-.) |
+    dod4. re8 re2 |
+    dod( re4 sol,) |
+    dod( re8 mi) re4 re |
+    dod( re8 mi) dod'4 dod |
 }
 
 contrafagotto_mvtIV = \relative do,
@@ -291,5 +485,58 @@ contrafagotto_mvtIV = \relative do,
     la sol sol fad fad fad |
     fad4 r r8 fa |
     fa4 r r |
-    R2. |
-}
+    R2. * 3 |
+    r4 sib8-\f r sib r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    dod2-\pp ~ |
+    \repeat unfold 6 { dod ~ } |
+    dod4 ~ dod8.. la32 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    fad4-\f r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 3 |
+    \bar "||"
+    \tempo "Vivace"
+    R2. * 8 |
+    \tempo "Tempo I."
+    R2. * 7 |
+    \bar "||"
+    \key sol \minor
+    \time 4/4
+    \tempo "Adagio cantabile"
+    R1 * 2 |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    R2. * 12 |
+    \bar "||"
+    \key re \major
+    \time 4/4
+    \tempo "Allegro assai"
+    R1 * 4 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    R2. * 11 |
+    \bar "||"
+    \key re \major
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 72 |
+    re'2-\f( mi4 fad) |
+    fad( mi) re-.( la-.) |
+    re re( dod re) |
+    re4.( la8) la2 |
+    re2-\f( mi4 fad) |
+    fad( mi) re-.( la-.) |
+    re-.( re-. dod-. re-.) |
+    dod4. re8 re2 |
+    dod( re4 sol,) |
+    dod( re8 mi) re4 re |
+    dod( re8 mi) dod'4 dod |
+  }

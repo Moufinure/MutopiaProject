@@ -471,7 +471,7 @@ contrabass_mvtI = \relative do
     }
     re(-\cresc dod do si |
     sib la si dod) |
-    \repeat unfold 2 
+    \repeat unfold 3
     {
         re( dod do si |
         sib la si dod) |
@@ -1110,165 +1110,171 @@ contrabass_mvtIV = \relative do
     mi( sol,) sol4. la8 |
     sib4 sib'2-> ~ |
     sib4-\dim la4. mi8 |
-    sol4( fa)-\p) r |
+    sol4-\p( fa) r |
     R2. * 7 |
     r8 fad8-\f la4 r |
     r r8 fa do' do |
     mib4. mib8 do sib |
-%     sib( la) la la sib do |
-%     do( fa,) r mib mib re |
-%     do sib r4 r |
-%     \bar "||"
-%     \time 2/4
-%     \tempo "Allegro ma non troppo" 2 = 88
-%     dod2-\pp ~ |
-%     \repeat unfold 6 { dod ~ | }
-%     dod |
-%     \bar "||"
-%     \time 3/4
-%     \tempo "Tempo I."
-%     fad8-\f fad mib'2-\ff ~ |
-%     mib4. mib8 mib do |
-%     sib la do fad, sol la |
-%     la do, re mib ~ mib re |
-%     re4. do8 do si |
-%     si fa' fa mi4 re8 |
-%     re-\dim si' si-"rit." si si do |
-%     \tempo "Poco adagio"
-%     re2.( |
-%     do2 si4) |
-%     re( do-\!) r-\fermata |
-%     R2. * 8 |
-%     fa4-\f^"arco" do r |
-%     r do sib8 do |
-%     sib( la) la4 fa ~ |
-%     fa4. fa8 fa sol |
-%     sib la r la la sib |
-%     re la la-\dim la la re |
-%     mib4-\! r r |
-%     \bar "||"
-%     \time 4/4
-%     \key sol \minor
-%     \tempo "Adagio cantabile"
-%     R1 * 2 |
-%     \bar "||"
-%     \time 3/4
-%     \tempo "Allegro"
-%     sib2.-\p ~ |
-%     sib2( dob4) |
-%     dob2( lab4 |
-%     solb2 fa4) |
-%     r r fa( |
-%     lab2 reb4) |
-%     dod-\cresc fad,4. la8 |
-%     la4 sid,8-. red'-. red-. dod-. |
-%     dod sid sid red red mi |
-%     fad4.-\ff red8 sid dod |
-%     dod4 sold r |
-%     R2. |
-%     \bar "||"
-%     \key re \major
-%     \time 4/4
-%     R1 * 3 |
-%     r2 la4\f r |
-%     \time 3/4
-%     mi'\f^"Tempo primo" r re8 mi |
-%     re dod r4 r8 mi |
-%     mi4 sol,4. la8 |
-%     sol4 fad la8.( re16) |
-%     re4. mi8( fad mi) |
-%     mi( re re dod re la |
-%     sol fad) fad( mi re do) |
-%     do( si) sol'2\sf ~ |
-%     sol4. mi8 dod re |
-%     re4 la r |
-%     R2. |
-%     \bar "||"
-%     \tempo "Allegro assai" 2 = 88
-%     \time 4/4
-%     fad'2\p sol4( la) |
-%     la( sol fad mi) |
-%     re2 mi4( fad) |
-%     fad4.( mi8) mi2 |
-%     fad( sol4 la) |
-%     la( sol fad mi) |
-%     re2( mi4 fad) |
-%     mi4.( re8) re2 |
-%     mi( fad4 re) |
-%     mi( fad8 sol fad4 re) |
-%     mi4( fad8 sol fad4 mi) |
-%     re-\cresc( mi la,) fad' ~ |
-%     fad-\p fad( sol la) |
-%     la( sol fad mi) |
-%     re2( mi4 fad) |
-%     mi4.( re8 re2) |
-%     mi( fad4 re) |
-%     mi( fad8 sol fad4 re) |
-%     mi( fad8 sol fad4 mi) |
-%     re\cresc( mi la,) fad' ~ |
-%     fad\p fad( sol la) |
-%     la( sol fad mi) |
-%     re2( mi4 fad) |
-%     mi4.( re8 re4) la' ~ |
-%     la2-\semprep( re,) |
-%     si4.( dod8 re4) sol ~ |
-%     sol( fad mi re) ~ |
-%     re( dod si la) |
-%     la'2( re,) |
-%     si4.( dod8 re4) sol ~ |
-%     sol fad8( mi re dod si la)
-%     sol4( la fad) fad'( |
-%     sol2 la4 si) |
-%     dod,2( re4 mi8 fad) |
-%     sol2( la4 lad) |
-%     si\cresc do2 re4( |
-%     la2\p)( do,) |
-%     sib4.( dod8 re4) sol ~ |
-%     sol fad8( mi re dod si la) |
-%     sol4( la fad fad') |
-%     sol2( la4 si) |
-%     dod,2( re4 mi8 fad) |
-%     sol2( la4 lad) |
-%     si\cresc dod2 re4 |
-%     la2\p( do, |
-%     si4. dod8 re4) sol ~ |
-%     sol fad8( mi re dod si la) |
-%     sol4( la) fad8( sol' fad mi) |
-%     re1 ~ |
-%     re ~ |
-%     re4 re( dod si) |
-%     la2 ~ la8 sol'( fad mi) |
-%     re1 ~ |
-%     re ~ |
-%     re8 mi'( re dod si la sol fad) |
-%     la4( la, re) la' ~ |
-%     la1 ~ |
-%     la ~ |
-%     la2.( fad4 |
-%     si\cresc sol2 fad8 mi) |
-%     re1\p ~ |
-%     re ~ |
-%     re4 re'8( dod si la sol fad) |
-%     la4( la, re) la' ~ |
-%     la1\cresc ~ |
-%     la ~ |
-%     la2.( fad4 |
-%     si sol2 fad8 mi) |
-%     re1 ~ |
-%     re ~ |
-%     re4 re'8( dod si la sol fad |
-%     la4)( la, re8 sol fad mi) |
-%     re'4\f r8 re, re'4 r8 re, |
-%     la'4 r8 la, la'4 r8 la, |
-%     re4 r r re |
-%     la' r la, r |
-%     re' r8 re, re'4 r8 re, |
-%     la'4 r8 la, la'4 r8 la, |
-%     re4 r r re |
-%     la r re r |
-%     la r8 la la'4 re, |
-%     la r8 la la'4 re, |
-%     la r8 la' lad r fad r |
+    sib( la) la la sib do |
+    do( fa,) r mib mib re |
+    do sib r4 r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    dod2-\pp ~ |
+    \repeat unfold 6 { dod ~ | }
+    dod |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    fad8-\f fad mib'2-\ff ~ |
+    mib4. mib8 mib do |
+    sib la do fad, sol la |
+    la do, re mib ~ mib re |
+    re4. do8 do si |
+    si fa' fa mi4 re8 |
+    re-\dim si' si-"rit." si si do |
+    \tempo "Poco adagio"
+    re2.( |
+    do2 si4) |
+    re( do-\!) r-\fermata |
+    \bar "||"
+    \tempo "Vivace"
+    R2. * 8 |
+    \tempo "Tempo I."
+    fa4-\f^"arco" do r |
+    r do sib8 do |
+    sib( la) la4 fa ~ |
+    fa4. fa8 fa sol |
+    sib la r la la sib |
+    re do do-\dim do do re |
+    mib4-\! r r |
+    \bar "||"
+    \time 4/4
+    \key sib \major
+    \tempo "Adagio cantabile"
+    R1 * 2 |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    sib2.-\p ~ |
+    sib2( dob4) |
+    dob2( lab4 |
+    solb2 fa4) |
+    r r fa( |
+    lab2 reb4) |
+    dod-\cresc fad,4. la8 |
+    la4 sid,8-. red'-. red-. dod-. |
+    dod sid sid red red mi |
+    fad4.-\ff red8 sid dod |
+    dod4 sold r |
+    R2. |
+    \bar "||"
+    \key re \major
+    \time 4/4
+    \tempo "Allegro assai"
+    R1 * 3 |
+    r2 la4\f r |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    mi'\f r re8 mi |
+    re dod r4 r8 mi |
+    mi4 sol,4. la8 |
+    sol4 fad la8.( re16) |
+    re4. mi8( fad mi) |
+    mi( re re dod re la |
+    sol fad) fad( mi re do) |
+    do( si) sol'2\sf ~ |
+    sol4. mi8 dod re |
+    re4 la r |
+    R2. |
+    \bar "||"
+    \tempo "Allegro assai" 2 = 88
+    \time 4/4
+    fad'2\p sol4( la) |
+    la( sol fad mi) |
+    re2 mi4( fad) |
+    fad4.( mi8) mi2 |
+    fad( sol4 la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8) re2 |
+    mi( fad4 re) |
+    mi( fad8 sol fad4 re) |
+    mi4( fad8 sol fad4 mi) |
+    re-\cresc( mi la,) fad' ~ |
+    fad-\p fad( sol la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8 re2) |
+    mi( fad4 re) |
+    mi( fad8 sol fad4 re) |
+    mi( fad8 sol fad4 mi) |
+    re\cresc( mi la,) fad' ~ |
+    fad\p fad( sol la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8 re4) la' ~ |
+    la2-\semprep( re,) |
+    si4.( dod8 re4) sol ~ |
+    sol( fad mi re) ~ |
+    re( dod si la) |
+    la'2( re,) |
+    si4.( dod8 re4) sol ~ |
+    sol fad8( mi re dod si la)
+    sol4( la fad) fad'( |
+    sol2 la4 si) |
+    dod,2( re4 mi8 fad) |
+    sol2( la4 lad) |
+    si\cresc dod2 re4( |
+    la2\p)( do,) |
+    si4.( dod8 re4) sol ~ |
+    sol fad8( mi re dod si la) |
+    sol4( la fad fad') |
+    sol2( la4 si) |
+    dod,2( re4 mi8 fad) |
+    sol2( la4 lad) |
+    si\cresc dod2 re4 |
+    la2\p( do, |
+    si4. dod8 re4) sol ~ |
+    sol fad8( mi re dod si la) |
+    sol4( la) fad8( sol' fad mi) |
+    re1 ~ |
+    re ~ |
+    re4 re( dod si) |
+    la2 ~ la8 sol'( fad mi) |
+    re1 ~ |
+    re ~ |
+    re8 mi'( re dod si la sol fad) |
+    la4( la, re) la' ~ |
+    la1 ~ |
+    la ~ |
+    la2.( fad4 |
+    si\cresc sol2 fad8 mi) |
+    re1\p ~ |
+    re ~ |
+    re4 re'8( dod si la sol fad) |
+    la4( la, re) la' ~ |
+    la1\cresc ~ |
+    la ~ |
+    la2.( fad4 |
+    si sol2 fad8 mi) |
+    re1 ~ |
+    re ~ |
+    re4 re'8( dod si la sol fad |
+    la4)( la, re8 sol fad mi) |
+    re'4\f r8 re, re'4 r8 re, |
+    la'4 r8 la, la'4 r8 la, |
+    re4 r r re |
+    la' r la, r |
+    re' r8 re, re'4 r8 re, |
+    la'4 r8 la, la'4 r8 la, |
+    re4 r r re |
+    la r re r |
+    la r8 la la'4 re, |
+    la r8 la la'4 re, |
+    la r8 la' lad r fad r |
 %     si r mi, r la r la, r |
 %     re'4 r8 fad, re'4 r8 re, |
 %     la'4 r8 la, la'4 r8 la, |

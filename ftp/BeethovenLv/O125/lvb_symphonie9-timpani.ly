@@ -12,19 +12,33 @@
 
 \header {
     title = "Symphonie n. 9 en ré mineur"
-    composer = "Ludwig von Beethoven"
+    composer = "Ludwig van Beethoven"
     opus = "Op. 125"
     instrument = "Timpani in D. A."
 }
 
 \score {
     \header {
-        piece = "Mouvement I"
+        piece = "I."
     }
     
     \new Staff
     {
-        \compressFullBarRests
+        \compressEmptyMeasures
         \timpani_mvtI
     }
+  }
+
+\score
+{
+  \header
+  {
+    piece = "IV."
+  }
+
+  \new Staff
+  {
+    \compressEmptyMeasures
+    \timpani_mvtIV
+  }
 }

@@ -65,7 +65,7 @@ timpani_mvtIV = \relative do
     \time 3/4
     \tempo "Presto" 2. = 96
     
-    \partial 4 la4:16 |
+    \partial 4 la4:16-\ff |
     la2.:16 |
     la:16 |
     la16 re re re re2:16 |
@@ -79,5 +79,65 @@ timpani_mvtIV = \relative do
     re4:16 re16 re la la la4:16 |
     la4 r r8 la |
     la4 r r |
-    R2. |
+    R2. * 3 |
+    r4 re8-\f r re r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    la4-\p r |
+    R2 * 2 |
+    r4 r8 r16. la32-\pp |
+    la4 r |
+    R2 * 2 |
+    r4 r8 r16. la32 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    la4-\f r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 3 |
+    \bar "||"
+    \tempo "Vivace"
+    R2. * 8 |
+    \tempo "Tempo I."
+    R2. * 7 |
+    \bar "||"
+    \time 4/4
+    \tempo "Adagio cantabile"
+    R1 * 2 |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    R2. * 12 |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai"
+    R1 * 4 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    R2. * 2 |
+    r4 la-\f r |
+    r re2:8-\f |
+    re4 r r |
+    R2. * 2 |
+    r4 re-\f re8 r |
+    R2. * 2 |
+    la4-\ff r re |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 72 |
+    re4-\f r8 re re4 r8 re |
+    la4 r8 la la4 r8 la |
+    re4 r r re |
+    la r la r |
+    re4 r8 re re4 r8 re |
+    la4 r8 la la4 r8 la |
+    re4 r r re |
+    la r re r |
+    la r8 la la4 re |
+    la r8 la la4 re |
+    la r r2 |
 }

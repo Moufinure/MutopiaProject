@@ -506,7 +506,7 @@ viola_mvtI = \relative do'
     \bar "|."
 }
 
-viola_mvtIV = \relative do'
+viola_mvtIV = \relative do
 {
     \clef alto
     \key re \minor
@@ -514,5 +514,110 @@ viola_mvtIV = \relative do'
     
     \tempo "Presto" 2. = 96
     \partial 4 r4 |
-    R2. * 26 |
+    R2. * 29 |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    R2 * 8 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    <fad la>4-\f r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 2 |
+    r4 r r-\fermata |
+    \bar "||"
+    \tempo "Vivace"
+    mi'4^\markup { "pizz." } r r |
+    la, r r |
+    mi r r |
+    la r r |
+    do r r |
+    fa, r r |
+    <do do'> r r |
+    fa r r |
+    \tempo "Tempo I."
+    R2. * 7 |
+    \bar "||"
+    \key sib \major
+    \time 4/4
+    \tempo "Adagio cantabile"
+    R1 * 2 |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    R2. * 12 |
+    \bar "||"
+    \time 4/4
+    \key re \major
+    \tempo "Allegro assai"
+    R1 * 4 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    R2. * 11 |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 24 |
+    fad'2-\p( sol4 la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    fad( mi) mi2 |
+    fad-\semprep( sol4 la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8) re2 |
+    mi2( fad4 re) |
+    mi( fad8 sol fad4 re) |
+    mi( fad8 sol fad4 mi) |
+    re-\cresc( mi la,) fad' ~ |
+    fad-\p fad( sol la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8) re2 |
+    mi( fad4 re) |
+    mi( fad8 sol fad4 re) |
+    mi( fad8 sol fad4 mi) |
+    re-\cresc( mi la,) fad' ~ |
+    fad-\p fad( sol la) |
+    la( sol fad mi) |
+    re2( mi4 fad) |
+    mi4.( re8) re2 |
+    la'( re,) |
+    si4.( dod8 re4) sol ~ |
+    sol( fad mi re) ~ |
+    re dod( si la) |
+    la'2( re,) |
+    si4.( dod8 re4) sol ~ |
+    sol fad8( mi re dod si la) |
+    sol4( la fad) fad'( |
+    sol2 la4 si, |
+    dod2) re4( mi8 fad) |
+    sol2( la8 la, lad4) |
+    si-\cresc( dod2 re4) |
+    la'2-\p( do,) |
+    si4.( dod8 re4) sol ~ |
+    sol fad8( mi re dod si la) |
+    sol4( la fad) fad'( |
+    sol2-\cresc la4 la,) |
+    dod2( re4 mi8 fad) |
+    sol2 la8( la, lad4) |
+    si4( dod2 re4) |
+    la'2( do,) |
+    si4.( dod8 re4 sol) ~ |
+    sol fad8( mi re dod si la) |
+    sol4( la fad8 si la sol) |
+    <fad re'>4-\f r8 re re'4 r8 re, |
+    la''4 r8 la, la'4 r8 la, |
+    <la fad' re'>4 r r <la fad' re'> |
+    <la fad' re'> r <la mi' dod'> r |
+    <re re'> r8 re, re'4 r8 re, |
+    la''4 r8 la, la'4 r8 la, |
+    re4 r r <la fad' re'> |
+    <la mi' dod'> r <la fad' re'> r |
+    <la mi' dod'> r8 la la'4 <la, fad' re'> |
+    <la mi' dod'> r8 la la'4 <la, fad' re'> |
+    <la mi' dod'> r8 la <dod fad> r <dod mi> r |
 }

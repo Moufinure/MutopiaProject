@@ -221,7 +221,70 @@ flautoI_mvtIV = \relative do'''
     do re re mib mib mib |
     mib4 r r8 mib |
     mib4 r r |
-    R2. |
+    R2. * 3 |
+    r4 fa8-\f r sol r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    la2-\pp ~ |
+    \repeat unfold 7 { la ~ } |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    la4-\f r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 3 |
+    \tempo "Vivace"
+    mi4.-\p mi,8 mi4 |
+    la-. si-. do-. |
+    si-. do-. re-. |
+    do-. si-. la-. |
+    sib la sol |
+    la sib do |
+    mi fa sol |
+    fa sol la |
+    \tempo "Tempo I."
+    R2. * 7 |
+    \bar "||"
+    \time 4/4
+    \key sib \major
+    \tempo "Adagio cantabile"
+    re,2-\markup { \italic "dolce" }( la |
+    sib4) r r2 |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    R2. * 4 |
+    reb,2.-\p ~ |
+    reb( |
+    dod2-\cresc) fad4 ~ |
+    fad2-\! r4 |
+    R2. * 4 |
+    \bar "||"
+    \time 4/4
+    \key re \major
+    \tempo "Allegro assai"
+    R1 * 4 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    r4 dod'-\f r |
+    r mi-. r |
+    r mi-. r |
+    r re r |
+    R2. * 3 |
+    r4 si-\f sol'8 r |
+    R2. * 2 |
+    mi4-\ff r fad |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 72 |
+    fad2-\f( sol4 la) |
+    la( sol) fad-.( mi-.) |
+    re re( mi fad) |
+    fad4.( mi8) mi2 |
 }
 
 flautoII_mvtIV = \relative do''
@@ -248,5 +311,55 @@ flautoII_mvtIV = \relative do''
     do re re mib do do |
     do4 r r8 do |
     do4 r r |
-    R2. |
+    R2. * 3 |
+    r4 re8-\f r re r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    la2-\pp ~ |
+    \repeat unfold 7 { la ~ } |
+    \bar "||"
+    \time 3/4 |
+    \tempo "Tempo I."
+    la4-\f r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 3 |
+    \tempo "Vivace"
+    R2. * 8 |
+    \tempo "Tempo I."
+    R2. * 7 |
+    \bar "||"
+    \time 4/4
+    \key sib \major
+    \tempo "Adagio cantabile"
+    R1 * 2 |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    R2. * 12 |
+    \bar "||"
+    \time 4/4
+    \key re \major
+    \tempo "Allegro assai"
+    R1 * 4 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    r4 dod-\f r |
+    r sol-. r |
+    r dod-. r |
+    r la r |
+    R2. * 3 |
+    r4 si-\f si8 r |
+    R2. * 2 |
+    dod4-\ff r re |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 72 |
+    re2-\f( mi4 fad) |
+    fad( mi) re-.( la-.) |
+    fad fad( la re) |
+    re4.( dod8) dod2 |
 }

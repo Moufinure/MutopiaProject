@@ -30,135 +30,6 @@
         title = "Symphonie n. 9 en ré mineur"
         opus = "Op. 125"
     }
-
-    \score
-    {
-        \header
-        {
-            piece = "Mouvement I"
-        }
-
-        <<
-            \new StaffGroup = "woodwinds"
-            <<
-                \new Staff
-                {
-                    \set Staff.instrumentName = "Flauti"
-                    \set Staff.shortInstrumentName = "Flt"
-
-                    \partCombine
-                    \flautiI_mvtI
-                    \flautiII_mvtI
-                }
-                \new Staff
-                {
-                    \set Staff.instrumentName = "Oboi"
-                    \set Staff.shortInstrumentName = "Ob"
-
-                    \partCombine
-                    \oboiI_mvtI
-                    \oboiII_mvtI
-                }
-                \new Staff
-                {
-                    \set Staff.instrumentName = "Clarinet in B"
-                    \set Staff.shortInstrumentName = "Clr"
-
-                    \partCombine
-                    \clarinetI_mvtI
-                    \clarinetII_mvtI
-                }
-                \new Staff
-                {
-                    \set Staff.instrumentName = "Fagotti"
-                    \set Staff.shortInstrumentName = "Fg"
-
-                    \partCombine
-                    \fagottiI_mvtI
-                    \fagottiII_mvtI
-                }
-            >>
-            \new StaffGroup = "winds"
-            <<
-                \new Staff
-                {
-                    \set Staff.instrumentName = "Corni in D"
-                    \set Staff.shortInstrumentName = "CrD"
-
-                    \partCombine
-                    \corniI_mvtI
-                    \corniII_mvtI
-                }
-                \new Staff
-                {
-                    \set Staff.instrumentName = "Corni in B basso"
-                    \set Staff.shortInstrumentName = "CrB"
-
-                    \partCombine
-                    \corniBassI_mvtI
-                    \corniBassII_mvtI
-                }
-                \new Staff
-                {
-                    \set Staff.instrumentName = "Trombe in D"
-                    \set Staff.shortInstrumentName = "Trb"
-
-                    \partCombine
-                    \trombeI_mvtI
-                    \trombeII_mvtI
-                }
-            >>
-            \new Staff
-            {
-                \set Staff.instrumentName = "Timpani in D. A."
-                \set Staff.shortInstrumentName = "Tmp"
-
-                \timpani_mvtI
-            }
-            \new StaffGroup = "strings"
-            <<
-                \new GrandStaff = "violins"
-                <<
-                    \new Staff
-                    {
-                        \set Staff.instrumentName = "Violino I"
-                        \set Staff.shortInstrumentName = "Vl1"
-
-                        \violinoI_mvtI
-                    }
-                    \new Staff
-                    {
-                        \set Staff.instrumentName = "Violino II"
-                        \set Staff.shortInstrumentName = "Vl2"
-
-                        \violinoII_mvtI
-                    }
-                >>
-                \new Staff
-                {
-                    \set Staff.instrumentName = "Viola"
-                    \set Staff.shortInstrumentName = "Alt"
-
-                    \viola_mvtI
-                }
-                \new Staff
-                {
-                    \set Staff.instrumentName = "Violoncello"
-                    \set Staff.shortInstrumentName = "Vlc"
-
-                    \cello_mvtI
-                }
-                \new Staff
-                {
-                    \set Staff.instrumentName = "Basso"
-                    \set Staff.shortInstrumentName = "Cba"
-
-                    \contrabass_mvtI
-                }
-            >>
-        >>
-    }
-
     \score
     {
         \header
@@ -280,7 +151,7 @@
         >>
     }
 }
-
+    
 \layout {
     indent = 3.0\cm
     short-indent = 1.5\cm

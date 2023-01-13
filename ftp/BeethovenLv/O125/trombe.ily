@@ -143,7 +143,68 @@ trombeI_mvtIV = \relative do''
     sib4 r8 sib sib sib |
     sib4 r r8 sib |
     sib4 r r |
-    R2. |
+    R2.  * 3 |
+    r4 do8-\f r do r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    sol4-\p r |
+    R2 * 2 |
+    r4 r8 r16. sol32-\pp |
+    sol4 r |
+    R2 * 2 |
+    r4 r8 r16. sol32 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    sol4-\f r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 3 |
+    \bar "||"
+    \tempo "Vivace"
+    R2. * 8 |
+    \tempo "Tempo I."
+    R2. * 7 |
+    \bar "||"
+    \key do \major
+    \time 4/4
+    \tempo "Adagio cantabile"
+    R1 * 2 |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    R2. * 12 |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai"
+    R1 * 4 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    R2. * 2 |
+    r4 sol-\f r |
+    r do2:8-\f |
+    do4 r r |
+    R2. * 2 |
+    r4 do-\f do8 r |
+    R2. * 2 |
+    re4-\ff r do |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 72 |
+    mi2-\f( fa4 sol) |
+    sol( fa) mi-.( re-.) |
+    do do( re mi) |
+    mi4.( re8) re2 |
+    mi( fa4 sol) |
+    sol( fa) mi-.( re-.) |
+    do-.( do-. re-. mi-.) |
+    re4.( do8) do2 |
+    re( mi4 do) |
+    re( mi8 fa) mi4 do |
+    re( mi8 fa) mi4 mi, |
 }
 
 trombeII_mvtIV = \relative do'
@@ -171,5 +232,66 @@ trombeII_mvtIV = \relative do'
     sib4 r8 sol sol sol |
     sol4 r r8 sol |
     sol4 r r |
-    R2. |
-}
+    R2. * 3 |
+    r4 do,8-\f r do r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    sol4-\p r |
+    R2 * 2 |
+    r4 r8 r16. sol32-\pp |
+    sol4 r |
+    R2 * 2 |
+    r4 r8 r16. sol32 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    sol4-\f r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 3 |
+    \bar "||"
+    \tempo "Vivace"
+    R2. * 8 |
+    \tempo "Tempo I."
+    R2. * 7 |
+    \bar "||"
+    \key do \major
+    \time 4/4
+    \tempo "Adagio cantabile"
+    R1 * 2 |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    R2. * 12 |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai"
+    R1 * 4 |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    R2. * 2 |
+    r4 sol-\f r |
+    r do2:8-\f |
+    do4 r r |
+    R2. * 2 |
+    r4 do-\f do8 r |
+    R2. * 2 |
+    sol'4-\ff r mi |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 72 |
+    do'2-\f( re4 mi) |
+    mi( re) do-.( sol-.) |
+    mi mi( sol do) |
+    do4.( sol8) sol2 |
+    do2( re4 mi) |
+    mi( re) do-.( sol-.) |
+    mi-.( mi-. sol-. do-.) |
+    sol4.( mi8) mi2 |
+    sol( do4 mi,) |
+    sol( do8 re do4) mi, |
+    sol( do8 re) mi,4 mi |
+  }

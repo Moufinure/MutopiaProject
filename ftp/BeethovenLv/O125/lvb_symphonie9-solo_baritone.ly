@@ -22,15 +22,15 @@
 {
   \new Staff
   <<
-    \compressFullBarRests
+    \compressEmptyMeasures
     \new Voice = "SoloBaritone"
     {
-    \baritone
+      \baritone_solo
     }
     \new Lyrics
     {
       \lyricsto "SoloBaritone"
-      \baritone_lyrics
+      \baritone_solo_lyrics
     }
   >>
 }

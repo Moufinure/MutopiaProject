@@ -220,7 +220,74 @@ oboeI_mvtIV = \relative do'''
     la sib sib do do do |
     do4 r r8 do |
     do4 r r |
-    R2. |
+    R2. * 3 |
+    r4 fa,8-\f r sol r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    mi2-\pp ~ |
+    \repeat unfold 6 { mi ~ } |
+    mi( |
+    mib4-\f) r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 3 |
+    \tempo "Vivace"
+    mi4.-\p mi,8 mi4 |
+    la-. si-. do-. |
+    sold'-. la-. si-. |
+    la-. sold-. la-. |
+    sol fa mi |
+    fa fa fa |
+    do4. do,8 do4 |
+    fa sol la |
+    \tempo "Tempo I."
+    R2. * 7 |
+    \bar "||"
+    \time 4/4
+    \key sib \major
+    \tempo "Adagio cantabile"
+    R1 |
+    sib'2( fa4.-\p mib8) |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    re4 r r |
+    R2. * 3 |
+    dob2.-\p ~ |
+    dob |
+    sibb2-\cresc dod4 ~ |
+    dod( red) r |
+    R2. * 2 |
+    r4 r mi-\p( ~ |
+    mi2 re4) |
+    \bar "||"
+    \time 4/4
+    \key re \major
+    \tempo "Allegro assai"
+    dod dod( re mi) |
+    mi( re dod si) |
+    mi mi( fad sol) |
+    sol( fad mi re) |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    dod-\f sol'-. r |
+    r sol-. r |
+    r dod-. r |
+    r re r |
+    R2. * 3 |
+    r4 re,-\f si'8 r |
+    R2. * 2 |
+    dod4-\ff r re |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 72 |
+    fad,2-\f( sol4 la) |
+    la( sol) fad-.( mi-.) |
+    re re( mi fad) |
+    fad4.( mi8) mi2 |
 }
 
 oboeII_mvtIV = \relative do''
@@ -247,5 +314,59 @@ oboeII_mvtIV = \relative do''
     do re re mib mib mib |
     mib4 r r8 mib |
     mib4 r r |
-    R2. |
+    R2. * 3 |
+    r4 re8-\f r re r |
+    \bar "||"
+    \time 2/4
+    \tempo "Allegro ma non troppo" 4 = 88
+    la2-\pp ~ |
+    \repeat unfold 7 { la ~ } |
+    la4-\f r r |
+    R2. * 6 |
+    \tempo "Poco adagio"
+    R2. * 3 |
+    \tempo "Vivace"
+    R2. * 8 |
+    \tempo "Tempo I."
+    R2. * 7 |
+    \bar "||"
+    \time 4/4
+    \key sib \major
+    \tempo "Adagio cantabile"
+    R1 |
+    r2 do-\p |
+    \bar "||"
+    \time 3/4
+    \tempo "Allegro"
+    sib4 r r |
+    R2. * 9 |
+    r4 r dod-\p( |
+    si2) r4 |
+    \bar "||"
+    \time 4/4
+    \key re \major
+    \tempo "Allegro assai"
+    la4-\markup { \italic "dolce" } r r2 |
+    R1 |
+    dod4 dod( re mi) |
+    mi( re) sol,( la) |
+    \bar "||"
+    \time 3/4
+    \tempo "Tempo I."
+    la-\f dod-. r |
+    r mi-. r |
+    r la-. r |
+    r la r |
+    R2. * 3 |
+    r4 si,-\f sol'8 r |
+    R2. * 2 |
+    mi4-\ff r fad |
+    \bar "||"
+    \time 4/4
+    \tempo "Allegro assai" 2 = 88
+    R1 * 72 |
+    re2-\f( mi4 fad) |
+    fad( mi) re-.( la-.) |
+    fad fad( la re) |
+    re4.( dod8) dod2 |
 }

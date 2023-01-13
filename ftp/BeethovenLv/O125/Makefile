@@ -1,10 +1,10 @@
-PREFIX?=/usr/bin
+#PREFIX?=/usr/bin/
 # Le préfixe au nom des fichiers résultants
 piece = lvb_symphonie9
 # Détermination du nombre de processeurs
 # CPU_CORES=`cat /proc/cpuinfo | grep -m1 "cpu cores" | sed s/".*: "//`
 # La commande d'appel à lilypond
-LILY_CMD = ${PREFIX}/lilypond -ddelete-intermediate-files \
+LILY_CMD = ${PREFIX}lilypond -ddelete-intermediate-files \
                     -dno-point-and-click
 
 # Les suffixes utilisés dans ce Makefile
@@ -89,7 +89,7 @@ parties: $(piece)-contrabass.pdf \
 	 $(piece)-trombeI.pdf \
 	 $(piece)-trombeII.pdf \
 	 $(piece)-flautiI.pdf \
-	 $(piece)-flautiII.pdf \
+	$(piece)-flautiII.pdf \
 	$(piece)_voices.ly
 
 # Lancer `make mouvements' pour générer un fichier séparé pour chacun
@@ -107,3 +107,11 @@ archive:
 	--exclude=*pdf --exclude=*~ \
 	--exclude=*midi --exclude=*.tar \
 	../Symphonie/*
+
+clean:
+	if test -f "PDF"; then \
+		rm "PDF/*"; \
+	fi; \
+	if test -f "MIDI"; then \
+		mv "MIDI/*"; \
+	fi
