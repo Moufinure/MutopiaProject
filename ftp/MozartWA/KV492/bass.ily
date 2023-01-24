@@ -277,7 +277,11 @@ bass_actI_nI = \relative do
     r sol ~ |
     sol4( fad8. mi16) fad4-. re-. |
     r2 la' ~ |
-    la4( sol8. fad16) sol8-. re-. si'4 |
+    la4( sol8. fad16) sol8-. re-. si'4 ~ |
+    si( la8. sol16) la8-. re,-. do'4 ~ |
+    do( si8. la16) si8-. sol-. mi'4 |
+    do r dod r |
+    re r re, dod |
 }
 
 bass_actII_nXI = \relative do'

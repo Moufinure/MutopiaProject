@@ -286,7 +286,7 @@ viola_actI_nI = \relative do'
     \clef alto
     \key sol \major
     \tempo "Allegro"
-
+    
     sol2-\p r |
     r sol ~ |
     sol4( fad8. mi16) fad4-. re-. |
@@ -326,6 +326,7 @@ viola_actI_nI = \relative do'
     sol4( fad8. mi16) fad4-. re-. |
     r2 la' ~ |
     la4( sol8. fad16) sol8-. re-. si'4 |
+    
 }
 
 viola_actII_nXI = \relative do'

@@ -24,6 +24,10 @@ figaro_actI_nI = \relative do'
     r2 la'4 re, |
     R1 |
     r2 si'4 sol |
+    r2 do4 la |
+    R1 |
+    r2 sol4. la8 |
+    fad4 fad r2 |
 }
 
 figaro_lyrics_actI_nI = \lyricmode
@@ -36,9 +40,12 @@ figaro_lyrics_actI_nI = \lyricmode
     se -- i...
     qua -- ran -- ta |
     tre...
-    Cin -- que...
-    die -- ci...
-    ven -- ti...
+    Cin -- que... |
+    die -- ci... |
+    ven -- ti... |
+    tren -- ta... |
+    tren -- ta -- |
+    se -- i... |
 }
 
 susanna_actI_nI = \relative do''
@@ -60,6 +67,10 @@ susanna_actI_nI = \relative do''
     la8 la la4 r re8 do |
     la4 la la la |
     si8 si si4 r si8 si |
+    do4 r r do8 do |
+    re4 re8 re re re re si |
+    la4 la r2 |
+    r4 la8 la la la la la |
 }
 
 susanna_lyrics_actI_nI = \lyricmode
@@ -74,7 +85,10 @@ susanna_lyrics_actI_nI = \lyricmode
     Fi -- ga -- ro,
     guar -- da_un po,
     mio ca -- ro
-    Fi -- ga -- ro, guar -- da_un
+    Fi -- ga -- ro, guar -- da_un |
+    po, guarda un po a -- des -- soil mio cap -- |
+    pel -- lo,
+    guarda a -- des -- soil mio cap -- |
 }
 
 cherubino_actII_nXI_lyrics = \lyricmode
