@@ -1,4 +1,5 @@
-\include "italiano.ly"
+\language "italiano"
+\include "common.ily"
 
 violinI_ouverture = \relative do'
 {
@@ -604,6 +605,38 @@ violinI_actI_nI = \relative do''
     la'( re,) r re8. re16 |
     re4 re re re |
     si'( re,) r re8. re16 |
+    do'4( fad,) r fad8. fad16 |
+    re'4( sol,) r sol8.( si16) |
+    la8-. \appoggiatura si16( la sold la8) si-. sol-. \appoggiatura la16( sol fad sol8) la-. |
+    fad r re8.( fad16) la8 la la la |
+    sold sold r si re re r sold, |
+    r la r sol! r fad r sold |
+    r la r sol! r fad r sold |
+    la-\cresc la fad la mi la fad la |
+    mi4-\f r la,4.-\p( sol8) |
+    sol( fad mi fad) la( sol fad sol) |
+    si-\mfp( la) la4 la4.( sol8) |
+    sol( fad mi fad) la( sol fad sol) |
+    la4 r \tuplet 3/2 4 { re8-. la-. re-. fad-. re-. la-. |
+                          fad-. re-. fad-. la-. fad-. re-. } fad r mi r |
+    re4 r la''-\mfp( si8. la16) |
+    la4 r dod8-. dod-. \appoggiatura re16( dod8 si16 dod) |
+    re4 r la-\mfp( si8. la16) |
+    la4 r dod8-. dod-. \appoggiatura re16( dod8 si16 dod) |
+    re8 r re,, r fad r la r |
+    fad r re r fad r la r |
+    fad r re r la' r do r |
+    la r fad r la r do r |
+    la r fad r mi'4.( re8) |
+    re-\mfp( do) do-. si-. re-\mfp( do) do-. si-. |
+    do4 r r do'8-. si-. |
+    do4 r r do8-. si-. |
+    do4 r-\fermata re,4.( la8) |
+    do( si) r sol re'( do) r fad |
+    sol16-\sf( fad sol si la-\p sol fad mi) re4.( la8) |
+    do( si) r sol re'( do) r fad |
+    sol16-\sf( fad sol si la-\p sol fad mi) re4.( la8) |
+    do( si) r sol re'( do) r fad-\f |
 }
 
 violinII_actI_nI = \relative do'
@@ -648,6 +681,38 @@ violinII_actI_nI = \relative do'
     la( do re do la do re do la do re do la do re do) |
     do( re fad re do re fad re do re fad re do re fad re) |
     si( re sol re si re sol re si re sol re si re sol re) |
+    re( fad la fad re fad la fad re fad la fad re fad la fad) |
+    re( sol si sol re sol si sol re sol si sol re sol si sol) |
+    mi( sol la sol mi sol la sol mi sol la sol mi sol la sol) |
+    re( fad la fad re fad la sol fad la sol fad mi sol fad mi) |
+    re( dod si dod re dod si la sold la si dod re dod re si) |
+    dod( re mi re dod re mi dod re mi fad re si dod re si) |
+    dod( re mi re dod re mi dod re mi fad re si dod re si) |
+    dod-\cresc( re mi dod re mi fad re dod re mi dod re mi fad re) |
+    dod4-\f r mi8-\p( dod mi dod) |
+    mi( re dod re) dod2 |
+    re4-\mfp( fad) mi8( dod mi dod) |
+    mi( re dod re) dod4.( mi8) |
+    re4 r \tuplet 3/2 4 { re'8-. la-. re-. fad-. re-. la-. |
+                          fad-. re-. fad-. la-. fad-. re-. } re r dod r |
+    re4 r fad-\mfp( sol8. fad16) |
+    fad4 r sol2( |
+    fad4) r fad-\mfp( sol8. fad16) |
+    fad4 r sol2( |
+    fad8) r la, r re r fad r |
+    re r la r re r fad r |
+    re r la r fad' r la r |
+    fad r do r fad r la r |
+    fad r do r do'4.( si8) |
+    si-\mfp( la) la-. sold-. si-\mfp( la) la-. sold-. |
+    la4 r r la8-. sold-. |
+    la4 r r la8-. sold-. |
+    la4 r-\fermata re,4.( la8) |
+    do( si) r sol re'( do) r fad |
+    sol16-\sf( fad sol si la-\p sol fad mi) re4.( la8) |
+    do( si) r sol re'( do) r fad |
+    sol16-\sf( fad sol si la-\p sol fad mi) re4.( la8) |
+    do( si) r sol re'( do) r fad-\f |
 }
 
 violinI_actII_nXI = \relative do'

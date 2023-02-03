@@ -1,4 +1,4 @@
-\include "italiano.ly"
+\language "italiano"
 \include "common.ily"
 
 flautoI_ouverture = \relative do''
@@ -431,7 +431,25 @@ flautoI_aI_sI_nI = \relative do'''
     R1 |
     r4 re-.( re-. re-.) |
     R1 |
-    r4 re re'2 |
+    r4 re re'2 ~ |
+    re1 ~ |
+    re2.( si4) |
+    la2( sol) |
+    fad4 r r2 |
+    R1 * 3 |
+    dod'8-\cresc dod re re dod dod re re |
+    dod4-\f r r2 |
+    R1 |
+    re16-\mf( dod re fad mi-\p re dod si) la4 r |
+    R1 * 4 |
+    r2 sol( |
+    fad4) r r2 |
+    r sol( |
+    fad4) r r2 |
+    R1 * 5 |
+    r4 do'8( si) do4 r |
+    r do8( si) do4 r |
+    r2-\fermata r |
 }
 
 flautoII_aI_sI_nI = \relative do''
@@ -458,7 +476,23 @@ flautoII_aI_sI_nI = \relative do''
     R1 |
     r4 re-.( re-. re-.) |
     R1 |
-    r4 re re2 |
+    r4 re re2 ~ |
+    re1 ~ |
+    re2.( sol4) |
+    mi1 |
+    re4 r r2 |
+    R1 * 3 |
+    la'8-\cresc la la la la la la la |
+    la4-\f r r2 |
+    R1 * 6 |
+    r2 mi( |
+    re4) r r2 |
+    r mi( |
+    re4) r r2 |
+    R1 * 5 |
+    r4 la'8( sold) la4 r |
+    r la8( sold) la4 r |
+    r2-\fermata r |
 }
 
 flauto_actII_nXI = \relative do'''

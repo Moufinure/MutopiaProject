@@ -136,6 +136,7 @@ tromboneI = \relative do'
     mi4 fa fad |
     sol la sib |
     R2. |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         R2. * 12 |
@@ -456,6 +457,7 @@ tromboneIII = \relative do
     \key fa \major
     \mark "Walzer IV"
     R2. * 4 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         R2. * 12 |

@@ -254,6 +254,7 @@ fagottiI = \relative do'
     mi4 fa fad |
     sol la sib |
     R2. |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         R2. * 2 |
@@ -536,6 +537,7 @@ fagottiII = \relative do
     mi4 fa fad |
     sol la sib |
     R2. |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         R2. * 12 |

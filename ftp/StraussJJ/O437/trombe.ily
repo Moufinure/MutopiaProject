@@ -228,6 +228,7 @@ trombeI = \relative do'
     si4 do dod |
     re mi fa |
     R2. |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         si8-\f r sol r la r |
@@ -495,6 +496,7 @@ trombeII = \relative do'
     si4 do dod |
     re mi fa |
     R2. |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         sol8-\f r re r mi r |

@@ -228,6 +228,7 @@ flautiI = \relative do'''
     \key fa \major
     \mark "Walzer IV"
     R2. * 4 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         R2. * 3 |
@@ -478,6 +479,7 @@ flautiII = \relative do''
     \key fa \major
     \mark "Walzer IV"
     R2. * 4 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         R2. * 3 |

@@ -1,4 +1,5 @@
-\include "italiano.ly"
+\language "italiano"
+\include "common.ily"
 
 basso_ouverture = \relative do
 {
@@ -282,6 +283,30 @@ bass_actI_nI = \relative do
     do( si8. la16) si8-. sol-. mi'4 |
     do r dod r |
     re r re, dod |
+    si r si r |
+    la8 r la' r la, r la' r |
+    la, r la' r la, r la' r |
+    la-\cresc la la la la la la la |
+    la-\f la, la la dod-.-\p la-. dod-. la-. |
+    re la re la mi' la, mi' la, |
+    fad'-\mfp la, re la dod la dod la |
+    re la re la mi' la, mi' la, |
+    fad'4 r r2 |
+    r la8 r la, r |
+    re4 r r2 |
+    r la'( |
+    re,4) r r2 |
+    r la'( |
+    re,8) \repeat unfold 39 re |
+    re4 r re r |
+    re r r re |
+    re r r re |
+    re r-\fermata fad8 re fad re |
+    sol re si' re, la' re, do' re, |
+    si'-\sf re, sol re fad-\p re fad re |
+    sol re si' re, la' re, do' re, |
+    si'-\sf re, sol re fad-\p re fad re |
+    sol re si' re, la' re, do' re, |
 }
 
 bass_actII_nXI = \relative do'

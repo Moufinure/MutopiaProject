@@ -223,6 +223,7 @@ oboeI = \relative do''
     \mark "Walzer IV"
     R2. * 3 |
     fa8-\f r sol4.-^ fa8 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         mi-\f r do r re r |
@@ -460,6 +461,7 @@ oboeII = \relative do''
     \mark "Walzer IV"
     R2.* 3 |
     do8-\f r do4.-^ do8 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         do-\f r sol r la r |

@@ -116,6 +116,7 @@ tambpicc = \drummode
     \bar "||"
     \mark "Walzer IV"
     R2. * 4 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         r4 tamb-\p-\< tamb |

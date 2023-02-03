@@ -1,4 +1,5 @@
-\include "italiano.ly"
+\language "italiano"
+\include "common.ily"
 
 cello_ouverture = \relative do
 {
@@ -241,6 +242,57 @@ cello_actI_nI = \relative do
     do( si8. la16) si8-. sol-. mi'4 |
     do8-\f do do do dod dod dod dod |
     re4 r r2 |
+    R1 * 6 |
+    mi,4-\f r do8 do do do |
+    re re re re re re re re |
+    sol,4 r r2 |
+    r sol'-\p ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol4-. re-. |
+    r2 si' ~ |
+    si4( la8. sol16) la4-. re,-. |
+    r2 do' ~ |
+    do4( si8. la16) si4-. sol-. |
+    do, r dod r |
+    re r r2 |
+    la1( |
+    re4) r r2 |
+    R1 * 4 |
+    r2 re'8 r re, r |
+    sol4 r r2 |
+    r sol ~ |
+    sol4( fad8. mi16) fad4-. re-. |
+    r2 la' ~ |
+    la4( sol8. fad16) sol8-. re-. si'4 ~ |
+    si( la8. sol16) la8-. re,-. do'4 ~ |
+    do( si8. la16) si8-. sol-. mi'4 |
+    do r dod r |
+    re r re, dod |
+    si r si r |
+    la8 r la' r la, r la' r |
+    la, r la' r la, r la' r |
+    la-\cresc la la la la la la la |
+    la-\f la, la la dod-.-\p la-. dod-. la-. |
+    re la re la mi' la, mi' la, |
+    fad'-\mfp la, re la dod la dod la |
+    re la re la mi' la, mi' la, |
+    fad'4 r r2 |
+    r la8 r la, r |
+    re4 r r2 |
+    r la'( |
+    re,4) r r2 |
+    r la'( |
+    re,8) \repeat unfold 39 re |
+    re4 r re r |
+    re r r re |
+    re r r re |
+    re r-\fermata fad8 re fad re |
+    sol re si' re, la' re, do' re, |
+    si'-\sf re, sol re fad-\p re fad re |
+    sol re si' re, la' re, do' re, |
+    si'-\sf re, sol re fad-\p re fad re |
+    sol re si' re, la' re, do' re, |
 }
 
 % cello_actII_nXI = \relative do'

@@ -97,6 +97,7 @@ harp_right = \relative do'
     \bar "||"
     \mark "Walzer IV"
     R2. * 4 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         R2. * 14 |

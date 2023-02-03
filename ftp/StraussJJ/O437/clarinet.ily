@@ -239,6 +239,7 @@ clarinetI = \relative do'
     \mark "Walzer IV"
     R2. * 3 |
     re8-\f r re4.-^ re8 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         re-\f r la r si r |
@@ -543,6 +544,7 @@ clarinetII = \relative do'
     \mark "Walzer IV"
     R2. * 3 |
     si8-\f r do4.-^ si8 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         la-\f r fad r sol r |

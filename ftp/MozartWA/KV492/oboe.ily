@@ -1,4 +1,4 @@
-\include "italiano.ly"
+\language "italiano"
 \include "common.ily"
 
 oboeI_ouverture = \relative do''
@@ -474,7 +474,29 @@ oboeI_aI_sI_nI = \relative do''
     R1 |
     r4 do,-.( do-. do-.) |
     R1 |
-    r4 re2 sol4 |
+    r4 re2 sol4 ~ |
+    sol( fad8. mi16 fad4 la) ~ |
+    la( sol8. fad16) sol2 |
+    mi4 r r2 |
+    fad2.( mi4) |
+    re r r2 |
+    la'4( sol fad sold) |
+    la( sol! fad sold) |
+    la8-\cresc mi fad fad mi mi fad fad |
+    mi4-\f r r2 |
+    R1 |
+    re16-\mf( dod re fad mi-\p re dod si) la4 r |
+    R1 * 2 |
+    r2 fad'8-\p r mi r |
+    re4 r r2 |
+    r dod( |
+    re4) r r2 |
+    r dod( |
+    re4) r r2 |
+    R1 * 5 |
+    r4 do8( si) do4 r |
+    r do8( si) do4 r |
+    r2-\fermata re4.( do8) |
 }
 
 oboeII_aI_sI_nI = \relative do''
@@ -509,6 +531,26 @@ oboeII_aI_sI_nI = \relative do''
     r4 la-.( la-. la-.) |
     R1 |
     r4 re,( si' sol) |
+    do2.( la8 fad) |
+    re'2.( si8 sol) |
+    la4 r r2 |
+    la1 |
+    si4 r r2 |
+    dod2( re) |
+    dod( re) |
+    dod8-\cresc dod re re dod dod re re |
+    dod4-\f r r2 |
+    R1 * 4 |
+    r2 re8-\p r dod r |
+    re4 r r2 |
+    r la ~ |
+    la4 r r2 |
+    r la ~ |
+    la4 r r2 |
+    R1 * 5 |
+    r4 la8( sold) la4 r |
+    r la8( sold) la4 r |
+    r2-\fermata la8( fad la fad) |
 }
 
 oboeI_actII_nXI = \relative do''

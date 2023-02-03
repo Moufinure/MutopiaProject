@@ -5,7 +5,7 @@ bass = \relative do
     \clef bass
     \time 2/2
     \tempo "Langsames Marschtempo"
-    
+
     \mark "Introduction"
     R1 * 20 |
     fa4-\p^\markup { "pizz." } r fa r |
@@ -227,6 +227,7 @@ bass = \relative do
     mi4 fa fad |
     sol la sib |
     R2. |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         R2. * 2 |
@@ -292,4 +293,18 @@ bass = \relative do
     fa r fad |
     sol2-\f r4 |
     do,2.-^-\sf |
+    \alternative
+    {
+        {
+            fa4 fa fa |
+            R2. |
+        }
+        {
+            \mark \markup { \musicglyph "scripts.segno" }
+            \bar "||"
+            fa4 fa fa |
+        }
+    }
+    \bar "||"
+    \key do \major
 }

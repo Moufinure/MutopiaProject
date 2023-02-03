@@ -1,4 +1,5 @@
-\include "italiano.ly"
+\language "italiano"
+\include "common.ily"
 
 clarinetI_ouverture = \relative do'
 {

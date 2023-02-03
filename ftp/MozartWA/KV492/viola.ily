@@ -1,4 +1,4 @@
-\include "italiano.ly"
+\language "italiano"
 \include "common.ily"
 
 viola_ouverture = \relative do'
@@ -325,8 +325,39 @@ viola_actI_nI = \relative do'
     r sol ~ |
     sol4( fad8. mi16) fad4-. re-. |
     r2 la' ~ |
-    la4( sol8. fad16) sol8-. re-. si'4 |
-    
+    la4( sol8. fad16) sol8-. re-. si'4 ~ |
+    si( la8. sol16) la8-. re,-. do'4 ~ |
+    do( si8. la16) si8-. sol-. mi'4 |
+    do r dod r |
+    re r re dod |
+    si r si r |
+    la8 r la' r la, r la' r |
+    la, r la' r la, r la' r |
+    la-\cresc la la la la la la la |
+    la-\f la, la la la2-\p ~ |
+    la1 ~ |
+    la8-\mfp la la la la2 ~ |
+    la1 ~ |
+    la4 r \tuplet 3/2 4 { re8-. la-. re-. fad-. re-. la-. |
+                          fad-. re-. fad-. la-. fad-. re-.} la' r sol r |
+    fad re' re re re2:8 |
+    re:8 mi( |
+    re:8) re:8 |
+    re:8 mi( |
+    re8) r fad, r la r re r |
+    la r fad r la r re r |
+    la r fad r do' r fad r |
+    do r la r do r fad r |
+    do r la r re re re re |
+    re4 r re r |
+    re r r re |
+    re r r re |
+    re r-\fermata re,2 ~ |
+    re1 |
+    sol16-\sf( fad sol si la-\p sol fad mi) re2 ~ |
+    re1 |
+    sol16-\sf( fad sol si la-\p sol fad mi) re2 ~ |
+    re1 
 }
 
 viola_actII_nXI = \relative do'

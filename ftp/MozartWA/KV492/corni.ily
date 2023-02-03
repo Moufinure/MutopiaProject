@@ -1,4 +1,5 @@
-\include "italiano.ly"
+\language "italiano"
+\include "common.ily"
 
 corniI_ouverture = \relative do''
 {
@@ -441,7 +442,29 @@ corniI_actI_nI = \relative do''
     R1 |
     sol ~ |
     sol ~ |
-    sol |
+    sol ~ |
+    sol ~ |
+    sol2. do4 |
+    R1 * 3 |
+    re1 ~ |
+    re ~ |
+    re8-\cresc re re re re re re re |
+    re4-\f r r2 |
+    R1 * 4 |
+    r2 re8-\p r re r |
+    sol,1 ~ |
+    sol4 r r2 |
+    sol1 ~ |
+    sol4 r r2 |
+    sol1 ~ |
+    sol ~ |
+    sol ~ |
+    sol ~ |
+    sol ~ |
+    sol4 r r2 |
+    r4 sol sol r |
+    r sol sol r |
+    r2-\fermata sol 
 }
 
 corniII_actI_nI = \relative do''
@@ -475,12 +498,34 @@ corniII_actI_nI = \relative do''
     R1 |
     sol, ~ |
     sol ~ |
-    sol |
+    sol ~ |
+    sol ~ |
+    sol2. do4 |
+    R1 * 3 |
+    re'1 ~ |
+    re ~ |
+    re8-\cresc re re re re re re re |
+    re4-\f r r2 |
+    R1 * 4 |
+    r2 re8-\p r re r |
+    sol,,1 ~ |
+    sol4 r r2 |
+    sol1 ~ |
+    sol4 r r2 |
+    sol1 ~ |
+    sol ~ |
+    sol ~ |
+    sol ~ |
+    sol ~ |
+    sol4 r r2 |
+    r4 sol sol r |
+    r sol sol r |
+    r2-\fermata sol 
 }
 
 corniI_actII_nXI = \relative do''
 {
-    \transposition mib
+    \transposition sol
     \time 2/4
     \tempo "Andante con moto"
     

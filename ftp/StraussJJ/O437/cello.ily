@@ -272,6 +272,7 @@ cello = \relative do,
     mi4 fa fad |
     sol la sib |
     la8-\f r sib4.-^ la8 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         sol-^-\f r mi-^ r fa-^ r |
@@ -343,4 +344,6 @@ cello = \relative do,
     fa, r fad |
     sol2-\f r4 |
     do,2.-\sf-^ |
+    fa4 fa fa |
+    
 }

@@ -1,11 +1,13 @@
-\include "italiano.ly"
+\language "italiano"
+\include "common.ily"
 
 figaro_actI_nI = \relative do'
 {
     \clef bass
     \key sol \major
     \tempo "Allegro"
-    
+
+    \autoBeamOff
     R1 * 19 |
     la4^\markup { \italic "(misurando)" } re, r2 |
     R1 |
@@ -28,9 +30,37 @@ figaro_actI_nI = \relative do'
     R1 |
     r2 sol4. la8 |
     fad4 fad r2 |
+    r4 r8 re' re4. sold,8 |
+    la4 r r2 |
+    R1 * 2 |
+    r2 la4. sol8 |
+    sol[( fad]) mi[( fad]) la[( sol]) fad[( sol]) |
+    si[( la]) la4 la4. sol8 |
+    sol[( fad]) mi[( fad]) la[( sol]) fad[( sol]) |
+    la4 r la4. re8 |
+    fad,4. la8 re,4 mi |
+    re r r2 |
+    r dod'4. dod8 |
+    re4 re, r2 |
+    r4 r8 la' dod4. dod8 |
+    re4 re, r2 |
+    R1 |
+    r2 la'4. la8 |
+    la[( fad]) fad[( la]) la[( fad]) fad[( la]) |
+    la[( fad]) fad4 do'4. si8 |
+    la4 la8[( sold]) la4 la8[( sold]) |
+    la4 r r la8[( sold]) |
+    la4 r r la8[( sold]) |
+    la2-\fermata fad4. la8 |
+    \repeat unfold 2
+    {
+        la8[( sol]) fad sol si[( la]) sol la |
+        do[( si]) si4 fad4. la8 |
+    }
+    la8[( sol]) fad sol si[( la]) sol la |
 }
 
-figaro_lyrics_actI_nI = \lyricmode
+figaro_lyrics_actI_nI_it = \lyricmode
 {
     Cin -- que... |
     die -- ci... |
@@ -46,6 +76,39 @@ figaro_lyrics_actI_nI = \lyricmode
     tren -- ta... |
     tren -- ta -- |
     se -- i... |
+    qua -- ran -- ta -- tre...
+    Si, mio |
+    co -- re,_or è più |
+    bel -- lo, sem -- bra |
+    fat -- to_in ver per te,
+    sem -- bra fat -- to_in ver per |
+    te, |
+    si, mio |
+    co -- re, |
+    or è più |
+    bel -- lo
+    si, mio
+    co -- re,_or è più
+    bel -- lo, sem -- bra
+    fat -- to_in ver -- per --
+    te, per --
+    te, per --
+    te, ah_il mat --
+    ti -- no_alle _ nozze _ ri --
+    ci -- no quant' e
+    dolce al mio te -- ne -- ro
+    spo -- so, que -- sto
+    bel cap -- pel -- li -- no vez
+}
+
+figaro_lyrics_actI_nI_de = \lyricmode
+{
+    Fün -- fe,... |
+    zeh -- ne,...
+    zwan -- zig,...
+    drei -- ssig...
+    sechs und drei -- ssig...
+    ja, ja, es geht,
 }
 
 susanna_actI_nI = \relative do''
@@ -53,7 +116,7 @@ susanna_actI_nI = \relative do''
     \clef soprano
     \key sol \major
     \tempo "Allegro"
-    
+
     R1 * 29 |
     r2 re4.^\markup { \italic "(specchiandosi)" } do8 |
     do( si) la( si) re( do) si( do) |
@@ -71,27 +134,71 @@ susanna_actI_nI = \relative do''
     re4 re8 re re re re si |
     la4 la r2 |
     r4 la8 la la la la la |
+    re re r4 r2 |
+    r4 la8 la re re re re |
+    dod la16 la la8 la re re re re |
+    dod dod re re dod dod re re |
+    dod la r4 r2 |
+    R1 * 5 |
+    r2 la4 si8[( la]) |
+    la4 r r2 |
+    r la4 si8[( la]) |
+    la4 r r2 |
+    r la4. la8 |
+    la[( fad]) fad[( la]) la[( fad]) fad[( la]) |
+    la[( fad]) fad4 do'4. do8 |
+    do[( la]) la[( do]) do[( la]) la[( do]) |
+    do[( la]) la4 mi'4. re8 |
+    do4 do8[( si]) do4 do8[( si]) |
+    do4 r r do8[( si]) |
+    do4 r r do8[( si]) |
+    do2-\fermata re4. do8 |
+    do([ si]) la si re[( do]) si do |
+    mi[( re]) re4 re4. do8 |
+    do[( si]) la si re[( do]) si do |
+    mi[( re]) re4 re4. do8 |
+    do[( si]) la si re[( do]) si do |
 }
 
-susanna_lyrics_actI_nI = \lyricmode
+susanna_lyrics_actI_nI_it = \lyricmode
 {
     O -- ra |
-    si ch'io son con |
+    sì ch'io son con |
     ten -- ta, sem -- bra |
     fat -- to_in ver per me,
     sem -- bra fat __ to_in ver per me.
     Guar -- da_un
-    po, mio ca -- ro 
+    pò, mio ca -- ro
     Fi -- ga -- ro,
-    guar -- da_un po,
+    guar -- da_un pò,
     mio ca -- ro
     Fi -- ga -- ro, guar -- da_un |
-    po, guarda un po a -- des -- soil mio cap -- |
+    pò, guarda un pò, guarda a -- des -- soil mio cap -- |
     pel -- lo,
     guarda a -- des -- soil mio cap -- |
+    pel -- lo, |
+    guarda un pò, mio ca -- ro
+    Fi -- ga -- ro, guar -- da adesso il mio cap --
+    pel -- lo,_il mio cap -- pel -- lo,_il mio cap -- |
+    pel -- lo.
+    Guar -- da_un pò,
+    guar -- da_un pò,
+    o -- ra, sì ch'io son con --
+    tenta, _ o -- ra
+    sì ch'io son con --
+    ten -- ta, sem -- bra
+    fat -- to_in ver per
+    me, per
+    me, per
+    me, ah_il mat
+    ti -- no_alle _ nozze _ ri --
+    ci -- no quant' e
+    dolce al mio te -- ne -- ro
+    spo -- so, que -- sto
+    bel cap -- pel -- li -- no vez
 }
 
-cherubino_actII_nXI_lyrics = \lyricmode
+cherubino_actII_nXI_lyrics_it = \lyricmode
 {
     Voi, che sa -- |
     pe -- te |
@@ -101,7 +208,7 @@ cherubino_actII_nXI_lyrics = \lyricmode
     cor, |
     don -- ne ve -- |
     de -- te, |
-    s'io l'ho -- nel | 
+    s'io l'ho -- nel |
     cor. |
     Quel -- le ch'io |
     pro -- vo, |

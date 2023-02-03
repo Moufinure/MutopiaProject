@@ -1,4 +1,5 @@
-\include "italiano.ly"
+\language "italiano"
+\include "common.ily"
 
 fagottiI_ouverture = \relative do
 {
@@ -475,7 +476,29 @@ fagottiI_actI_nI = \relative do
     r sol ~ |
     sol4( fad8. mi16) fad4-. re-. |
     r2 la' ~ |
-    la4( sol8. fad16) sol8-. re-. si'4 |
+    la4( sol8. fad16) sol8-. re-. si'4 ~ |
+    si( la8. sol16) la8-. re,-. do'4 ~ |
+    do( si8. la16) si8-. sol-. mi'4 |
+    do r dod r |
+    re r r2 |
+    re1( |
+    dod4) r r2 |
+    R1 |
+    mi8-\cresc mi fad fad mi mi fad fad |
+    mi4-\f r r2 |
+    R1 |
+    re16-\mf( dod re fad mi-\p re dod si) la4 r |
+    R1 * 2 |
+    r2 fad8-\p r mi r |
+    re4 r r2 |
+    r la'( |
+    re,4) r r2 |
+    r la'( |
+    re,8) \repeat unfold 39 re |
+    re4 r r2 |
+    r4 do'8( si) do4 r |
+    r do8( si) do4 r |
+    r2-\fermata re4.( do8) |
 }
 
 fagottiII_actI_nI = \relative do
@@ -523,7 +546,27 @@ fagottiII_actI_nI = \relative do
     r sol ~ |
     sol4( fad8. mi16) fad4-. re-. |
     r2 la' ~ |
-    la4( sol8. fad16) sol8-. re-. si'4 |
+    la4( sol8. fad16) sol8-. re-. si'4 ~ |
+    si( la8. sol16) la8-. re,-. do'4 ~ |
+    do( si8. la16) si8-. sol-. mi'4 |
+    do r dod r |
+    re r r2 |
+    sold,1( |
+    la4) r r2 |
+    R1 |
+    dod8-\cresc dod re re dod dod re re |
+    dod4-\f r r2 |
+    R1 * 4 |
+    r2 re,8-\p r dod r |
+    re4 r r2 |
+    r la'2( |
+    re,4) r r2 |
+    r la'( |
+    re,8) \repeat unfold 39 re |
+    re4 r r2 |
+    r4 la'8( sold) la4 r |
+    r la8( sold) la4 r |
+    r2-\fermata la8( fad la fad) |
 }
 
 fagottoI_actII_nXI = \relative do'

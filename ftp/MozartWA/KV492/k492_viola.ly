@@ -22,3 +22,15 @@
     \viola_ouverture
   }
 }
+
+\score {	
+    \header {
+        piece = "Atto I. Duettino"
+    }
+    
+    \new Staff
+    {
+        \compressEmptyMeasures
+        \viola_actI_nI
+    }
+}

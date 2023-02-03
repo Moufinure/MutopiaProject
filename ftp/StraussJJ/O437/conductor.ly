@@ -40,7 +40,7 @@
             {
                 \set Staff.instrumentName = "Flauti"
                 \set Staff.shortInstrumentName = "Fl"
-                \partcombine
+                \partCombine
                 \flautiI
                 \flautiII
             }
@@ -48,7 +48,7 @@
             {
                 \set Staff.instrumentName = "Oboi"
                 \set Staff.shortInstrumentName = "Ob"
-                \partcombine
+                \partCombine
                 \oboeI
                 \oboeII
             }
@@ -56,7 +56,7 @@
             {
                 \set Staff.instrumentName = "Clarinetti in B"
                 \set Staff.shortInstrumentName = "Clrn"
-                \partcombine
+                \partCombine
                 \clarinetI
                 \clarinetII
             }
@@ -64,7 +64,7 @@
             {
                 \set Staff.instrumentName = "Fagotti"
                 \set Staff.shortInstrumentName = "Fg"
-                \partcombine
+                \partCombine
                 \fagottiI
                 \fagottiII
             }
@@ -75,7 +75,7 @@
                 {
                     \set Staff.instrumentName = "Corni I, II in F"
                     \set Staff.shortInstrumentName = "Crn1+2"
-                    \partcombine
+                    \partCombine
                     \corniI
                     \corniII
                 }
@@ -83,7 +83,7 @@
                 {
                     \set Staff.instrumentName = "Corni III, IV in F"
                     \set Staff.shortInstrumentName = "Crn3+4"
-                    \partcombine
+                    \partCombine
                     \corniIII
                     \corniIV
                 }
@@ -92,7 +92,7 @@
             {
                 \set Staff.instrumentName = "2 Trombe in F"
                 \set Staff.shortInstrumentName = "Trb"
-                \partcombine
+                \partCombine
                 \trombeI
                 \trombeII
             }
@@ -100,7 +100,7 @@
             {
                 \set Staff.instrumentName = "2 Tromboni"
                 \set Staff.shortInstrumentName = "Trbn"
-                \partcombine
+                \partCombine
                 \tromboneI
                 \tromboneII
             }

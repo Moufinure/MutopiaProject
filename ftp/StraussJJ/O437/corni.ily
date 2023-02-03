@@ -243,6 +243,7 @@ corniI = \relative do''
     si4 do dod |
     re r r |
     R2. |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         re8-\f r si r do r |
@@ -558,6 +559,7 @@ corniII = \relative do''
     si4 do, dod |
     re mi fa |
     R2. |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         R2. * 2 |
@@ -838,6 +840,7 @@ corniIII = \relative do''
     si4 do dod |
     re r r |
     R2. |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         re8 r si r do r |
@@ -1104,6 +1107,7 @@ corniIV = \relative do'
     si4 do, dod |
     re mi fa |
     R2. |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         R2. * 2 |
@@ -1157,5 +1161,5 @@ corniIV = \relative do'
     R2. * 4 |
     r4 do mi |
     re-\f r r |
-    sol2.-\sf-^ |
+    sol,2.-\sf-^ |
 }

@@ -264,6 +264,7 @@ viola = \relative do
     \mark "Walzer IV"
     R2. * 3 |
     la'8-\f r sib4.-^ la8 |
+    \mark \markup { \musicglyph "scripts.segno" }
     \repeat volta 2
     {
         sol-^-\f r mi-^ r fa-^ r |
