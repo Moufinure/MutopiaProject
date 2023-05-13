@@ -24,6 +24,13 @@
     short-indent = 1.5 \cm
 }
 
+\layout
+{
+    \context {
+        \RemoveEmptyStaves
+    }
+}
+
 \score
 {
     \header

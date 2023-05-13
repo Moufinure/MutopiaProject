@@ -1,4 +1,4 @@
-\version "2.18.2"
+\version "2.22.0"
 
 \paper {
     left-margin = 1.5 \cm
@@ -22,8 +22,23 @@
 
 #(set-global-staff-size 16)
 
+\layout {
+    indent = 3.0\cm
+    short-indent = 1.5\cm
+    % \context {
+    %         \GrandStaff
+    %         \consists Keep_alive_together_engraver
+    %     }
+%     \context {
+%         \Staff
+%         \RemoveEmptyStaves
+%     }
+}
+
+
 \book
 {
+
     \header
     {
         composer = "Ludwig von Beethoven"
@@ -263,37 +278,20 @@
                     \set Staff.instrumentName = "Viola"
                     \set Staff.shortInstrumentName = "Vla"
                     \viola_mvtIV
-		  }
-		\new Staff
-		{
-		  \set Staff.instrumentName = "Violoncello"
-		  \set Staff.shortInstrumentName = "Vlc"
-		  \cello_mvtIV
-		}
+                }
                 \new Staff
                 {
-		  \set Staff.instrumentName = "Basso"
-		  \set Staff.shortInstrumentName = "Cba"
-		  \contrabass_mvtIV
-		}
+                    \set Staff.instrumentName = "Violoncello"
+                    \set Staff.shortInstrumentName = "Vlc"
+                    \cello_mvtIV
+                }
+                \new Staff
+                {
+                    \set Staff.instrumentName = "Basso"
+                    \set Staff.shortInstrumentName = "Cba"
+                    \contrabass_mvtIV
+                }
             >>
         >>
-    }
-}
-
-\layout {
-    indent = 3.0\cm
-    short-indent = 1.5\cm
-    \context {
-        \GrandStaff
-        \consists Keep_alive_together_engraver
-    }
-    \context {
-        \Staff
-        \RemoveEmptyStaves
-    }
-    \context {
-        \StaffGroup
-        \RemoveEmptyStaves
     }
 }

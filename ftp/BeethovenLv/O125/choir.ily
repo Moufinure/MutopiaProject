@@ -1,4 +1,4 @@
-\include "italiano.ly"
+\language "italiano"
 
 choirS = \relative do''
 {

@@ -16,12 +16,12 @@
 
 #(set-global-staff-size 14)
 
-\layout {
-    \context {
-        \Staff
-        \RemoveEmptyStaves
-    }
-}
+% \layout {
+%     \context {
+%         \Staff
+%         \RemoveEmptyStaves
+%     }
+% }
 
 \book
 {
@@ -251,89 +251,219 @@
         >>
     }
 
-%     \score
-%     {
-%         \header
-%         {
-%             piece = "11. Canzona"
-%         }
-%         <<
-%             \new StaffGroup
-%             <<
-%                 \new Staff
-%                 {
-%                     \set Staff.instrumentName = "Flauto"
-%                     \set Staff.shortInstrumentName = "Fl"
-%                     \flauto_actII_nXI
-%                 }
-%                 \new Staff
-%                 {
-%                     \set Staff.instrumentName = "Oboe"
-%                     \set Staff.shortInstrumentName = "Ob"
-%                     \oboeI_actII_nXI
-%                 }
-%                 \new Staff
-%                 {
-%                     \set Staff.instrumentName = "Clarinetto in B"
-%                     \set Staff.shortInstrumentName = "ClrB"
-%                     \clarinet_actII_nXI
-%                 }
-%                 \new Staff
-%                 {
-%                     \set Staff.instrumentName = "Fagotto"
-%                     \set Staff.shortInstrumentName = "Fg"
-%                     \fagottoI_actII_nXI
-%                 }
-%                 \new Staff
-%                 {
-%                     \set Staff.instrumentName = "Corni in Es"
-%                     \set Staff.shortInstrumentName = "CrnEs"
-%                     \partCombine
-%                     \corniI_actII_nXI
-%                     \corniII_actII_nXI
-%                 }
-%             >>
-%             \new StaffGroup
-%             <<
-%                 \new GrandStaff
-%                 <<
-%                     \new Staff
-%                     {
-%                         \set Staff.instrumentName = "Violino I"
-%                         \set Staff.shortInstrumentName = "Vl1"
-%                         \violinI_actII_nXI
-%                     }
-%                     \new Staff
-%                     {
-%                         \set Staff.instrumentName = "Violino II"
-%                         \set Staff.shortInstrumentName = "Vl2"
-%                         \violinII_actII_nXI
-%                     }
-%                 >>
-%                 \new Staff
-%                 {
-%                     \set Staff.instrumentName = "Viola"
-%                     \set Staff.shortInstrumentName = "Vla"
-%                     \viola_actII_nXI
-%                 }
-%                 \new Staff
-%                 {
-%                     \set Staff.instrumentName = "Basso e Vcello"
-%                     \set Staff.shortInstrumentName = "Ba+Vlc"
-%                     %\partCombine
-%                     %\cello_actII_nXI
-%                     \bass_actII_nXI
-%                 }
-%             >>
-%             \new Staff
-%             <<
-%                 \set Staff.instrumentName = "Cherubino"
-%                 \set Staff.shortInstrumentName = "Cher."
-%                 \new Voice = cherubino_actII_nXI \cherubino_actII_nXI
-%                 \new Lyrics \lyricsto cherubino_actII_nXI \cherubino_actII_nXI_lyrics_it
-%             >>
-%         >>
-%     }
+    \score
+    {
+        \header
+        {
+            piece = "Recitativo"
+        }
+
+        \new StaffGroup
+        <<
+            \new Staff
+            <<
+                \set Staff.instrumentName = "Recitativo"
+                \set Staff.shortInstrumentName = "Rec."
+                \new Voice = recitativo_aI_sI_nI \recitativo_aI_sI_nII
+                \new Lyrics \lyricsto recitativo_aI_sI_nI \recitativo_aI_sI_nII_lyrics
+            >>
+            \new Staff
+            {
+                \set Staff.instrumentName = "Continuo"
+                \set Staff.shortInstrumentName = "Cont."
+                \continuo_aI_sI_nII
+            }
+        >>
+    }
+
+    \score
+    {
+        \header
+        {
+            piece = "II. Duettino"
+        }
+
+        <<
+            \new StaffGroup
+            <<
+                \new Staff
+                {
+                    \set Staff.instrumentName = "Flauti"
+                    \set Staff.shortInstrumentName = "Fl"
+                    \partCombine
+                    \flautoI_aI_sI_nII
+                    \flautoII_aI_sI_nII
+                }
+                \new Staff
+                {
+                    \set Staff.instrumentName = "Oboi"
+                    \set Staff.shortInstrumentName = "Ob"
+                    \partCombine
+                    \oboeI_aI_sI_nII
+                    \oboeII_aI_sI_nII
+                }
+                \new Staff
+                {
+                    \set Staff.instrumentName = "Fagotti"
+                    \set Staff.shortInstrumentName = "Fg"
+                    \partCombine
+                    \fagottiI_aI_sI_nII
+                    \fagottiII_aI_sI_nII
+                }
+                \new Staff
+                {
+                    \set Staff.instrumentName = \markup
+                    {
+                        \center-column
+                        {
+                            "Corni in"
+                            "B alto"
+                        }
+                    }
+                    \set Staff.shortInstrumentName = "CrB"
+                    \partCombine
+                    \corniI_aI_sI_nII
+                    \corniII_aI_sI_nII
+                }
+            >>
+            \new StaffGroup
+            <<
+                \new GrandStaff
+                <<
+                    \new Staff
+                    {
+                        \set Staff.instrumentName = "Violino I"
+                        \set Staff.shortInstrumentName = "Vl1"
+                        \violinI_aI_sI_nII
+                    }
+                    \new Staff
+                    {
+                        \set Staff.instrumentName = "Violino II"
+                        \set Staff.shortInstrumentName = "Vl2"
+                        \violinII_aI_sI_nII
+                    }
+                >>
+                \new Staff
+                {
+                    \set Staff.instrumentName = "Viola"
+                    \set Staff.shortInstrumentName = "Vla"
+                    \viola_aI_sI_nII
+                }
+                \new Staff
+                {
+                    \set Staff.instrumentName = \markup
+                    {
+                        \center-column
+                        {
+                            "Violoncello e"
+                            "Basso"
+                        }
+                    }
+                    \set Staff.shortInstrumentName = "Vlc+Cba"
+                    \partCombine
+                    \cello_aI_sI_nII
+                    \bass_aI_sI_nII
+                }
+            >>
+            \new Staff
+            <<
+                \set Staff.instrumentName = "Susanna"
+                \set Staff.shortInstrumentName = "Sus."
+                \new Voice = susanna_aI_sI_nI \susanna_aI_sI_nII
+                \new Lyrics \lyricsto susanna_aI_sI_nI \susanna_aI_sI_nII_lyrics
+            >>
+            \new Staff
+            <<
+                \set Staff.instrumentName = "Figaro"
+                \set Staff.shortInstrumentName = "Fig."
+                \new Voice = figaro_aI_sI_nI \figaro_aI_sI_nII
+                \new Lyrics \lyricsto figaro_aI_sI_nI \figaro_aI_sI_nII_lyrics
+            >>
+        >>
+    }
+    %     \score
+    %     {
+    %         \header
+    %         {
+    %             piece = "11. Canzona"
+    %         }
+    %         <<
+    %             \new StaffGroup
+    %             <<
+    %                 \new Staff
+    %                 {
+    %                     \set Staff.instrumentName = "Flauto"
+    %                     \set Staff.shortInstrumentName = "Fl"
+    %                     \flauto_actII_nXI
+    %                 }
+    %                 \new Staff
+    %                 {
+    %                     \set Staff.instrumentName = "Oboe"
+    %                     \set Staff.shortInstrumentName = "Ob"
+    %                     \oboeI_actII_nXI
+    %                 }
+    %                 \new Staff
+    %                 {
+    %                     \set Staff.instrumentName = "Clarinetto in B"
+    %                     \set Staff.shortInstrumentName = "ClrB"
+    %                     \clarinet_actII_nXI
+    %                 }
+    %                 \new Staff
+    %                 {
+    %                     \set Staff.instrumentName = "Fagotto"
+    %                     \set Staff.shortInstrumentName = "Fg"
+    %                     \fagottoI_actII_nXI
+    %                 }
+    %                 \new Staff
+    %                 {
+    %                     \set Staff.instrumentName = "Corni in Es"
+    %                     \set Staff.shortInstrumentName = "CrnEs"
+    %                     \partCombine
+    %                     \corniI_actII_nXI
+    %                     \corniII_actII_nXI
+    %                 }
+    %             >>
+    %             \new StaffGroup
+    %             <<
+    %                 \new GrandStaff
+    %                 <<
+    %                     \new Staff
+    %                     {
+    %                         \set Staff.instrumentName = "Violino I"
+    %                         \set Staff.shortInstrumentName = "Vl1"
+    %                         \violinI_actII_nXI
+    %                     }
+    %                     \new Staff
+    %                     {
+    %                         \set Staff.instrumentName = "Violino II"
+    %                         \set Staff.shortInstrumentName = "Vl2"
+    %                         \violinII_actII_nXI
+    %                     }
+    %                 >>
+    %                 \new Staff
+    %                 {
+    %                     \set Staff.instrumentName = "Viola"
+    %                     \set Staff.shortInstrumentName = "Vla"
+    %                     \viola_actII_nXI
+    %                 }
+    %                 \new Staff
+    %                 {
+    %                     \set Staff.instrumentName = "Basso e Vcello"
+    %                     \set Staff.shortInstrumentName = "Ba+Vlc"
+    %                     %\partCombine
+    %                     %\cello_actII_nXI
+    %                     \bass_actII_nXI
+    %                 }
+    %             >>
+    %             \new Staff
+    %             <<
+    %                 \set Staff.instrumentName = "Cherubino"
+    %                 \set Staff.shortInstrumentName = "Cher."
+    %                 \new Voice = cherubino_actII_nXI \cherubino_actII_nXI
+    %                 \new Lyrics \lyricsto cherubino_actII_nXI \cherubino_actII_nXI_lyrics_it
+    %             >>
+    %         >>
+    %     }
 
     \paper
     {

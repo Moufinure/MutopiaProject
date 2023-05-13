@@ -637,6 +637,23 @@ violinI_actI_nI = \relative do''
     do( si) r sol re'( do) r fad |
     sol16-\sf( fad sol si la-\p sol fad mi) re4.( la8) |
     do( si) r sol re'( do) r fad-\f |
+    sol4 r \tuplet 3/2 4 { sol8-\p-. re-. sol-. si-. sol-. re-. |
+                           si-. sol-. si-. re-. si-. sol-. } re r fad r |
+    sol4 r re'4.( sol8) |
+    si,4.( re8) sol, r la r |
+    \tuplet 3/2 4 { sol( la si do re do) si( la sol fad mi fad) |
+                    sol( la si do re do) si( la sol fad mi fad) } |
+    sol4 r re'4.( sol8) |
+    si,4.( re8) sol, r la r |
+    sol4 <re si' sol'>-\f r <re la' fad'> |
+    r <re si' sol'> r <re la' fad'> |
+    si''2:16 si:16 |
+    la:16 la:16 |
+    sol16( fad) sol-. si-. la sol fad mi re do si la sol fad mi re |
+    do4 r sol''4.( mi8) |
+    re( sol) si,4. mi16 re \appoggiatura re16 do8 si16 la |
+    sol4 <re si' sol'> sol, r |
+    \bar "|."
 }
 
 violinII_actI_nI = \relative do'
@@ -713,6 +730,149 @@ violinII_actI_nI = \relative do'
     do( si) r sol re'( do) r fad |
     sol16-\sf( fad sol si la-\p sol fad mi) re4.( la8) |
     do( si) r sol re'( do) r fad-\f |
+    sol4 r \tuplet 3/2 4 { sol8-\p-. re-. sol-. si-. sol-. re-. |
+                           si-. sol-. si-. re-. si-. sol-. } si r do r |
+    si4 r si'4.( re8) |
+    sol,4.( si8) re, r fad r |
+    sol re4 re re re8  ~ |
+    re re4 re re re8 ~ |
+    re4 r si'4.( re8) |
+    sol,4.( si8) re, r fad r |
+    sol16-\f( si re si re si re si) la( do re do re do re do) |
+    sol( si re si re si re si) la( do re do re do re do) |
+    si sol' sol sol sol4:16 sol2:16 |
+    sol:16 fad:16 |
+    sol16( fad) sol-. si-. la sol fad mi re do si la sol fad mi re |
+    do4 r mi'4.( do8) |
+    si( re) sol,4. do16 si \appoggiatura si16 la8 sol16 fad |
+    sol4 <re si' sol'> sol, r |
+    \bar "|."
+}
+
+violinI_aI_sI_nII = \relative do''
+{
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    r4 r8 fa-\p |
+    fa4 fa8-. sib-. |
+    sib( la) la-. la-. |
+    la-. sib-\trill( do) la-. |
+    sib( re) r fa, |
+    fa4 fa8-. sib-. |
+    sib( la) la-. la-. |
+    la-. sib-\trill( do) la-. |
+    sib( re) r fa, |
+    fa4 fa8-. sib-. |
+    sib( la) la-. la-. |
+    la-. sib-\trill( do) la-. |
+    sib( re) r4 |
+    R2 * 3 |
+    r4 sib,8-\f re |
+    do4 la8 do |
+    sib4 la8 sol |
+    fa4 r8 do''-\p |
+    do4( la8) fa-. |
+    fa( mi) mi-. sol-. |
+    sib sib \appoggiatura do16 sib8 la16 sib |
+    la4 r8 do |
+    do4( la8) fa-. |
+    fa( mi) mi-. sol-. |
+    sib sib \appoggiatura do16 sib8 la16 sib |
+    la4 r8 do |
+    do4( la8) fa-. |
+    fa( mi) mi-. sol-. |
+    sib-. sib-. \appoggiatura do16 sib8 la16 sib |
+    la4 r |
+    R2 * 3 |
+    r4 do,8-\f mib |
+    re4 do8 sib |
+    sib4 do8 la |
+    sib4 r8 re-\p |
+    re4( sib'8) sol-. |
+    sol( fad) fad-. re'-. |
+    re-. re-. re-. re-. |
+    re( sib) r re, |
+    re4( sib'8) sol-. |
+    sol( fad) fad-. re'-. |
+    re-. re-. re-. re-. |
+    re( sib) r re, |
+    re4( sib'8) sol-. |
+    sol( fad) fad-. re'-. |
+    re-. re-. re-. re-. |
+    re( sib) r4 |
+    r8 mib,16( re mib re mib re) |
+    do4 r |
+    r8 fa16( mi fa mi fa mib) |
+    re4 r |
+    sib2 ~ |
+    sib4 la8 sib |
+    do4 r |
+    R2 * 2 |
+}
+
+violinII_aI_sI_nII = \relative do'
+{
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    re16-\p( fa re sib re fa re sib) |
+    re( fa re sib re fa re sib) |
+    mib( fa mib do mib fa mib do) |
+    mib-. fa-. re-. fa-. do-. fa-. mib-. fa-. |
+    re( fa re sib re fa re sib) |
+    re( fa re sib re fa re sib) |
+    mib( fa mib do mib fa mib do) |
+    mib-. fa-. re-. fa-. do-. fa-. mib-. fa-. |
+    re( fa re sib re fa re sib) |
+    re( fa re sib re fa re sib) |
+    mib( fa mib do mib fa mib do) |
+    mib-. fa-. re-.fa-. do-. fa-. mib-. fa-. |
+    re4 r |
+    R2 * 3 |
+    r4 re8-\f sib |
+    do4 fa8 la |
+    sol4 fa8 mi |
+    fa16( do la do fa-\p do la do) |
+    fa( do la do fa do la do) |
+    sib( do sib do sib do mi do) |
+    mi-. do-. sol'-. do,-. mi-. do-. sol'-. do,-. |
+    fa( do la do fa do la do) |
+    fa( do la do fa do la do) |
+    sib( do sib do sib do mi do) |
+    mi-. do-. sol'-. do,-. mi-. do-. sol'-. do,-. |
+    fa( do la do fa do la do) |
+    fa( do la do fa do la do) |
+    sib( do sib do sib do mi do) |
+    mi-. do-. sol'-. do,-. mi-. do-. sol'-. do,-. |
+    fa4 r |
+    R2 * 3 |
+    r4 fa-\f ~ |
+    fa mib8 re |
+    re4 mib8 do |
+    re16( fa mib re do mib re do) |
+    sib-\p( re sol re sib' sol re sol) |
+    do( la re, la' do re sib do) |
+    la-. re,-. fad-. re-. sol-. re-. la'-. re,-. |
+    sib'( sol re sol sib sol re sol) |
+    sib( sol re sol sib sol re sol) |
+    do( la re, la' do re sib do) |
+    la-. re,-. fad-. re-. sol-. re-. la'-. re,-.  |
+    sib'( sol re sol sib sol re sol) |
+    sib( sol re sol sib sol re sol) |
+    do( la re, la' do re sib do) |
+    la-. re,-. fad-. re-. sol-. re-. la'-. re,-. |
+    sol8( re) r4 |
+    r8 mib mib mib |
+    mib4 r |
+    r8 fa fa fa |
+    fa4 r |
+    fa2 |
+    mi4 fa8 sol |
+    do,4 r |
+    R2 * 2 |
 }
 
 violinI_actII_nXI = \relative do'

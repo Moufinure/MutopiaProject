@@ -1,11 +1,11 @@
-\include "italiano.ly"
+\language "italiano"
 
 trombeI_mvtI = \relative do''
 {
     \clef treble
     \time 2/4
     \tempo "Allegro ma non troppo, un poco maestoso" 4 = 88
-    
+
     R2 * 15 |
     r4 r8 r16. do32-\ff |
     sol4 ~ sol8.. do32 |
@@ -64,7 +64,7 @@ trombeII_mvtI = \relative do'
     \clef treble
     \time 2/4
     \tempo "Allegro ma non troppo, un poco maestoso" 4 = 88
-    
+
     R2 * 15 |
     r4 r8 r16. do32-\ff
     sol4 ~ sol8.. do32 |
@@ -123,7 +123,7 @@ trombeI_mvtIV = \relative do''
     \transposition re
     \time 3/4
     \tempo "Presto" 2. = 96
-    
+
     \partial 4 sol4-\ff ~ |
     sol4. sol8-. sol-. do-. |
     do4 r8 sol sol do, |
@@ -205,6 +205,19 @@ trombeI_mvtIV = \relative do''
     re( mi4 do) |
     re( mi8 fa) mi4 do |
     re( mi8 fa) mi4 mi, |
+    do' re sol, mi' ~ |
+    mi mi-.( fa-. sol-.) |
+    sol( fa) mi-.( re-.) |
+    do-.( do-. re-. mi-.) |
+    re4.( do8) do-! sol'( fa mi) |
+    re2-\sf mi4( do) |
+    re( mi8 fa mi4) do |
+    re( mi8 fa) mi4 mi, |
+    do' re sol, mi' ~ |
+    mi mi-.( fa-. sol-.) |
+    sol( fa) mi-.( re-.) |
+    do-.( do-. re-. mi-.) |
+    re4.( do8) do4 sol |
 }
 
 trombeII_mvtIV = \relative do'
@@ -212,7 +225,7 @@ trombeII_mvtIV = \relative do'
     \transposition re
     \time 3/4
     \tempo "Presto" 2. = 96
-    
+
     \partial 4 sol4-\ff ~ |
     sol4. sol8-. sol-. do-. |
     do4 r8 sol' sol do, |
@@ -294,4 +307,17 @@ trombeII_mvtIV = \relative do'
     sol( do4 mi,) |
     sol( do8 re do4) mi, |
     sol( do8 re) mi,4 mi |
-  }
+    do re' sol, do ~ |
+    do do-.( re-. mi-.) |
+    mi( re) do-.( sol-.) |
+    mi-.( mi-. sol-. do-.) |
+    sol4. mi8 mi-! mi'( re do) |
+    sol2-\sf do4( mi,) |
+    sol( do8 re do4) mi, |
+    sol( do8 re) mi,4 mi |
+    do re' sol, do ~ |
+    do do-.( re-. mi-.) |
+    mi( re) do-.( sol-.) |
+    mi-.( mi-. sol-. do-.) |
+    sol4.( mi8) mi4 mi |
+}

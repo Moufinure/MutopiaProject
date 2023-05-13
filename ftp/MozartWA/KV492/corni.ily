@@ -464,7 +464,29 @@ corniI_actI_nI = \relative do''
     sol4 r r2 |
     r4 sol sol r |
     r sol sol r |
-    r2-\fermata sol 
+    r2-\fermata sol ~ |
+    sol1 ~ |
+    sol8-\sf sol sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol8-\sf sol sol sol sol2-\p ~ |
+    sol1 |
+    do,4 r r2 |
+    R1 |
+    r2 \tuplet 3/2 4 { do'8-\p-. sol-. do-. mi-. do-. sol-. |
+                       mi-. do-. mi-. sol-. mi-. do-. } sol4 r |
+    do'8 r re r mi r re r |
+    do r re r mi r re r |
+    do4 r \tuplet 3/2 4 { do8-. sol-. do-. mi-. do-. sol-. |
+                          mi-. do-. mi-. sol-. mi-. do-. } sol4 r |
+    do'-\f mi8. do16 sol4 r |
+    do mi8. do16 sol4 r |
+    do do8. do16 mi4 mi8. mi16 |
+    re4 re8. re16 re4 re8. re16 |
+    do4 r r2 |
+    do8 do16 do do8 do do2 |
+    do4 mi8. mi16 mi4 re |
+    do sol mi r |
+    \bar "|."
 }
 
 corniII_actI_nI = \relative do''
@@ -520,7 +542,65 @@ corniII_actI_nI = \relative do''
     sol4 r r2 |
     r4 sol sol r |
     r sol sol r |
-    r2-\fermata sol 
+    r2-\fermata sol ~ |
+    sol1 ~ |
+    sol8-\sf sol sol sol sol2-\p ~ |
+    sol1 ~ |
+    sol8-\sf sol sol sol sol2-\p ~ |
+    sol1 |
+    do4 r r2 |
+    R1 |
+    r2 \tuplet 3/2 4 { do'8-\p-. sol-. do-. mi-. do-. sol-. |
+                       mi-. do-. mi-. sol-. mi-. do-. } sol4 r |
+    mi'8 r sol r do r sol r |
+    mi r sol r do r sol r |
+    mi4 r \tuplet 3/2 4 { do'8-. sol-. do-. mi-. do-. sol-. |
+                          mi-. do-. mi-. sol-. mi-. do-. } sol4 r |
+    do-\f mi8. do16 sol4 r |
+    do mi8. do16 sol4 r |
+    do4 do8. do16 do'4 do8. do16 |
+    do4 do8. do16 sol4 sol8. sol16 |
+    mi4 r r2 |
+    do8 do16 do do8 do do2 |
+    do4 do'8. do16 do4 sol |
+    mi mi do r |
+    \bar "|."
+}
+
+corniI_aI_sI_nII = \relative do''
+{
+    \time 2/4
+    \tempo "Allegro"
+    \transposition sib
+    
+    R2 * 31 |
+    r4 r8 sol-\f |
+    sol4 r |
+    r r8 sol |
+    sol4 r |
+    r sol |
+    do2 |
+    sol |
+    sol4 r |
+    R2 * 21 |
+}
+
+corniII_aI_sI_nII = \relative do'
+{
+    \time 2/4
+    \tempo "Allegro"
+    \transposition sib
+    
+    R2 * 31 |
+    r4 r8 sol-\f |
+    sol4 r |
+    r r8 sol |
+    sol4 r |
+    r sol |
+    do4. mib8 |
+    sol2 |
+    do,4 r |
+    R2 * 21 |
 }
 
 corniI_actII_nXI = \relative do''

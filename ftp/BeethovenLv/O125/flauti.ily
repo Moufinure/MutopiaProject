@@ -1,4 +1,4 @@
-\include "italiano.ly"
+\language "italiano"
 \include "common.ily"
 
 flautiI_mvtI = \relative do'''
@@ -285,6 +285,20 @@ flautoI_mvtIV = \relative do'''
     la( sol) fad-.( mi-.) |
     re re( mi fad) |
     fad4.( mi8) mi2 |
+    fad-\f( sol4 la) |
+    la( sol) fad-.( mi-.) |
+    re-.( re-. mi-. fad-.) |
+    mi4.( re8) mi2 |
+    mi( fad4 re) |
+    mi( fad8 sol) fad4 re |
+    mi( fad8 sol) fad4( mi) |
+    re-! mi-! la,-! fad' ~ |
+    fad fad-.( sol-. la-.) |
+    la( sol) fad-.( mi-.) |
+    re-.( re-. mi-. fad-.) |
+    mi4.( re8) re-! la'( sol fad) |
+    mi2-\sf fad4( re) |
+    mi( fad8 sol fad4) re |
 }
 
 flautoII_mvtIV = \relative do''
@@ -362,4 +376,18 @@ flautoII_mvtIV = \relative do''
     fad( mi) re-.( la-.) |
     fad fad( la re) |
     re4.( dod8) dod2 |
+    re-\f( mi4 fad) |
+    fad( mi) re-.( la-.) |
+    fad-.( fad-. la-. re-.) |
+    la4.( fad8) fad2 |
+    dod'( re4) ~ re |
+    dod( re8 mi re4) re |
+    dod( re8 mi) dod4 ~ dod |
+    si-! sold-! la-! re ~ |
+    re re-.( mi-. fad-.) |
+    fad( mi) re-.( la-.) |
+    fad-.( fad-. la-. re-.) |
+    la4.( fad8) fad-! fad'( mi re) |
+    dod2-\sf re4( fad,) |
+    dod'( re8 mi re4) re |
 }

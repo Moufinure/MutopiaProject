@@ -499,6 +499,27 @@ fagottiI_actI_nI = \relative do
     r4 do'8( si) do4 r |
     r do8( si) do4 r |
     r2-\fermata re4.( do8) |
+    do( si la si) re( do si do) |
+    mi-\sf( re) re4 re4.-\p( do8) |
+    do( si la si) re( do si do) |
+    mi-\sf( re) re4 re4.-\p( do8) |
+    do( si la si) re( do si do) |
+    mi( re) re4 r2 |
+    R1 |
+    r2 \tuplet 3/2 4 { sol,8-\p-. re-. sol-. si-. sol-. re-. |
+                       si-. sol-. si-. re-. si-. sol-. } re4 r |
+    R1 * 2|
+    r2 \tuplet 3/2 4 { sol'8-. re-. sol-. si-. sol-. re-. |
+                       si-. sol-. si-. re-. si-. sol-. } re4 r |
+    r2 re4-\f re8. re16 |
+    sol4 r re re8. re16 |
+    sol'2:8 mi:8 |
+    do:8 re:8 |
+    sol4 r8. mi'16 re do si la sol fad mi re |
+    do4 r do2:8 |
+    re:8 re:8 |
+    sol,4 sol' sol, r |
+    \bar "|."
 }
 
 fagottiII_actI_nI = \relative do
@@ -567,6 +588,79 @@ fagottiII_actI_nI = \relative do
     r4 la'8( sold) la4 r |
     r la8( sold) la4 r |
     r2-\fermata la8( fad la fad) |
+    re4( sol2 fad4) |
+    sol-\sf( si) la8-\p( fad la fad) |
+    re4( sol2 fad4) |
+    sol-\sf( si) la8-\p( fad la fad) |
+    re4( sol2 fad4) |
+    sol-\sfp r r2 |
+    R1 |
+    r2 \tuplet 3/2 4 { sol8-\p-. re-. sol-. si-. sol-. re-. |
+                       si-. sol-. si-. re-. si-. sol-. } re4 r |
+    R1 * 2 |
+    r2 \tuplet 3/2 4 { sol'8-. re-. sol-. si-. sol-. re-. |
+                       si-. sol-. si-. re-. si-. sol-. } re4 r |
+    r2 re4-\f re8. re16 |
+    sol4 r re re8. re16 |
+    
+    sol2:8 mi':8 |
+    do:8 re:8 |
+    sol4 r8. mi'16 re do si la sol fad mi re |
+    do4 r do2:8 |
+    re:8 re:8 |
+    sol,4 sol' sol, r |
+    \bar "|."
+}
+
+fagottiI_aI_sI_nII = \relative do
+{
+    \clef bass
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    r4 r8 fa-\p |
+    fa4 fa8-. sib-. |
+    sib( la) la-. la-. |
+    la-. sib-\trill( do) la-. |
+    sib( re) r4 |
+    R2 * 3 |
+    r4 r8 fa, |
+    fa4 fa8-. sib-. |
+    sib( la) la-. la-. |
+    la-. sib-\trill( do) la-. |
+    sib( re) r4 |
+    R2 * 6 |
+    r4 r8 do-\p |
+    do4( la8) fa-. |
+    fa( mi) mi-. sol-. |
+    sib sib \appoggiatura do16 sib8 la16 sib |
+    la4 r |
+    R2 * 3 |
+    r4 r8 do |
+    do4( la8) fa-. |
+    fa( mi) mi-. sol-. |
+    sib-. sib-. \appoggiatura do16 sib8 la16 sib |
+    la4 r8 fa-\f |
+    fa4 r |
+    r r8 fa |
+    fa4 r |
+    R2 * 25 |
+}
+
+fagottiII_aI_sI_nII = \relative do,
+{
+    \clef bass
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    R2 * 31 |
+    r4 r8 fa-\f |
+    fa4 r |
+    r r8 fa |
+    fa4 r |
+    R2 * 25 |
 }
 
 fagottoI_actII_nXI = \relative do'

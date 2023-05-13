@@ -1,4 +1,4 @@
-\include "italiano.ly"
+\language "italiano"
 \include "common.ily"
 
 clarinetI_mvtI = \relative do''
@@ -297,6 +297,26 @@ clarinetI_mvtIV = \relative do''
     do( sib) la-.( sol-.) |
     fa fa( sol la) |
     la4.( sol8) sol2 |
+    la-\f( sib4 do) |
+    do( sib) la-.( sol-.) |
+    fa-.( fa-. sol-. la-.) |
+    sol4.( fa8) fa2 |
+    sol( la4 fa) |
+    sol( la8 sib) la4( fa) |
+    sol( la8 sib) la4( sol) |
+    fa-! sol-! do,-! la' ~ |
+    la la-.( sib-. do-.) |
+    do( sib) la-.( sol-.) |
+    fa-.( fa-. sol-. la-.) |
+    sol4.( fa8) fa-! la( sol fa) |
+    sol2-\sf la4( fa) |
+    sol( la8 sib la4) fa |
+    sol( la8 sib) la4( sol) |
+    fa-! sol-! do,-! la' ~ |
+    la la-.( sib-. do-.) |
+    do( sib) la-.( sol-.) |
+    fa fa-.( sol-. la-.) |
+    sol4.( fa8) fa4 la |
 }
 
 clarinetII_mvtIV = \relative do'
@@ -383,4 +403,24 @@ clarinetII_mvtIV = \relative do'
     la( sol) fa-.( do-.) |
     la la( do fa) |
     fa4.( do8) do2 |
+    fa-\f( sol4 la) |
+    la( sol) fa-.( do-.) |
+    la-.( la-. do-. fa-.) |
+    do4.( la8) la2 |
+    mi'( fa4 la,) |
+    mi'( fa8 sol) fa4( la,) |
+    mi'( fa8 sol) mi4 ~ mi |
+    re-! si-! do-! fa ~ |
+    fa fa-.( sol-. la-.) |
+    la( sol) fa-.( do-.) |
+    la-.( la-. do-. fa-.) |
+    do4.( la8) la-! do( sib la) |
+    mi'2-\sf fa4( la,) |
+    mi'( fa8 sol fa4) la, |
+    mi'( fa8 sol) mi4 ~ mi |
+    re-! si-! do-! fa ~ |
+    fa fa-.( sol-. la-.) |
+    la( sol) fa-.( do-.) |
+    la la-.( do-. fa-.) |
+    do4.( la8) la4 do |
 }

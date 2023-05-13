@@ -450,6 +450,24 @@ flautoI_aI_sI_nI = \relative do'''
     r4 do'8( si) do4 r |
     r do8( si) do4 r |
     r2-\fermata r |
+    R1 * 3 |
+    r2 re4.( do8) |
+    do( si la si) re( do si do) |
+    mi( re) re4 r2 |
+    R1 * 2 |
+    r2 si8-\p r la r |
+    sol4 r r2 |
+    R1 * 2 |
+    \tuplet 3/2 4 { si8-. sol-. si-. re-. si-. sol-. } re r la' r |
+    si4-\f si8. si16 la4 la8. la16 |
+    si4 si8. si16 la4 la8. la16 |
+    si1 |
+    la |
+    sol4 r8. mi'16 re do si la sol fad mi re |
+    do4 r mi'2 |
+    re4 si8. si16 si4 la |
+    sol re' si r |
+    \bar "|."
 }
 
 flautoII_aI_sI_nI = \relative do''
@@ -493,6 +511,56 @@ flautoII_aI_sI_nI = \relative do''
     r4 la'8( sold) la4 r |
     r la8( sold) la4 r |
     r2-\fermata r |
+    R1 * 3 |
+    r2 la8-\p( fad la fad) |
+    re4( sol2 fad4) |
+    sol-\sfp r r2 |
+    R1 * 2 |
+    r2 sol8-\p r fad r |
+    sol4 r r2 |
+    R1 * 2 |
+    \tuplet 3/2 4 { si8-. sol-. si-. re-. si-. sol-. } re r fad r |
+    sol4-\f sol8. sol16 fad4 fad8. fad16 |
+    sol4 sol8. sol16 fad4 fad8. fad16 |
+    sol1 ~ |
+    sol2 fad |
+    sol4 r8. mi'16 re do si la sol fad mi re |
+    do4 r do'2 |
+    si4 sol8. sol16 sol4 fad |
+    sol si sol r |
+    \bar "|."
+}
+
+flautoI_aI_sI_nII = \relative do'''
+{
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    R2 * 12 |
+    r4 r8 fa-\p |
+    fa4 r |
+    r r8 fa |
+    fa4 r |
+    R2 * 42 |
+    r4 r8 fa-\p |
+    fa4 r |
+}
+
+flautoII_aI_sI_nII = \relative do''
+{
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    R2 * 12 |
+    r4 r8 fa-\p |
+    fa4 r |
+    r r8 fa |
+    fa4 r |
+    R2 * 42 |
+    r4 r8 fa-\p |
+    fa4 r |
 }
 
 flauto_actII_nXI = \relative do'''

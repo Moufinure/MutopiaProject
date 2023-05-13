@@ -307,6 +307,94 @@ bass_actI_nI = \relative do
     sol re si' re, la' re, do' re, |
     si'-\sf re, sol re fad-\p re fad re |
     sol re si' re, la' re, do' re, |
+    si'4 r r2 |
+    r re8-\p r re, r |
+    sol4 r r2 |
+    r re'8 r re, r |
+    sol r re r sol r re r |
+    sol r re r sol r re r |
+    sol4 r r2 |
+    r re'8 r re, r |
+    sol4-\f r re r |
+    sol r re r |
+    sol2:8 mi:8 |
+    do:8 re:8 |
+    sol4 r r2 |
+    mi4 r do2:8 |
+    re:8 re:8 |
+    sol,4 sol' sol, r |
+    \bar "|."
+}
+
+bass_aI_sI_nII = \relative do
+{
+    \clef bass
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    sib4-\p r |
+    sib r |
+    do2 ~ |
+    do8 re-. mib-. do-. |
+    sib4 r |
+    sib r |
+    do2 ~ |
+    do8 re-. mib-. do-. |
+    sib4 r |
+    sib r |
+    do2 ~ |
+    do8 re-. mib-. do-. |
+    sib4 r |
+    R2 * 3 |
+    r4 sib'-\f |
+    la fa |
+    sib do |
+    fa, r |
+    fa-\p r |
+    sol4.( sib8) |
+    sol-. mi-. do-. mi-. |
+    fa4 r |
+    fa r |
+    sol4.( sib8) |
+    sol-. mi-. do-. mi-. |
+    fa4 r |
+    fa r |
+    sol4.( sib8) |
+    sol-. mi-. do-. mi-. |
+    fa4 r |
+    R2 * 3 |
+    r4 la-\f |
+    sib sol |
+    fa fa, |
+    sib( la) |
+    sol-\p r |
+    la'4.( sol8) |
+    fad-. re-. mi-. fad-. |
+    sol4 r |
+    sol r |
+    la4.( sol8) |
+    fad-. re-. mi-. fad-. |
+    sol4 r |
+    sol r |
+    la4.( sol8) |
+    fad-. re-. mi-. fad-. |
+    sol4 r |
+    r8 sol sol sol |
+    la4 r |
+    r8 la la la |
+    sib4 r |
+    sol2 ~ |
+    sol |
+    fa4 r |
+    R2 * 4 |
+    sib,4-\p r |
+    do2 ~ |
+    do8 re-. mib-. do-. |
+    sib4 r |
+    sib r |
+    do2-\sfp ~ |
+    do8 re-. mib-. do-. |
 }
 
 bass_actII_nXI = \relative do'

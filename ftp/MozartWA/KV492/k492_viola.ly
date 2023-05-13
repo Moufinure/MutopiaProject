@@ -34,3 +34,16 @@
         \viola_actI_nI
     }
 }
+
+\score
+{
+    \header
+    {
+        piece = "II. Duettino"
+    }
+    \new Staff
+    {
+        \compressEmptyMeasures
+        \viola_aI_sI_nII
+    }
+}

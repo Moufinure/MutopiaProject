@@ -357,7 +357,88 @@ viola_actI_nI = \relative do'
     sol16-\sf( fad sol si la-\p sol fad mi) re2 ~ |
     re1 |
     sol16-\sf( fad sol si la-\p sol fad mi) re2 ~ |
-    re1 
+    re1 ~ |
+    re4 r r2 |
+    r sol8-\p r la r |
+    sol4 r sol'4.( si8) |
+    re,4.( sol8) si, r re r |
+    \tuplet 3/2 4 { si( la sol fad mi fad) sol( la si do re do) |
+                    si( la sol fad mi fad) sol( la si do re do) } |
+    si4 r sol'4.( si8) |
+    re,4.( sol8) si, r re r |
+    sol,16-\f( si re si re si re si) la( do re do re do re do) |
+    sol( si re si re si re si) la( do re do re do re do) |
+    si8 re re re mi2:8 |
+    mi:8 re:8 |
+    sol16( fad) sol-. si-. la sol fad mi re do si la sol fad mi re |
+    do4 r do'2:8 |
+    re:8 re:8  |
+    sol,4 sol' sol, r |
+    \bar "|."
+}
+
+viola_aI_sI_nII = \relative do
+{
+    \clef alto
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    fa2-\p ~ |
+    fa ~ |
+    fa |
+    do'8-. sib-. la-. do-. |
+    fa,2 ~ |
+    fa ~ |
+    fa |
+    do'8-. sib-. la-. do-. |
+    fa,2 ~ |
+    fa ~ |
+    fa |
+    do'8-. sib-. la-. do-. |
+    fa,4 r |
+    R2 * 3 |
+    r4 fa'-\f ~ |
+    fa do |
+    re do8 sib |
+    la4 r |
+    la4.-\p( do8) |
+    do2 ~ |
+    do4( sol8) do |
+    do4( la8) fa |
+    la4.( do8) |
+    do2 ~ |
+    do4( sol8) do |
+    do4( la8) fa |
+    la4.( do8) |
+    do2 ~ |
+    do4( sol8) do |
+    do4 r |
+    R2 * 3 |
+    r4 mib8-\f do |
+    sib2 |
+    fa' ~ |
+    fa4( fad) |
+    sol4.-\p( sib8) |
+    re,2 ~ |
+    re4.( do8) |
+    sib( sol) re' r |
+    sol4.( sib8) |
+    re,2 ~ |
+    re4.( do8) |
+    sib( sol) re' r |
+    sol4.( sib8) |
+    re,2 ~ |
+    re4.( do8) |
+    sib( sol) r4 |
+    r8 sib sib sib |
+    do4 r |
+    r8 do do do |
+    re4 r |
+    re2( |
+    sib) |
+    la4 r |
+    R2 * 2 |
 }
 
 viola_actII_nXI = \relative do'

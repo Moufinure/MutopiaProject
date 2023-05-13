@@ -497,6 +497,28 @@ oboeI_aI_sI_nI = \relative do''
     r4 do8( si) do4 r |
     r do8( si) do4 r |
     r2-\fermata re4.( do8) |
+    do( si la si) re( do si do) |
+    mi( re) re4 re4.( do8) |
+    do( si la si) re( do si do) |
+    mi( re) re4 re4.( do8) |
+    do( si la si) re( do si do) |
+    mi( re) re4 r2 |
+    R1 |
+    r2 \tuplet 3/2 4 { sol8-\p-. re-. sol-. si-. sol-. re-. |
+                       si-. sol-. si-. re-. si-. sol-. } re4 r |
+    R1 |
+    re'1 ~ |
+    re4 r \tuplet 3/2 4 { sol8-. re-. sol-. si-. sol-. re-. |
+                          si-. sol-. si-. re-. si-. sol-. } re r la' r |
+    si4-\f si8. si16 la4 la8. la16 |
+    si4 si8. si16 la4 la8. la16 |
+    si2 sol' ~ |
+    sol fad |
+    sol16( fad) sol-. si-. \partCombineAutomatic la sol fad mi re do si la sol fad mi re |
+    do4 r mi'2 |
+    re4 re8. re16 re4 fad |
+    sol re si r |
+    \bar "|."
 }
 
 oboeII_aI_sI_nI = \relative do''
@@ -551,6 +573,84 @@ oboeII_aI_sI_nI = \relative do''
     r4 la8( sold) la4 r |
     r la8( sold) la4 r |
     r2-\fermata la8( fad la fad) |
+    re4( sol2 fad4) |
+    sol-\sf( si) la8-\p( fad la fad) |
+    re4( sol2 fad4) |
+    sol-\sf( si) la8-\p( fad la fad) |
+    re4( sol2 fad4) |
+    sol-\sfp r r2 |
+    R1 |
+    r2 \tuplet 3/2 4 { sol'8-\p-. re-. sol-. si-. sol-. re-. |
+                       si-. sol-. si-. re-. si-. sol-. } re4 r |
+    R1 * 2 |
+    r2 \tuplet 3/2 4 { sol'8-. re-. sol-. si-. sol-. re-. |
+                       si-. sol-. si-. re-. si-. sol-. } re r fad r |
+    sol4-\f sol8. sol16 fad4 fad8. fad16 |
+    sol4 sol8. sol16 fad4 fad8. fad16 |
+    sol2 si |
+    mi la, |
+    \partCombineApart
+    si8 r16 si' la sol fad mi re do si la sol fad mi re |
+    do4 r do'2 |
+    si4 si8. si16 si4 do |
+    si si sol r |
+    \bar "|."
+}
+
+oboeI_aI_sI_nII = \relative do''
+{
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    R2 * 12 |
+    r4 r8 fa |
+    fa4 r |
+    r r8 fa |
+    fa4 r |
+    R2 * 22 |
+    r4 r8 re-\p |
+    re4-.( re8-. re-.) |
+    re( mib re) re-. |
+    re( do sib la) |
+    sol4 r |
+    R2 * 3 |
+    r4 r8 re' |
+    re4-.( re8-. re-.) |
+    re( mib re) re-. |
+    re( do sib la) |
+    sol4 r |
+    R2 * 7 |
+    r4 r8 fa'-\p |
+    fa4 r |
+}
+
+oboeII_aI_sI_nII = \relative do'
+{
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    R2 * 12 |
+    r4 r8 fa-\p |
+    fa4 r |
+    r r8 fa |
+    fa4 r |
+    R2 * 22 |
+    r4 r8 re'-\p |
+    re4-.( re8-. re-.) |
+    re( mib re) re-. |
+    re( do sib la) |
+    sol4 r |
+    R2 * 3 |
+    r4 r8 re' |
+    re4-.( re8-. re-.) |
+    re( mib re) re-. |
+    re( do sib la) |
+    sol4 r |
+    R2 * 7 |
+    r4 r8 fa-\p |
+    fa4 r |
 }
 
 oboeI_actII_nXI = \relative do''

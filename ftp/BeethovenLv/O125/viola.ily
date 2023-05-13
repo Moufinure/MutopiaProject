@@ -7,7 +7,7 @@ viola_mvtI = \relative do'
     \time 2/4
     \key re \minor
     \tempo "Allegro ma non troppo, un poco maestoso" 4 = 88
-    
+
     R2 * 3 |
     r4 r8 r16. mi32-\pp |
     la,4 r |
@@ -474,8 +474,10 @@ viola_mvtI = \relative do'
     <mi sol>8. r16 <mi sol>8. r16 |
     re8:32\pp dod:32 do:32 si':32 |
     sib!:32 la:32 si:32 dod:32 |
-    \repeat unfold 3 { re,:32 dod:32 do:32 si':32 |
-        sib!:32 la:32 si:32 dod:32 | }
+    \repeat unfold 3 {
+        re,:32 dod:32 do:32 si':32 |
+        sib!:32 la:32 si:32 dod:32 |
+    }
     re,:32\cresc dod:32 do:32 si':32 |
     sib!:32 la:32 si:32 dod:32 |
     re,:32 dod:32 do:32 si':32 |
@@ -511,7 +513,7 @@ viola_mvtIV = \relative do
     \clef alto
     \key re \minor
     \time 3/4
-    
+
     \tempo "Presto" 2. = 96
     \partial 4 r4 |
     R2. * 29 |
@@ -620,4 +622,17 @@ viola_mvtIV = \relative do
     <la mi' dod'> r8 la la'4 <la, fad' re'> |
     <la mi' dod'> r8 la la'4 <la, fad' re'> |
     <la mi' dod'> r8 la <dod fad> r <dod mi> r |
+    <si re> r <mi, si'> r la r <re, la' fad'> r |
+    <re la' fad'>4 r8 re re'4 r8 re, |
+    <la' la'>4 r8 la la'4 r8 la, |
+    <re, re'>4 r r <la' fad' re'> |
+    <la mi' dod'> r <re, la' fad' re'> r |
+    <la' mi' dod'> r8 la la'4 <la, fad' re'> |
+    <la mi' dod'> r8 la la'4 <la, fad' re'> |
+    <la mi' dod'>4 r8 la <dod fad> r <dod mi> r |
+    <si re> r <mi, si'> r la r <re, la' fad'> r |
+    <re la' fad'>4 r8 re re'4 r8 re, |
+    <la' la'>4 r8 la la'4 r8 la, |
+    <re, re'>4 r r <la' fad' re'> |
+    <la mi' dod'> r fad16-\markup { \italic "non legato" } la sol fad mi fad sol fad |
 }

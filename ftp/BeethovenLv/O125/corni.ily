@@ -1,11 +1,11 @@
-\include "italiano.ly"
+\language "italiano"
 
 corniI_mvtI = \relative do''
 {
     \clef treble
     \time 2/4
     \tempo "Allegro ma non troppo, un poco maestoso" 4 = 88
-    
+
     re2-\pp ~ |
     \repeat unfold 9 { re ~ | }
     re-\cresc ~ |
@@ -98,7 +98,7 @@ corniII_mvtI = \relative do''
     \clef treble
     \time 2/4
     \tempo "Allegro ma non troppo, un poco maestoso" 4 = 88
-    
+
     sol2-\pp ~ |
     \repeat unfold 9 { sol ~ | }
     sol-\cresc ~ |
@@ -189,7 +189,7 @@ corniD_I_mvtIV = \relative do''
     \transposition re
     \time 3/4
     \tempo "Presto" 2. = 96
-    
+
     \partial 4 mib4-\ff ~ |
     mib2. ~ |
     mib ~ |
@@ -269,6 +269,19 @@ corniD_I_mvtIV = \relative do''
     re( mi4 do) |
     re( mi8 fa) mi4 do |
     re( mi8 fa) mi4 mi, |
+    mi'-! re-! sol,-! mi' ~ |
+    mi mi-.( fa-. sol-.) |
+    sol( fa) mi-.( re-.) |
+    do-.( do-. re-. mi-.) |
+    re4.( do8) do-! sol'( fa mi) |
+    re2-\sf mi4( do) |
+    re( mi8 fa mi4) do |
+    re( mi8 fa) mi4 mi |
+    mi-! re-! sol,-! mi' ~ |
+    mi mi-.( fa-. sol-.) |
+    sol( fa) mi-.( re-.) |
+    do do-.( re-. mi-.) |
+    re4.( do8) do4 sol' |
 }
 
 corniD_II_mvtIV = \relative do''
@@ -276,7 +289,7 @@ corniD_II_mvtIV = \relative do''
     \transposition re
     \time 3/4
     \tempo "Presto" 2. = 96
-    
+
     \partial 4 do4-\ff ~ |
     do2. ~ |
     do ~ |
@@ -357,14 +370,27 @@ corniD_II_mvtIV = \relative do''
     sol( do4 mi,) |
     sol( do8 re) do4( mi,) |
     sol( do8 re) mi,4 mi |
-  }
+    mi-! re'-! sol,-! do ~ |
+    do do-.( re-. mi-.) |
+    mi( re) do-.( sol-.) |
+    mi-.( mi-. sol-. do-.) |
+    sol4.( mi8) mi-! mi'( re do) |
+    sol2-\sf do4( mi,) |
+    sol( do8 re do4) mi, |
+    sol( do8 re) mi,4 mi |
+    mi-! re'-! sol,-! do ~ |
+    do do-.( re-. mi-.) |
+    mi( re) do-.( sol-.) |
+    mi mi-.( sol-. do-.) |
+    sol4.( mi8) mi4 mi' |
+}
 
 corniB_I_mvtIV = \relative do''
 {
     \transposition sib
     \time 3/4
     \tempo "Presto" 2. = 96
-    
+
     \partial 4 sol4-\ff ~ |
     sol2. ~ |
     sol ~ |
@@ -417,7 +443,7 @@ corniB_I_mvtIV = \relative do''
     \bar "||"
     \time 4/4
     \tempo "Allegro assai" 2 = 88
-    R1 * 83 |
+    R1 * 96 |
 }
 
 corniB_II_mvtIV = \relative do'
@@ -425,7 +451,7 @@ corniB_II_mvtIV = \relative do'
     \transposition sib
     \time 3/4
     \tempo "Presto" 2. = 96
-    
+
     \partial 4 sol4-\ff ~ |
     sol2. ~ |
     sol ~ |
@@ -478,5 +504,5 @@ corniB_II_mvtIV = \relative do'
     \bar "||"
     \time 4/4
     \tempo "Allegro assai" 2 = 88
-    R1 * 83 |
+    R1 * 96 |
 }

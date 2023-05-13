@@ -19,8 +19,33 @@
         
         \new Staff
         {
-	  \compressEmptyMeasures
+	          \compressEmptyMeasures
             \basso_ouverture
+        }
+    }
+    \score
+    {
+        \header
+        {
+            piece = "I. Duettino"
+        }
+        \new Staff
+        {
+            \compressEmptyMeasures
+            \bass_actI_nI
+        }
+    }
+    
+    \score
+    {
+        \header
+        {
+            piece = "II. Duettino"
+        }
+        \new Staff
+        {
+            \compressEmptyMeasures
+            \bass_aI_sI_nII
         }
     }
 }

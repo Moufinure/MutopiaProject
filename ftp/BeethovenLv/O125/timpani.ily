@@ -1,4 +1,4 @@
-\include "italiano.ly"
+\language "italiano"
 
 timpani_mvtI = \relative do
 {
@@ -140,4 +140,17 @@ timpani_mvtIV = \relative do
     la r8 la la4 re |
     la r8 la la4 re |
     la r r2 |
+    re8 r re r la r la r |
+    re4 r8 re re4 r8 re |
+    la4 r8 la la4 r8 la |
+    re4 r r re |
+    la r re r |
+    la r8 la la4 re |
+    la r8 la la4 re |
+    la r r2 |
+    re8 r re r la r la r |
+    re4 r8 re re4 r8 re |
+    la4 r8 la la4 r8 la |
+    re4 r r re |
+    la r re re |
 }

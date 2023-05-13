@@ -58,6 +58,21 @@ figaro_actI_nI = \relative do'
         do[( si]) si4 fad4. la8 |
     }
     la8[( sol]) fad sol si[( la]) sol la |
+    do[( si]) si4 si4. re8 |
+    sol,4 si8 si re,4 fad8 fad |
+    sol4 r si4. re8 |
+    sol,4 si8 si re,4 fad8 fad |
+    sol4 r8 fad sol sol r4 |
+    r fad8 fad sol sol r4 |
+    r2 si4. re8 |
+    sol,4 si8. si16 re,4 fad8. fad16 |
+    sol4 r re' re8. re16 |
+    si4 r re re8. re16 |
+    si4 r re fad, |
+    sol si8. si16 la4 la8. la16 |
+    re,4 r r2 |
+    R1 * 3 |
+    \bar "|."
 }
 
 figaro_lyrics_actI_nI_it = \lyricmode
@@ -98,7 +113,20 @@ figaro_lyrics_actI_nI_it = \lyricmode
     ci -- no quant' e
     dolce al mio te -- ne -- ro
     spo -- so, que -- sto
-    bel cap -- pel -- li -- no vez
+    bel cap -- pel -- li -- no vez |
+    zo -- so, che Su -- |
+    san -- na ella stes -- sa si |
+    fè, che Su -- |
+    san_na el -- la stes -- sa si |
+    fè. Su -- san -- na! |
+    el -- la stes -- sa, |
+    che Su -- |
+    san_na el -- la stes -- sa si |
+    fè, stes -- sa si |
+    fè, stes -- sa si |
+    fè, che Su -- |
+    san -- na ella stes -- sa si |
+    fè.
 }
 
 figaro_lyrics_actI_nI_de = \lyricmode
@@ -158,6 +186,21 @@ susanna_actI_nI = \relative do''
     do[( si]) la si re[( do]) si do |
     mi[( re]) re4 re4. do8 |
     do[( si]) la si re[( do]) si do |
+    mi[( re]) re4 re4. sol8 |
+    si,4 re8 re sol,4 la8 la |
+    si4 r re4. sol8 |
+    si,4 re8 re sol,4 la8 la |
+    sol4 r r r8 re' |
+    re sol, r4 r re'8 re |
+    re sol, r4 re'4. sol8 |
+    si,4 re8. re16 sol,4 la8. la16 |
+    sol4 r re' re8. re16 |
+    sol4 r re re8. re16 |
+    sol4 r sol si, |
+    do mi8. mi16 re4 re8. re16 |
+    sol,4 r r2 |
+    R1 * 3 |
+    \bar "|."
 }
 
 susanna_lyrics_actI_nI_it = \lyricmode
@@ -195,7 +238,196 @@ susanna_lyrics_actI_nI_it = \lyricmode
     ci -- no quant' e
     dolce al mio te -- ne -- ro
     spo -- so, que -- sto
-    bel cap -- pel -- li -- no vez
+    bel cap -- pel -- li -- no vez |
+    zo -- so, che Su -- |
+    san -- na ella stes -- sa si |
+    fè, che Su -- |
+    san -- na el_la stes -- sa si |
+    fè, Su -- |
+    san -- na el -- la |
+    stes -- sa, che Su -- |
+    san_na el -- la stes -- sa si |
+    fè, stes -- sa si |
+    fè, stes -- sa si |
+    fè, che Su -- |
+    san -- na ella stes -- sa si |
+    fè.
+}
+
+recitativo_aI_sI_nII_lyrics = \lyricmode
+{
+    Co -- sa stai mi -- su -- ran -- do, ca -- ro_il |
+    mio Fi -- ga -- ret __ to? Io |
+    guar -- do se quel let _ to, che ci de -- sti -- na_il |
+    con -- te, fa -- rà buo -- na fi -- |
+    gu -- ra_in que -- sto lo -- co.
+}
+
+recitativo_aI_sI_nII = \relative do''
+{
+    \clef soprano
+    
+    \autoBeamOff
+    \mark "Susanna"
+    r8 re16 re  si8 si16 do re8 re re re |
+    si4 la8 sol do do \clef bass \mark "Figaro" r sol, |
+    sol sol sol do do16 do sol sol mi mi mi fa |
+    sol8 sol r sol sol sol sol la |
+    sib sib sib la fa fa \clef soprano
+}
+
+continuo_aI_sI_nII = \relative do
+{
+    \clef bass
+    si1 ~ |
+    si2 mi ~ |
+    mi1 ~ |
+    mi ~ |
+    mi2 fa ~ |
+    fa1 ~ |
+    fa2
+}
+
+figaro_aI_sI_nII = \relative do
+{
+    \clef bass
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    \autoBeamOff
+    R2 * 4 |
+    r4 r8 fa |
+    fa4 fa8 sib |
+    la4 la8 la |
+    la([ sib)] do la |
+    sib sib r4 |
+    R2 |
+    r4 r8 la |
+    la([ sib)] do la |
+    sib sib r4 |
+    r r8 fa'-\p |
+    fa4 r |
+    r r8 fa |
+    fa4 sib,8-\f re |
+    do4 la8 do |
+    sib4 la8 sol |
+    fa4 r |
+    R2 * 3 |
+    r4 r8 do' |
+    do4 la8 fa |
+    mi mi r sol |
+    sib4 sib8 sib |
+    la la r4 |
+    R2 |
+    r4 r8 sol |
+    sib4 sib8 sib |
+    la la r4 |
+    r r8 fa-\f |
+    fa4 r |
+    r r8 fa |
+    fa4 do'8 mib |
+    re4 do8 sib |
+    sib4 do8 la |
+    sib4 r |
+    R2 * 28 |
+    r4 r8 la-\p |
+    la[( sib]) do
+    la |
+}
+
+figaro_aI_sI_nII_lyrics = \lyricmode
+{
+    Se_a |
+    ca -- so ma -- |
+    da -- ma la |
+    not -- te ti |
+    chia -- ma, |
+    ma -- |
+    da __ ma ti |
+    chia -- ma, |
+    din |
+    din |
+    din |
+    din, in due |
+    pas -- si da |
+    quel -- la puoi |
+    gir. |
+    Vien |
+    poi l'oc -- ca -- |
+    sio -- ne che |
+    vuol_mi il pa -- |
+    dro -- ne, |
+    che |
+    vuol_mi il pa -- |
+    dro -- ne, |
+    don -- |
+    don, |
+    don -- |
+    don, in tre |
+    sal -- ti lo |
+    vado a ser -- |
+    vir. |
+    Su -- |
+    san -- na, pian |
+}
+
+susanna_aI_sI_nII = \relative do''
+{
+    \clef soprano
+    \key sib \major
+    \time 2/4
+    \tempo "Allegro"
+    
+    \autoBeamOff
+    R2 * 42 |
+    r4 r8 re |
+    re4 re8 re |
+    re[( mib]) re re |
+    re[( do]) sib la |
+    sol sol r4 |
+    r r8 re' |
+    re[( mib]) re re |
+    re[( do]) sib la |
+    sol sol r sib |
+    mib4 r |
+    r r8 do |
+    fa4 r |
+    r re8 fa |
+    fa[( sib,]) sib sib |
+    sib4 la8 sib |
+    re4 r8 fa-\p |
+    fa4 r |
+    r r8 fa,-\f |
+    fa4 r |
+    r r8 la-\p |
+    fa4 fa8 sib |
+    sib[( la]) la la |
+    la[( sib]) do la |
+    sib sib r fa'-\f |
+    la4
+}
+
+susanna_aI_sI_nII_lyrics = \lyricmode
+{
+    Co -- |
+    sì seil mat -- |
+    ti -- no il |
+    ca -- ro con -- |
+    ti -- no, |
+    il |
+    ca -- ro, il |
+    ca -- ro con -- |
+    ti -- no, din --  |
+    din, |
+    din -- |
+    din, |
+    e ti |
+    man -- da tre |
+    mi-- glia lon -- |
+    tan, din -- |
+    din, |
+    don
 }
 
 cherubino_actII_nXI_lyrics_it = \lyricmode

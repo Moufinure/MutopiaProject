@@ -1,4 +1,4 @@
-\include "italiano.ly"
+\language "italiano"
 \include "common.ily"
 
 fagottiI_mvtI = \relative do
@@ -7,7 +7,7 @@ fagottiI_mvtI = \relative do
     \key re \minor
     \time 2/4
     \tempo "Allegro ma non troppo, un poco maestoso" 4 = 88
-    
+
     R2 * 13 |
     la2-\cresc ~ |
     la8( re,4.) ~ |
@@ -79,7 +79,7 @@ fagottiI_mvtI = \relative do
     fa8-\p( mi fa4) ~ |
     fa8 fa fa fa |
     r8 dod( re4) ~ |
-    re8 re re re | 
+    re8 re re re |
     re r r4 |
     r r16 re-\cresc( mib) fa( |
     sol-\f) fa( mib) re( do) sib( la) sol( |
@@ -117,7 +117,7 @@ fagottiII_mvtI = \relative do
     \key re \minor
     \time 2/4
     \tempo "Allegro ma non troppo, un poco maestoso" 4 = 88
-    
+
     R2 * 13 |
     la2-\cresc ~ |
     la8( re,4.) ~ |
@@ -216,7 +216,7 @@ fagottoI_mvtIV = \relative do,
     \key re \minor
     \time 3/4
     \tempo "Presto" 2. = 96
-    
+
     \partial 4 fa4-\ff ~ |
     fa2. ~ |
     fa ~ |
@@ -357,6 +357,19 @@ fagottoI_mvtIV = \relative do,
     mi( fad4 re) |
     mi( fad8 sol) fad4( re) |
     mi( fad8 sol) fad'4( mi) |
+    re-! mi-! la,-! re ~ |
+    re fad,-.( sol-. la-.) |
+    la( sol) fad-.( mi-.) |
+    fad-.( fad-. mi-. fad-.) |
+    mi4.( fad8) fad-! la( sol fad) |
+    mi2-\sf fad4 fad |
+    mi( fad8 sol fad4) fad |
+    mi( fad8 sol) fad'4( mi) |
+    re-! mi-! la,-! fad' ~ |
+    fad fad,-.( sol-. la-.) |
+    la( sol) fad-.( mi-.) |
+    fad fad-.( mi-. fad-.) |
+    mi4.( fad8) fad4 la ~ |
 }
 
 fagottoII_mvtIV = \relative do,
@@ -365,7 +378,7 @@ fagottoII_mvtIV = \relative do,
     \key re \minor
     \time 3/4
     \tempo "Presto" 2. = 96
-    
+
     \partial 4 fa4-\ff ~ |
     fa2. ~ |
     fa ~ |
@@ -458,6 +471,19 @@ fagottoII_mvtIV = \relative do,
     dod( re4 sol,) |
     dod( re8 mi) re4 re |
     dod( re8 mi) dod'4 dod |
+    si-! sold-! la-! re ~ |
+    re re,-.( mi-. fad-.) |
+    fad( mi) re-.( dod-.) |
+    re-.( re-. dod-. re-.) |
+    dod4.( re8) re-! fad( mi re) |
+    dod2-\sf re4 re |
+    dod( re8 mi re4) re |
+    dod( re8 mi) dod'4 ~ dod |
+    si-! sold-! la-! re ~ |
+    re re,-.( mi-. fad-.) |
+    fad( mi) re-.( dod-.) |
+    re re-.( dod-. re-.) |
+    dod4.( re8) re4 fad |
 }
 
 contrafagotto_mvtIV = \relative do,
@@ -466,7 +492,7 @@ contrafagotto_mvtIV = \relative do,
     \key re \minor
     \time 3/4
     \tempo "Presto" 2. = 96
-    
+
     \partial 4 fa4-\ff ~ |
     fa2. ~ |
     fa ~ |
@@ -528,15 +554,28 @@ contrafagotto_mvtIV = \relative do,
     \time 4/4
     \tempo "Allegro assai" 2 = 88
     R1 * 72 |
-    re'2-\f( mi4 fad) |
-    fad( mi) re-.( la-.) |
-    re re( dod re) |
-    re4.( la8) la2 |
-    re2-\f( mi4 fad) |
-    fad( mi) re-.( la-.) |
-    re-.( re-. dod-. re-.) |
-    dod4. re8 re2 |
-    dod( re4 sol,) |
-    dod( re8 mi) re4 re |
-    dod( re8 mi) dod'4 dod |
-  }
+    re''4\f r8 re, re'4 r8 re, |
+    la'4 r8 la, la'4 r8 la, |
+    re4 r r re |
+    la' r la, r |
+    re' r8 re, re'4 r8 re, |
+    la'4 r8 la, la'4 r8 la, |
+    re4 r r re |
+    la r re r |
+    la r8 la la'4 re, |
+    la r8 la la'4 re, |
+    la r8 la' lad r fad r |
+    si r mi, r la r la, r |
+    re'4 r8 fad, re'4 r8 re, |
+    la'4 r8 la, la'4 r8 la, |
+    re4 r r re |
+    la r re r |
+    la r8 la la'4 re, |
+    la r8 la la'4 re, |
+    la r8 la' lad r fad r |
+    si r mi, r la r la, r |
+    re'4 r8 re, re'4 r8 re, |
+    la'4 r8 la, la'4 r8 la, |
+    re4 r r re |
+    la r re r8 re |
+}
