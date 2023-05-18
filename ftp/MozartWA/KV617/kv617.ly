@@ -6,12 +6,14 @@
 \include "cello.ily"
 \include "harmonika.ily"
 
+#(set-global-staff-size 16)
+
 \paper
 {
-  top-margin = 10
-  bottom-margin = 10
-  left-margin = 10
-  right-margin = 10
+    top-margin = 1.5 \cm
+    bottom-margin = 1.5 \cm
+    left-margin = 2 \cm
+    right-margin = 1.5 \cm
 }
 
 \header
@@ -54,15 +56,23 @@
         >>
         \new PianoStaff
         <<
-	  \set PianoStaff.instrumentName = "Harm."
-	  \new Staff \with { \consists "Merge_rests_engraver" }
-	  {
-	    \harmonika_right_adagio
-	  }
-	  \new Staff \with { \consists "Merge_rests_engraver" }
-	  {
-	    \harmonika_left_adagio
-	  }
+            \set PianoStaff.instrumentName = \markup
+            {
+                \center-column
+                {
+                    "Glass"
+                    "Harmonika"
+                }
+            }
+            \set PianoStaff.shortInstrumentName = "Hm."
+            \new Staff \with { \consists "Merge_rests_engraver" }
+            {
+                \harmonika_right_adagio
+            }
+            \new Staff \with { \consists "Merge_rests_engraver" }
+            {
+                \harmonika_left_adagio
+            }
         >>
     >>
 }
