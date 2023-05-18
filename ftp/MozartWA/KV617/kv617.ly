@@ -8,6 +8,15 @@
 
 #(set-global-staff-size 16)
 
+\layout
+{
+    \context
+    {
+        \Staff
+        \RemoveEmptyStaves
+    }
+}
+
 \paper
 {
     top-margin = 1.5 \cm
