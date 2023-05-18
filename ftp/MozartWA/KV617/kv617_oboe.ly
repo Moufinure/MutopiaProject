@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-\include "cello.ily"
+\include "oboe.ily"
 
 \paper
 {
@@ -16,7 +16,7 @@
   opus = "KV 617"
   composer =  "W. A. Mozart"
   date = "1791-05-23"
-  instrument = "Violoncello"
+  instrument = "Oboe"
 }
 
 \score
@@ -24,6 +24,6 @@
   \new Staff
   {
     \compressEmptyMeasures
-    \cello_adagio
+    \oboe_adagio
   }
 }
