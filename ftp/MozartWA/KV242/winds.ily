@@ -41,7 +41,21 @@ oboeI_I = \relative do''
     fa r r sol |
     la r r sol |
     fa fa,8. fa16 fa4 r |
-    R1 * 20 |
+    R1 * 22 |
+    r4 do'16-\f( si do re mi8) r mi16( re mi fa |
+    sol8) r mi16( re mi fa sol8) r la16( sol la si) |
+    do4 r r2 |
+    R1 * 8 |
+    re,1-\p |
+    mi |
+    re4 r r2 |
+    R1 * 33 |
+    mi1-\p ~ |
+    mi |
+    fa2 si, |
+    do4-\f r8 sol' fa mi re do |
+    si4 r r2 |
+    r4 r8 sol' fa mi re do |
 }
 
 oboeII_I = \relative do''
@@ -83,7 +97,21 @@ oboeII_I = \relative do''
     la r r mi' |
     fa r r mi |
     fa fa,8. fa16 fa4 r |
-    R1 * 20 |
+    R1 * 22 |
+    r4 do'16-\f( si do re mi8) r mi16( re mi fa |
+    sol8) r mi16( re mi fa sol8) r la16( sol la si) |
+    do4 r r2 |
+    R1 * 8 |
+    si,1-\p |
+    do |
+    si4 r r2 |
+    R1 * 33 |
+    do1-\p ~ |
+    do |
+    si2 fa |
+    mi4-\f r8 sol' fa mi re do |
+    si4 r r2 |
+    r4 r8 sol' fa mi re do |
 }
 
 
@@ -134,7 +162,22 @@ cornoI_I = \relative do''
     do4 r r re |
     mi r r re |
     do do8. do16 do4 \partCombineAutomatic r |
-    R1 * 20 |
+    R1 * 33 |
+    re1-\p ~ |
+    re ~ |
+    re4 r r2 |
+    R1 * 21 |
+    sol,1-\p ~ |
+    sol ~ |
+    sol ~ |
+    sol4 r r2 |
+    R1 * 8 |
+    re'1-\p ~ |
+    re ~ |
+    re |
+    sol,4-\f r8 re' re re re re |
+    re4 r r2 |
+    r4 r8 re re re re re |
 }
 
 cornoII_I = \relative do'
@@ -183,5 +226,20 @@ cornoII_I = \relative do'
     mi4 r r sol |
     do r r sol |
     mi mi8. mi16 mi4 r |
-    R1 * 20 |
+    R1 * 33 |
+    re'1-\p ~ |
+    re ~ |
+    re4 r r2 |
+    R1 * 21 |
+    sol,,1-\p ~ |
+    sol ~ |
+    sol ~ |
+    sol4 r r2 |
+    R1 * 8 |
+    re''1-\p ~ |
+    re ~ |
+    re |
+    sol,4-\f r8 re' re re re re |
+    re4 r r2 |
+    r4 r8 re re re re re |
 }

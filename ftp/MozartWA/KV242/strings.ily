@@ -58,6 +58,38 @@ violinI_I = \relative do''
     r4 do16-\f( si do re mi8) r mi16( re mi fa |
     sol8) r mi16( re mi fa sol8) r la16( sol la si) |
     do4 r r2 |
+    r4 la-\p( re fa) |
+    sol, r r2 |
+    r4 sol( do mi) |
+    R1 * 3 |
+    r4 si8-. r re-. r fa-. r |
+    mi-. r sol-. r do,-. r mi-. r |
+    re-. r si,-. r re-. r fa-. r |
+    mi-. r sol-. r do,-. r mi-. r |
+    re4 r r2 |
+    R1 * 16 |
+    mi'8-.-\p r fa-. r mi-. r fa-. r |
+    mi4 r r2 |
+    mi8-. r fa-. r mi-. r fa-. r |
+    mi4 r r2 |
+    R1 * 4 |
+    r4 sib'( la fa) |
+    mi-. r r2 |
+    re4 r r2 |
+    do2( si) |
+    do4 r r2 |
+    la'4 r r2 |
+    sol,,4-\f r r2 |
+    R1 * 4 |
+    re''8-\p r re r re r re r |
+    do-\f sol'4 sol sol sol8 ~ |
+    sol sol4 sol sol sol8 ~ |
+    sol sol4 sol sol sol8 ~ |
+    sol sol4( fad8) sol-. re'-. do-. si-. |
+    do4-\p( si la sol) |
+    sol( fad8) r fa4( mi8) r |
+    do'-. do-. si-. si-. la-. la-. sol-. sol-. |
+    sol( mi fad) r fa( re mi) r |
 }
 
 violinII_I = \relative do''
@@ -118,6 +150,38 @@ violinII_I = \relative do''
     r4 do16-\f( si do re mi8) r mi16( re mi fa |
     sol8) r mi16( re mi fa sol8) r la16( sol la si) |
     do4 r r2 |
+    r4 fa,-\p( la re) |
+    fa, r r2 |
+    r4 mi( sol do) |
+    R1 * 3 |
+    r4 re,8-. r si'-. r re-. r |
+    do-. r mi-. r mi,-. r do'-. r |
+    si-. r sol,-. r si-. r re-. r |
+    do-. r mi-. r sol,-. r do-. r |
+    si4 r r2 |
+    R1 * 16 |
+    do'8-.-\p r si-. r do-. r si-. r |
+    do4 r r2 |
+    do8-. r si-. r do-. r si-. r |
+    do4 r r2 |
+    R1 * 4 |
+    r4 sol'( fa si,) |
+    do-. r r2 |
+    la4 r r2 |
+    mi2( re) |
+    do4 r r2 |
+    la'4 r r2 |
+    sol,4-\f r r2 |
+    R1 * 4 |
+    si'8-\p r si r si r si r |
+    do16-\f mi, sol do mi8-. sol-. fa-. mi-. re-. do-. |
+    si16( do re do) si8-. do-. si-. la-. sol-. fa-. |
+    mi16 sol do sol mi'8-. sol-. fa-. mi-. re-. do-. |
+    si16( do re do) si8-. do-. si-. la-. sol-. fa-. |
+    mi4-\p( sol fa mi) |
+    mi( re8) r re4( do8) r |
+    mi-. mi-. sol-. sol-. fa-. fa-. mi-. mi-. |
+    mi( dod re) r re( si do) r |
 }
 
 violaI = \relative do'
@@ -172,6 +236,38 @@ violaI = \relative do'
     r4 do16-\f( si do re mi8) r mi16( re mi fa |
     sol8) r mi16( re mi fa sol8) r la16( sol la si) |
     do4 r r2 |
+    la,1-\p( |
+    re4) r r2 |
+    do1 |
+    R1 * 3 |
+    sol'4 r r2 |
+    sol4 r r2 |
+    sol,4 r r2 |
+    sol4 r r2 |
+    sol4 r r2 |
+    R1 * 16 |
+    sol'8-.-\p r sol-. r sol-. r sol-. r |
+    sol4 r r2 |
+    sol8-. r sol-. r sol-. r sol-. r |
+    sol4 r r2 |
+    R1 * 4 |
+    r4 do,2( sol4) |
+    la-. r r2 |
+    sol4 r r2 |
+    sol'2( fa) |
+    mi4 r r2 |
+    re4 r r2 |
+    sol,4-\f r r2 |
+    R1 * 4 |
+    fa'8-\p r fa r fa r fa r |
+    mi4-\f r8 mi-. re-. do-. si-. la-. |
+    sol4 r8 la-. sol-. fa-. mi-. re-. |
+    do4 r8 mi'-. re-. do-. si-. la-. |
+    sol4 r8 la-. sol-. fa-. mi-. re-. |
+    do4 r r2 |
+    la'4-\p ~ la8 r sol4 ~ sol8 r |
+    R1 |
+    la4 ~ la8 r sol4 ~ sol8 r |
 }
 
 celloI = \relative do
@@ -226,6 +322,38 @@ celloI = \relative do
     r4 do16-\f( si do re mi8) r mi16( re mi fa |
     sol8) r mi16( re mi fa sol8) r la16( sol la si) |
     do4 r r2 |
+    do1-\p( |
+    si4) r r2 |
+    do1 |
+    R1 * 3 |
+    sol4 r r2 |
+    sol4 r r2 |
+    sol,4 r r2 |
+    sol4 r r2 |
+    sol4 r r2 |
+    R1 * 16 |
+    do8-.-\p r sol'-. r do-. r sol-. r |
+    do,4 r r2 |
+    do8-. r sol'-. r do-. r sol-. r |
+    do,4 r r2 |
+    R1 * 4 |
+    r4 mi( fa re) |
+    do-. r r2 |
+    fa4 r r2 |
+    sol2 sol, |
+    do4 r r2 |
+    fa4 r r2 |
+    sol4-\f r r2 |
+    R1 * 4 |
+    sol8-\p r sol r sol r sol r |
+    do,4-\f r8 mi'-. re-. do-. si-. la-. |
+    sol4 r8 la-. sol-. fa-. mi-. re-. |
+    do4 r8 mi'-. re-. do-. si-. la-. |
+    sol4 r8 la-. sol-. fa-. mi-. re-. |
+    do4 r r2 |
+    la'4-\p( re,8) r sol4( do,8) r |
+    R1 |
+    la'4( re8) r sol,4( do8) r |
 }
 
 bassoI = \relative do
@@ -280,4 +408,36 @@ bassoI = \relative do
     r4 do16-\f( si do re mi8) r mi16( re mi fa |
     sol8) r mi16( re mi fa sol8) r la16( sol la si) |
     do4 r r2 |
+    do1-\p( |
+    si4) r r2 |
+    do1 |
+    R1 * 3 |
+    sol4 r r2 |
+    sol4 r r2 |
+    sol,4 r r2 |
+    sol4 r r2 |
+    sol4 r r2 |
+    R1 * 16 |
+    do8-.-\p r sol'-. r do-. r sol-. r |
+    do,4 r r2 |
+    do8-. r sol'-. r do-. r sol-. r |
+    do,4 r r2 |
+    R1 * 4 |
+    r4 mi( fa re) |
+    do-. r r2 |
+    fa4 r r2 |
+    sol2 sol, |
+    do4 r r2 |
+    fa4 r r2 |
+    sol4-\f r r2 |
+    R1 * 4 |
+    sol8-\p r sol r sol r sol r |
+    do,4-\f r8 mi'-. re-. do-. si-. la-. |
+    sol4 r8 la-. sol-. fa-. mi-. re-. |
+    do4 r8 mi'-. re-. do-. si-. la-. |
+    sol4 r8 la-. sol-. fa-. mi-. re-. |
+    do4 r r2 |
+    la'4-\p( re,8) r sol4( do,8) r |
+    R1 |
+    la'4( re8) r sol,4( do8) r |
 }
