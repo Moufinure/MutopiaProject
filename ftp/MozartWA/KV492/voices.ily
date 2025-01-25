@@ -273,7 +273,9 @@ recitativo_aI_sI_nII = \relative do''
     si4 la8 sol do do \clef bass \mark "Figaro" r sol, |
     sol sol sol do do16 do sol sol mi mi mi fa |
     sol8 sol r sol sol sol sol la |
-    sib sib sib la fa fa \clef soprano
+    sib sib sib la fa fa \clef soprano r16 do'' la sib |
+    do8 do \clef bass do, fa, r fa fa sol |
+    la16 la la do 
 }
 
 continuo_aI_sI_nII = \relative do
