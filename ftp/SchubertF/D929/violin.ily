@@ -475,7 +475,7 @@ violin_I = \relative do''
     mib4-. mib8-. mib-. fa-. sol-. |
     lab4 \appoggiatura lab16 fa'8-. mib-. reb-. do-. |
     sib2-\trill-> \grace { la32( si } do8-.) sib-. |
-    lab4 <do, mib>8-. <do mib>-. <do mib>-. <do mib>-. |
+    lab4 <do,, mib>8-. <do mib>-. <do mib>-. <do mib>-. |
 }
 
 violin_II = \relative do'
